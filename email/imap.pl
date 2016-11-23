@@ -6,11 +6,12 @@ use MIME::Parser;
 use Encode;
 use Encode::Guess qw/gbk cp936/;
 use Encode::HanExtra;
+use DateTime;
 use Getopt::Long;
 
 binmode STDOUT, ":encoding(UTF-8)";
 
-my ($server, $user, $password, $output_dir, $test_email_num, $test_msgid, $debug, $help);
+my ($server, $user, $password, $output_dir, $test_email_num, $today, $test_msgid, $debug, $help);
 GetOptions( "server=s" => \$server,
 	    "user=s" => \$user,
 	    "password=s" => \$password,
@@ -19,6 +20,7 @@ GetOptions( "server=s" => \$server,
             "test_msgid=i" => \$test_msgid,
             "debug+" => \$debug,
             "help!" => \$help,
+            "today!" => \$today,
     );
 
 if ( $help || (!$server || !$user || !$password) ) {
@@ -39,13 +41,23 @@ my $parser = MIME::Parser->new;
 $output_dir ||= "/tmp";
 $parser->output_dir($output_dir);
 
+my $time;
+$time = DateTime->today->epoch() if $today;
+
 my $folders = $imap->folders;
  
 my $index;
 foreach ( @$folders ) {
     next if $_ ne 'INBOX';
     $imap->select( $_ );
-    my @msgs = $imap->messages;    
+
+    my @msgs;
+    if ( $time ) {
+        @msgs = $imap->since($time);
+    } else {
+        @msgs = $imap->messages;    
+    }
+
     foreach my $msgid ( @msgs ) {
         next if $test_msgid && $test_msgid != $msgid;
 	print "===================get msgid: $msgid===================", "\n";
@@ -70,7 +82,7 @@ foreach ( @$folders ) {
 	my $mime_encoding = $header->mime_encoding;
 
 	print "is_multipart: $is_multipart\n" if $debug == 1;
-	print "Date: $date" if $debug;
+	print "Date: $date";
 	print "From: ". Dumper(\@from) if $debug;
 	print "To: " . Dumper(\@to) if $debug;
 	print "Message-id:  $msg_id" if $debug;
