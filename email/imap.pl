@@ -2,16 +2,29 @@
 use strict;
 use Mail::IMAPClient;
 use Data::Dumper;
-use Encode::HanExtra;
 use MIME::Parser;
-use MIME::Base64;
+use Encode;
+use Encode::Guess qw/gbk cp936/;
+use Encode::HanExtra;
 use Getopt::Long;
 
-my ($server, $user, $password);
+binmode STDOUT, ":encoding(UTF-8)";
+
+my ($server, $user, $password, $output_dir, $test_email_num, $test_msgid, $debug, $help);
 GetOptions( "server=s" => \$server,
 	    "user=s" => \$user,
 	    "password=s" => \$password,
-	  );
+            "output_dir=s" => \$output_dir,
+            "test_email_num=i" => \$test_email_num,
+            "test_msgid=i" => \$test_msgid,
+            "debug+" => \$debug,
+            "help!" => \$help,
+    );
+
+if ( $help || (!$server || !$user || !$password) ) {
+    usage();
+    exit 0;
+}
 
 my $imap = Mail::IMAPClient->new(
   Ignoresizeerrors => 1,
@@ -23,22 +36,30 @@ my $imap = Mail::IMAPClient->new(
 );
 
 my $parser = MIME::Parser->new;
+$output_dir ||= "/tmp";
+$parser->output_dir($output_dir);
 
 my $folders = $imap->folders;
  
+my $index;
 foreach ( @$folders ) {
     next if $_ ne 'INBOX';
     $imap->select( $_ );
     my @msgs = $imap->messages;    
     foreach my $msgid ( @msgs ) {
-	print "get msgid: $msgid", "\n";
+        next if $test_msgid && $test_msgid != $msgid;
+	print "===================get msgid: $msgid===================", "\n";
 	my $string = $imap->message_string($msgid);
 	if ( length($string) == 0 ) {
             print "List folders error: ", $imap->LastError, "\n";
 	    next;
 	}
 	
+        $parser->output_prefix("msg-$msgid"); # change the output file prefix to distinguish the relation between email and the output file 
+
 	my $entity = $parser->parse_data($string);
+	#$entity->dump_skeleton; # for debugging, debug the entity
+
 	my $is_multipart = $entity->is_multipart;
 	my $header = $entity->head;
 	my $date = $header->get("date");
@@ -47,35 +68,51 @@ foreach ( @$folders ) {
 	my $msg_id = $header->get("message-id");
 	my $mime_type = $header->mime_type;
 	my $mime_encoding = $header->mime_encoding;
-	my $file_name = $header->recommended_filename;
 
-	print "is_multipart: $is_multipart\n";
-	print "Date: $date";
-	print "From: ". Dumper(\@from);
-	print "To: " . Dumper(\@to);
-	print "Message-id:  $msg_id";
-	print "mime_type: $mime_type\n";
-	print "mime_encoding: $mime_encoding\n";
-	print "file_name: $file_name\n";
+	print "is_multipart: $is_multipart\n" if $debug == 1;
+	print "Date: $date" if $debug;
+	print "From: ". Dumper(\@from) if $debug;
+	print "To: " . Dumper(\@to) if $debug;
+	print "Message-id:  $msg_id" if $debug;
+	print "mime_type: $mime_type\n" if $debug;
+        print "mime_encoding: $mime_encoding\n" if $debug;
 
 	my $subject = $header->get("subject");
 	$subject = Encode::decode('MIME-Header', $subject);
-	print "Subject: $subject\n";
+	print "Subject: $subject";
 
 	my $num_parts  = $entity->parts;
-	print "num parts: $num_parts\n";
+	print "num parts: $num_parts\n" if $debug;
 
-	if ( $num_parts ) {
-	    foreach ( 0..$num_parts ) {
-		print "get part: $_\n";
-		my $part = $entity->parts($_);
-		next unless $part;
-		my $content = $part->stringify_body;
-		$content = decode_base64($content);
-		$content = Encode::decode('gbk', $content);
-		print "Content: $content\n";
-	    }
-	}
+        my $data = find_entity_text($entity);
+        print "data: $data\n" if $debug;
+        if ( $data ) {
+            $data = decode("Guess", $data);
+            print "Content: $data\n";
+        }
+
+        $index++;
+	last if $test_email_num && $index >= $test_email_num;
     }
 }
 
+sub find_entity_text {
+    my $entity = shift;
+    
+    if ( $entity->mime_type eq 'text/plain' && $entity->bodyhandle ) {
+        print $entity->bodyhandle->path, "\n" if $debug;
+        print $entity->bodyhandle->as_string, "\n" if $debug;
+        return $entity->bodyhandle->as_string;
+    } else {
+        for (0..$entity->parts-1) {
+            my $part = $entity->parts($_);
+            my $data = find_entity_text($part);
+            return $data if $data;
+        }
+    }
+    return;
+}
+
+sub usage {
+    print "Usage: perl imap.pl --server imap.qq.com --user user_name --password password\n";
+}
