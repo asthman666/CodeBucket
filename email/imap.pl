@@ -66,8 +66,12 @@ foreach ( @$folders ) {
             print "List folders error: ", $imap->LastError, "\n";
 	    next;
 	}
-	
-        $parser->output_prefix("msg-$msgid"); # change the output file prefix to distinguish the relation between email and the output file 
+
+        my $subject = $imap->subject($msgid);
+	$subject = Encode::decode('MIME-Header', $subject);
+	print "Subject: $subject";
+        
+        $parser->output_prefix("msg-$msgid-$subject"); # change the output file prefix to distinguish the relation between email and the output file 
 
 	my $entity = $parser->parse_data($string);
 	#$entity->dump_skeleton; # for debugging, debug the entity
@@ -89,9 +93,9 @@ foreach ( @$folders ) {
 	print "mime_type: $mime_type\n" if $debug;
         print "mime_encoding: $mime_encoding\n" if $debug;
 
-	my $subject = $header->get("subject");
-	$subject = Encode::decode('MIME-Header', $subject);
-	print "Subject: $subject";
+	#my $subject = $header->get("subject");
+	#$subject = Encode::decode('MIME-Header', $subject);
+	#print "Subject: $subject";
 
 	my $num_parts  = $entity->parts;
 	print "num parts: $num_parts\n" if $debug;
