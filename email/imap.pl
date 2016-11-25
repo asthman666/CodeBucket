@@ -8,10 +8,11 @@ use Encode::Guess qw/gbk cp936/;
 use Encode::HanExtra;
 use DateTime;
 use Getopt::Long;
+use Time::ParseDate;
 
 binmode STDOUT, ":encoding(UTF-8)";
 
-my ($server, $user, $password, $output_dir, $test_email_num, $today, $test_msgid, $debug, $help);
+my ($server, $user, $password, $output_dir, $test_email_num, $date, $today, $test_msgid, $debug, $help);
 GetOptions( "server=s" => \$server,
 	    "user=s" => \$user,
 	    "password=s" => \$password,
@@ -21,6 +22,7 @@ GetOptions( "server=s" => \$server,
             "debug+" => \$debug,
             "help!" => \$help,
             "today!" => \$today,
+            "date=s" => \$date,
     );
 
 if ( $help || (!$server || !$user || !$password) ) {
@@ -42,7 +44,11 @@ $output_dir ||= "/tmp";
 $parser->output_dir($output_dir);
 
 my $time;
-$time = DateTime->today->epoch() if $today;
+if ( $today ) {
+    $time = DateTime->today->epoch();
+} elsif ( $date ) {
+    $time = parsedate($date)
+}
 
 my $folders = $imap->folders;
  
@@ -69,9 +75,9 @@ foreach ( @$folders ) {
 
         my $subject = $imap->subject($msgid);
 	$subject = Encode::decode('MIME-Header', $subject);
-	print "Subject: $subject";
+	print "Subject: $subject\n";
         
-        $parser->output_prefix("msg-$msgid-$subject"); # change the output file prefix to distinguish the relation between email and the output file 
+        $parser->output_prefix("msg-$msgid"); # change the output file prefix to distinguish the relation between email and the output file 
 
 	my $entity = $parser->parse_data($string);
 	#$entity->dump_skeleton; # for debugging, debug the entity
@@ -86,7 +92,7 @@ foreach ( @$folders ) {
 	my $mime_encoding = $header->mime_encoding;
 
 	print "is_multipart: $is_multipart\n" if $debug == 1;
-	print "Date: $date";
+	print "Date: $date\n";
 	print "From: ". Dumper(\@from) if $debug;
 	print "To: " . Dumper(\@to) if $debug;
 	print "Message-id:  $msg_id" if $debug;
@@ -130,5 +136,5 @@ sub find_entity_text {
 }
 
 sub usage {
-    print "Usage: perl imap.pl --server imap.qq.com --user user_name --password password\n";
+    print "Usage: perl imap.pl --server imap.qq.com --user user_name --password password --date '2016-11-24'\n";
 }
