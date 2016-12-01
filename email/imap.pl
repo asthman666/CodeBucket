@@ -39,6 +39,11 @@ my $imap = Mail::IMAPClient->new(
   Uid      => 1,
 );
 
+unless ($imap) {
+    print "Cannot connect to $server as $user: $@\n";
+    exit 0;
+}
+
 my $parser = MIME::Parser->new;
 $output_dir ||= "/tmp";
 $parser->output_dir($output_dir);
