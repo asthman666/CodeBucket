@@ -56,6 +56,11 @@ if ( $today ) {
 }
 
 my $folders = $imap->folders;
+
+unless ( $folders ) {
+    print "Could not list folders: $@\n";
+    exit 0;
+}
  
 my $index;
 foreach ( @$folders ) {
