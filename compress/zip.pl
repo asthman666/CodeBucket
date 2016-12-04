@@ -22,11 +22,10 @@ my $idir = path($input_dir);
 
 my @zip_files;
 
-if ( $output_dir ) {
-    my $odir = path($output_dir);
-    foreach ( $odir->children(qr/\.zip/) ) {
-	push @zip_files, $_->basename;
-    }
+$output_dir ||= $input_dir;
+my $odir = path($output_dir);
+foreach ( $odir->children(qr/\.zip/) ) {
+    push @zip_files, $_->basename;
 }
 
 foreach my $child ( $idir->children() ) {
@@ -34,7 +33,10 @@ foreach my $child ( $idir->children() ) {
 	my $dir_name = $child->basename;
 	next if $dir_name =~ /^\./;
 	next if $zip_dir && $zip_dir ne $dir_name;
-	next if ( grep {"${dir_name}.zip" eq $_} @zip_files );
+	if ( grep {"${dir_name}.zip" eq $_} @zip_files ) {
+	    print "${dir_name}.zip exists in $output_dir, skip it\n";
+	    next;
+	}
 
 	chdir($input_dir);
 
