@@ -2,6 +2,7 @@
 use strict;
 use Mail::IMAPClient;
 use Data::Dumper;
+use MIME::Tools;
 use MIME::Parser;
 use Encode;
 use Encode::Guess qw/gbk cp936/;
@@ -42,6 +43,11 @@ my $imap = Mail::IMAPClient->new(
 unless ($imap) {
     print "Cannot connect to $server as $user: $@\n";
     exit 0;
+}
+
+if ( $debug && $debug == 2 ) {
+    MIME::Tools->debugging(1);
+    MIME::Tools->quiet(0);
 }
 
 my $parser = MIME::Parser->new;
@@ -117,7 +123,7 @@ foreach ( @$folders ) {
 	print "num parts: $num_parts\n" if $debug;
 
         my $data = find_entity_text($entity);
-        print "data: $data\n" if $debug;
+        #print "data: $data\n" if $debug;
         if ( $data ) {
             $data = decode("Guess", $data);
             print "Content: $data\n";
@@ -132,8 +138,8 @@ sub find_entity_text {
     my $entity = shift;
     
     if ( $entity->mime_type eq 'text/plain' && $entity->bodyhandle ) {
-        print $entity->bodyhandle->path, "\n" if $debug;
-        print $entity->bodyhandle->as_string, "\n" if $debug;
+        #print $entity->bodyhandle->path, "\n" if $debug;
+        #print $entity->bodyhandle->as_string, "\n" if $debug;
         return $entity->bodyhandle->as_string;
     } else {
         for (0..$entity->parts-1) {
