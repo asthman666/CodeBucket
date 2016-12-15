@@ -75,11 +75,22 @@ foreach ( @$folders ) {
 
     my @msgs;
     if ( $time ) {
-        @msgs = $imap->since($time);
+	my @since_msgs = $imap->since($time);
+	my @before_msgs = $imap->before($time+3600*24);
+	my %seen;
+	foreach ( @since_msgs, @before_msgs ) {
+	    next unless $_;
+	    push @msgs, $_ if $seen{$_}++ > 0;
+	}
     } else {
         @msgs = $imap->messages;    
     }
 
+    if ( @msgs == 1 && ! defined $msgs[0] ) {
+	print "no msgs found\n";
+	exit 0;
+    }
+    
     foreach my $msgid ( @msgs ) {
         next if $test_msgid && $test_msgid != $msgid;
 	print "===================get msgid: $msgid===================", "\n";
