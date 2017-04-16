@@ -7,7 +7,7 @@ use Data::Dumper;
 
 my ($input_dir, $zip_dir, $output_dir, $password, $help, $execute);
 GetOptions( "input_dir=s" => \$input_dir,
-	    "zip_dir=s" => \$zip_dir,   # the dir need to be ziped, default all dirs below input_dir 
+	    "zip_dir=s" => \$zip_dir,   # the dir need to be ziped, default all dirs below input_dir, only include dir_name(not full path)
 	    "output_dir=s" => \$output_dir,
 	    "password=s" => \$password,
 	    "help|?" => sub { usage() },
@@ -31,6 +31,7 @@ foreach ( $odir->children(qr/\.zip/) ) {
 foreach my $child ( $idir->children() ) {
     if ( $child->is_dir ) {
 	my $dir_name = $child->basename;
+	print("=====dir_name==$dir_name\n");
 	next if $dir_name =~ /^\./;
 	next if $zip_dir && $zip_dir ne $dir_name;
 	if ( grep {"${dir_name}.zip" eq $_} @zip_files ) {
