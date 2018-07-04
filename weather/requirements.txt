@@ -1,0 +1,4 @@
+rsa
+requests
+smtplib
+jinja2

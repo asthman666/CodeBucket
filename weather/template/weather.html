@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  <head>
+    <title>Weather</title>
+  </head>
+    <table border=1>
+        <tbody>
+          <tr>
+              {% for h in datas.column_headers %}
+              <th>{{h}}</th>
+              {% endfor %}
+          </tr>
+          {% for ds in datas.column_datas %}
+          <tr {% if loop.index == 1 %} style="color:green" {% endif %}>
+              {% for d in ds %}
+              <td>{{d}}</td>
+              {% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+    </table>
+  </body>
+</html>
