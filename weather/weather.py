@@ -129,7 +129,7 @@ if __name__ == '__main__':
         with open('./key.pem', mode='rb') as privfile:
             keydata = privfile.read()
         privkey = rsa.PrivateKey.load_pkcs1(keydata)
-        crypto = rsa.transform.int2bytes(int(config.password))
+        crypto = rsa.transform.int2bytes(int(config.smtp['password']))
         password = rsa.decrypt(crypto, privkey)
             
         email = Email(config.smtp['username'], password.decode('utf8'), config.smtp['smtpserver'])
