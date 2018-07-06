@@ -11,6 +11,7 @@ import smtplib
 from email.mime.text import MIMEText  
 import jinja2
 import rsa
+import pytz
 
 class Weather(object):
     translate = {'AM Thunderstorms':u'上午雷暴', 
@@ -50,8 +51,9 @@ class Weather(object):
                  "column_datas": []
         }
         for num in range(1,6):
-            date = (datetime.date.today()+datetime.timedelta(days=(num-1))).isoformat()
-            
+            tz = pytz.timezone('Asia/Shanghai')
+            date = (datetime.datetime.now(tz).date()+datetime.timedelta(days=(num-1))).isoformat()
+
             weather_selector = "#twc-scrollabe > table > tbody > tr:nth-of-type({}) > td.description > span".format(num)
             weather = soup.select_one(weather_selector).get_text()
 
