@@ -2,3 +2,6 @@ rsa
 requests
 smtplib
 jinja2
+PyMySQL
+bs4
+pytz
