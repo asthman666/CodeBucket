@@ -29,6 +29,14 @@ class AirQuality(object):
         descs = []
         nums = []
 
+        #print("AQI: {}".format(soup.select_one('div[class^="styles__aqiGraphNumber__"]').get_text()))
+        #print("DESC: {}".format(soup.select_one('div[class^="styles__aqiPanel__"] h3').get_text()))
+
+        names.append('AQI')
+        units.append('')
+        descs.append(soup.select_one('div[class^="styles__aqiPanel__"] h3').get_text())
+        nums.append(soup.select_one('div[class^="styles__aqiGraphNumber__"]').get_text())
+
         for name in soup.select('div[class^="styles__rowPollutantName__"]'):
             names.append(name.get_text())
             units.append(name.next_sibling.get_text())
