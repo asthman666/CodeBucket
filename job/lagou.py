@@ -4,16 +4,18 @@ import time
 from selenium import webdriver
 import pandas as pd
 from bs4 import BeautifulSoup
+import re
 
-seen = {}
+driver = webdriver.Chrome()
+data_attr = ["company_name", "position", "salary", "location", "experience", "education", "time", "location_detail", "keyword", "description", "position_link"]
+job_details = []
 
 def main():
-    driver = webdriver.Chrome()
-
     url = 'https://www.lagou.com/jobs/list_?px=new&yx=15k-25k&city=%E8%A5%BF%E5%AE%89&district=%E9%AB%98%E6%96%B0%E6%8A%80%E6%9C%AF%E4%BA%A7%E4%B8%9A%E5%BC%80%E5%8F%91%E5%8C%BA#order'
     driver.get(url)   
     source_html = driver.page_source
-    find_company_name(source_html)
+    detail_links = []
+    detail_links.extend(find_detail_links(source_html))
 
     RUN = 1
     while RUN:
@@ -24,20 +26,52 @@ def main():
             RUN = 0
         else:
             ele.click()
-            time.sleep(5)
+            time.sleep(10)
             source_html = driver.page_source
-            find_company_name(source_html)
+            detail_links.extend(find_detail_links(source_html))
 
-def find_company_name(source_html):
+    for dl in detail_links:
+        detail(dl)
+        #break
+
+    pd_data = pd.DataFrame(job_details, columns=data_attr)
+    pd_data.to_csv("job_details.csv")                
+
+def find_detail_links(source_html):
     soup = BeautifulSoup(source_html, 'html.parser')
     lists = soup.find("div", attrs={"id": "s_position_list"})
-    #print(lists)
+
+    detail_links = []
     for lst in lists.find("ul", attrs={"class": "item_con_list"}).find_all("li"):
-        company_name = lst.find("div", attrs={"class": "company_name"}).find("a").get_text()
-        seen[company_name] = seen.get(company_name, 0) + 1
-        print(company_name)
+        detail_link = lst.select_one("a[class='position_link']").get('href')
+        detail_links.append(detail_link)
+    #print(detail_links)
+    return detail_links
+
+def detail(detail_url):
+    driver.get(detail_url)
+    source_html = driver.page_source
+    #print(source_html)
+    soup = BeautifulSoup(source_html, 'html.parser')
+    datas = []
+    # data_attr = ["company_name", "position", "salary", "location", "experience", "education", "time", "location_detail", "keyword", "description", "position_link"]
+    datas.append(soup.find("div", "job-name").find("div", "company").get_text())
+    datas.append(soup.find("div", attrs={"class": "job-name"}).find("span", attrs={"class": "name"}).get_text())
+    datas.append(soup.find("dd", attrs={"class": "job_request"}).find("span", attrs={"class": "salary"}).get_text())
+    datas.append(soup.select_one("dd[class='job_request'] span:nth-of-type(2)").get_text().replace('/', ''))
+    datas.append(soup.select_one("dd[class='job_request'] span:nth-of-type(3)").get_text().replace('/', ''))
+    datas.append(soup.select_one("dd[class='job_request'] span:nth-of-type(4)").get_text().replace('/', ''))
+    datas.append(soup.select_one("dd[class='job_request'] span:nth-of-type(5)").get_text())
+    keywords = []
+    for k in soup.select("ul[class^='position-label'] li"):
+        keywords.append(k.get_text())
+    datas.append(soup.select_one("div[class='work_addr']").get_text().replace('查看地图', ''))
+    datas.append(','.join(keywords))
+    datas = [re.sub('\s+', '', d) for d in datas]
+    datas.append(soup.select_one("div[class='job-detail']").get_text())
+    datas.append(detail_url)
+    job_details.append(dict(list(zip(data_attr, datas))))
+    time.sleep(8)
 
 if __name__ == '__main__':
     main()
-    for i in sorted(seen.items(), key=lambda x: x[1], reverse=True):
-        print(i)
