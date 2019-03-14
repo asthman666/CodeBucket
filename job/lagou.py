@@ -11,7 +11,7 @@ data_attr = ["company_name", "position", "salary", "location", "experience", "ed
 job_details = []
 
 def main():
-    url = 'https://www.lagou.com/jobs/list_?px=new&yx=15k-25k&city=%E8%A5%BF%E5%AE%89&district=%E9%AB%98%E6%96%B0%E6%8A%80%E6%9C%AF%E4%BA%A7%E4%B8%9A%E5%BC%80%E5%8F%91%E5%8C%BA#order'
+    url = 'https://www.lagou.com/jobs/list_?px=new&yx=10k-15k&city=%E8%A5%BF%E5%AE%89&district=%E9%AB%98%E6%96%B0%E6%8A%80%E6%9C%AF%E4%BA%A7%E4%B8%9A%E5%BC%80%E5%8F%91%E5%8C%BA#order'
     driver.get(url)   
     source_html = driver.page_source
     detail_links = []
@@ -35,7 +35,7 @@ def main():
         #break
 
     pd_data = pd.DataFrame(job_details, columns=data_attr)
-    pd_data.to_csv("job_details.csv")                
+    pd_data.to_csv("job_details_10-15.csv")                
 
 def find_detail_links(source_html):
     soup = BeautifulSoup(source_html, 'html.parser')
@@ -68,7 +68,7 @@ def detail(detail_url):
     datas.append(soup.select_one("div[class='work_addr']").get_text().replace('查看地图', ''))
     datas.append(','.join(keywords))
     datas = [re.sub('\s+', '', d) for d in datas]
-    datas.append(soup.select_one("div[class='job-detail']").get_text())
+    datas.append(soup.select_one("div[class='job-detail']").get_text().strip())
     datas.append(detail_url)
     job_details.append(dict(list(zip(data_attr, datas))))
     time.sleep(8)
