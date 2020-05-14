@@ -7,11 +7,11 @@ from bs4 import BeautifulSoup
 import re
 
 driver = webdriver.Chrome()
-data_attr = ["company_name", "position", "salary", "location", "experience", "education", "time", "location_detail", "keyword", "description", "position_link"]
-job_details = []
+data_attr = ["item_name", "image_link", "review_count", "review_rate", "price"]
+item_details = []
 
 def main():
-    url = 'https://www.lagou.com/jobs/list_?px=new&yx=25k-50k&city=%E8%A5%BF%E5%AE%89&district=%E9%AB%98%E6%96%B0%E6%8A%80%E6%9C%AF%E4%BA%A7%E4%B8%9A%E5%BC%80%E5%8F%91%E5%8C%BA#order'
+    url = 'https://m.mi.com/category'
     driver.get(url)   
     source_html = driver.page_source
     detail_links = []
@@ -38,6 +38,9 @@ def main():
 
     pd_data = pd.DataFrame(job_details, columns=data_attr)
     pd_data.to_csv("job_details_25-50.csv")                
+
+def find_category_links(source_html):
+    
 
 def find_detail_links(source_html):
     soup = BeautifulSoup(source_html, 'html.parser')
