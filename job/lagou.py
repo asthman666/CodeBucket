@@ -37,7 +37,7 @@ def main():
     driver.close()
 
     pd_data = pd.DataFrame(job_details, columns=data_attr)
-    pd_data.to_csv("job_details_25-50.csv")                
+    pd_data.to_csv("job_details_25-50.csv", encoding='utf-8-sig')                
 
 def find_detail_links(source_html):
     soup = BeautifulSoup(source_html, 'html.parser')

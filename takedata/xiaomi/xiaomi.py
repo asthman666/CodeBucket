@@ -22,7 +22,7 @@ def main():
 
     detail_links = []
     partial_detail_datas = []
-    for category_link in category_links[0:1]:
+    for category_link in category_links:
         driver.get(category_link)
         source_html = driver.page_source
         time.sleep(10)
@@ -34,7 +34,7 @@ def main():
 
     data_batch_index = 0
     index = 0
-    batch_size = 10
+    batch_size = 100
     for dl in detail_links:
         detail(dl, partial_detail_datas[index])
         if (len(item_details) % batch_size == 0):
@@ -100,6 +100,7 @@ def detail(detail_url, datas):
     soup = BeautifulSoup(source_html, 'html.parser')
 
     # no comment case: https://www.mi.com/comment/11655.html
+    # no comment case: https://www.mi.com/comment/12010.html
     if (not soup.select_one("div[class='none']") and soup.select_one("div[class='m-t'] span")):
         datas.append(soup.select_one("div[class='m-t'] span").get_text())
         rate = soup.select_one("div[class='m-b'] span").get_text()
