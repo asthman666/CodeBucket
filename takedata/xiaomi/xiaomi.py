@@ -5,6 +5,7 @@ from selenium import webdriver
 import pandas as pd
 from bs4 import BeautifulSoup
 import re
+from pathlib import Path
 
 driver = webdriver.Chrome()
 data_attr = ["product_id", "title", "image_url", "price", "comment_url", "review_count", "review_rate"]
@@ -116,5 +117,10 @@ def detail(detail_url, datas):
         print("no data found for url: {0}".format(detail_url))
     time.sleep(15)
 
+def remove_old_file():
+    for p in Path(".").glob("item*.csv"):
+        p.unlink()
+
 if __name__ == '__main__':
+    remove_old_file()
     main()
