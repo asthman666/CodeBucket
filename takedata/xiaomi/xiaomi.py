@@ -101,6 +101,11 @@ def detail(detail_url, datas):
 
     # no comment case: https://www.mi.com/comment/11655.html
     # no comment case: https://www.mi.com/comment/12010.html
+    # https://www.mi.com/comment/12027.html
+    # https://www.mi.com/comment/11270.html
+    # https://www.mi.com/comment/9747.html
+    # https://www.mi.com/comment/12017.html
+    # https://www.mi.com/comment/12036.html
     if (not soup.select_one("div[class='none']") and soup.select_one("div[class='m-t'] span")):
         datas.append(soup.select_one("div[class='m-t'] span").get_text())
         rate = soup.select_one("div[class='m-b'] span").get_text()
