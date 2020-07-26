@@ -1,0 +1,379 @@
+﻿[Script Info]
+;AutoASS 1.2
+;Copyright(C) 2013-2014 cmct 阿忧
+
+Title: cmct
+Original Script: cmct
+Original Translation:
+Original Timing:
+Original Editing:
+Script Updated By:
+Update Details:
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 1
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: 英文,Cronos Pro Subhead,18,&H003CF1F3,&HF0000000,&H000D0500,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,0,0,1,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+
+
+Dialogue: 0,0:00:07.38,0:00:10.34,英文,,0000,0000,0000,,{\blur3}Monica? Hey, can I borrow the Porsche?
+Dialogue: 0,0:00:10.51,0:00:12.26,英文,,0000,0000,0000,,{\blur3}- Okay.     - All right!
+Dialogue: 0,0:00:12.43,0:00:14.84,英文,,0000,0000,0000,,{\blur3}But, uh, ahem, what is it not?
+Dialogue: 0,0:00:15.43,0:00:18.43,英文,,0000,0000,0000,,{\blur3}A place to entertain my lady friends.
+Dialogue: 0,0:00:19.02,0:00:23.52,英文,,0000,0000,0000,,{\blur3}- And what else is it not?     - A place to eat spaghetti.
+Dialogue: 0,0:00:24.19,0:00:25.23,英文,,0000,0000,0000,,{\blur3}- Very good.    - Thanks.
+Dialogue: 0,0:00:26.48,0:00:27.59,英文,,0000,0000,0000,,{\blur3}What do you need it for anyway?
+Dialogue: 0,0:00:27.59,0:00:28.94,英文,,0000,0000,0000,,{\blur3}The, uh, lottery is up to 300 million...
+Dialogue: 0,0:00:29.19,0:00:31.35,英文,,0000,0000,0000,,{\blur3}and they don't sell tickets here.
+Dialogue: 0,0:00:31.35,0:00:33.65,英文,,0000,0000,0000,,{\blur3}So you're driving up to Connecticut?
+Dialogue: 0,0:00:33.82,0:00:37.03,英文,,0000,0000,0000,,{\blur3}Yeah, Connecticut. Not West Virginia.
+Dialogue: 0,0:00:38.62,0:00:41.87,英文,,0000,0000,0000,,{\blur3}Maybe I'll drive you up there. I'd like to buy some tickets myself.
+Dialogue: 0,0:00:42.25,0:00:46.46,英文,,0000,0000,0000,,{\blur3}Yeah, with Chandler not getting paid, we could really use $300 million.
+Dialogue: 0,0:00:46.63,0:00:49.01,英文,,0000,0000,0000,,{\blur3}Yes, because if I was at my old job,
+Dialogue: 0,0:00:49.01,0:00:51.55,英文,,0000,0000,0000,,{\blur3}we'd say, "300 million? No, thank you."
+Dialogue: 0,0:00:53.38,0:00:55.47,英文,,0000,0000,0000,,{\blur3}- Will you get me tickets too?     - Yeah, me too.
+Dialogue: 0,0:00:55.63,0:00:57.34,英文,,0000,0000,0000,,{\blur3}- Sure.     - Ooh! I have an idea.
+Dialogue: 0,0:00:57.51,0:01:00.77,英文,,0000,0000,0000,,{\blur3}Why don't we all pitch in 50 bucks, we'll pool our money together...
+Dialogue: 0,0:01:00.93,0:01:04.64,英文,,0000,0000,0000,,{\blur3}- and then if we win, we'll split it.     - That's a great idea!
+Dialogue: 0,0:01:05.19,0:01:07.52,英文,,0000,0000,0000,,{\blur3}No, thanks.
+Dialogue: 0,0:01:08.19,0:01:10.52,英文,,0000,0000,0000,,{\blur3}- You don't want to win the lottery?     - Uh, sure I do.
+Dialogue: 0,0:01:10.69,0:01:12.69,英文,,0000,0000,0000,,{\blur3}I also want to be king of my own country...
+Dialogue: 0,0:01:12.86,0:01:15.65,英文,,0000,0000,0000,,{\blur3}and find out what happened to Amelia Earhart.
+Dialogue: 0,0:01:16.24,0:01:19.41,英文,,0000,0000,0000,,{\blur3}- Still on Amelia Earhart?     - The woman just vanished!
+Dialogue: 0,0:01:21.12,0:01:22.91,英文,,0000,0000,0000,,{\blur3}Seriously, you don't want in on this?
+Dialogue: 0,0:01:23.12,0:01:26.04,英文,,0000,0000,0000,,{\blur3}No. Do you know what your odds are of winning the lottery?
+Dialogue: 0,0:01:26.21,0:01:29.84,英文,,0000,0000,0000,,{\blur3}I mean, you have a better chance of being struck by lightning 42 times.
+Dialogue: 0,0:01:30.04,0:01:33.21,英文,,0000,0000,0000,,{\blur3}But there's six of us, so we'd only have to get struck 7 times.
+Dialogue: 0,0:01:33.42,0:01:35.59,英文,,0000,0000,0000,,{\blur3}I like those odds!
+Dialogue: 0,0:01:36.38,0:01:40.30,英文,,0000,0000,0000,,{\blur3}Seriously, you guys, I can't believe you're gonna spend $250 on the lottery.
+Dialogue: 0,0:01:40.47,0:01:43.72,英文,,0000,0000,0000,,{\blur3}I mean, that's such a bunch of boo-hockey.
+Dialogue: 0,0:01:47.06,0:01:48.98,英文,,0000,0000,0000,,{\blur3}I'll ask.
+Dialogue: 0,0:01:49.73,0:01:51.23,英文,,0000,0000,0000,,{\blur3}"Boo-hockey"?
+Dialogue: 0,0:01:52.19,0:01:54.36,英文,,0000,0000,0000,,{\blur3}Oh, we think Emma's about to start talking...
+Dialogue: 0,0:01:54.53,0:01:58.16,英文,,0000,0000,0000,,{\blur3}so we're trying to be careful about what words we use in front of her.
+Dialogue: 0,0:01:58.36,0:02:00.53,英文,,0000,0000,0000,,{\blur3}So get ready to hear a lot of, uh, boo-hockey...
+Dialogue: 0,0:02:00.70,0:02:03.29,英文,,0000,0000,0000,,{\blur3}gosh darn it and brother pucker.
+Dialogue: 0,0:02:04.95,0:02:06.91,英文,,0000,0000,0000,,{\blur3}How do you know she's gonna start talking?
+Dialogue: 0,0:02:07.12,0:02:10.38,英文,,0000,0000,0000,,{\blur3}When I talk to her, I almost feel like she understands what I'm saying.
+Dialogue: 0,0:02:11.08,0:02:12.95,英文,,0000,0000,0000,,{\blur3}Kind of like Joey.
+Dialogue: 0,0:02:14.17,0:02:16.22,英文,,0000,0000,0000,,{\blur3}What's that now?
+Dialogue: 0,0:03:09.44,0:03:13.06,英文,,0000,0000,0000,,{\blur3}God, look at all these tickets. It's so exciting.
+Dialogue: 0,0:03:13.27,0:03:15.23,英文,,0000,0000,0000,,{\blur3}I haven't won anything since sixth grade.
+Dialogue: 0,0:03:15.44,0:03:17.74,英文,,0000,0000,0000,,{\blur3}Pie-eating contest?
+Dialogue: 0,0:03:19.57,0:03:23.07,英文,,0000,0000,0000,,{\blur3}You assume because I was heavy that's the only way I could win something?
+Dialogue: 0,0:03:23.28,0:03:26.29,英文,,0000,0000,0000,,{\blur3}No, I saw a picture of you covered in blueberries.
+Dialogue: 0,0:03:26.49,0:03:29.33,英文,,0000,0000,0000,,{\blur3}- That was a good day.     - Yeah.
+Dialogue: 0,0:03:29.91,0:03:33.88,英文,,0000,0000,0000,,{\blur3}- They're towing your car!     - I'm parked in a garage on Morton.
+Dialogue: 0,0:03:34.71,0:03:37.30,英文,,0000,0000,0000,,{\blur3}They're towing a car.
+Dialogue: 0,0:03:37.46,0:03:41.18,英文,,0000,0000,0000,,{\blur3}And I am seeing spots.
+Dialogue: 0,0:03:41.38,0:03:44.05,英文,,0000,0000,0000,,{\blur3}Ross, you don't have Emma! Rachel, you don't have Emma!
+Dialogue: 0,0:03:44.22,0:03:46.64,英文,,0000,0000,0000,,{\blur3}- Where's Emma? Who has Emma?     - Joey, relax.
+Dialogue: 0,0:03:46.81,0:03:51.10,英文,,0000,0000,0000,,{\blur3}My mother picked her up two hours ago. You were there.
+Dialogue: 0,0:03:52.10,0:03:54.90,英文,,0000,0000,0000,,{\blur3}- I was?     - Yes, and you talked to her.
+Dialogue: 0,0:03:55.31,0:03:58.40,英文,,0000,0000,0000,,{\blur3}- I did?     - She dropped off a casserole.
+Dialogue: 0,0:03:58.61,0:04:01.57,英文,,0000,0000,0000,,{\blur3}Oh, yeah, the casserole lady.
+Dialogue: 0,0:04:01.86,0:04:04.16,英文,,0000,0000,0000,,{\blur3}Did you come by to watch us win the big bucks?
+Dialogue: 0,0:04:05.87,0:04:07.95,英文,,0000,0000,0000,,{\blur3}Yeah. And then I figured after you win, we can all go out to the balcony...
+Dialogue: 0,0:04:08.08,0:04:11.62,英文,,0000,0000,0000,,{\blur3}and see a night rainbow with gremlins dancing on top of it.
+Dialogue: 0,0:04:13.62,0:04:16.00,英文,,0000,0000,0000,,{\blur3}Don't touch the phone! I'll get it! I'll get it!
+Dialogue: 0,0:04:17.50,0:04:19.12,英文,,0000,0000,0000,,{\blur3}- You think he washed his hands?     - Hello?
+Dialogue: 0,0:04:19.30,0:04:21.63,英文,,0000,0000,0000,,{\blur3}- Hey, Charlie, what do you know?     - What's going on?
+Dialogue: 0,0:04:23.13,0:04:24.71,英文,,0000,0000,0000,,{\blur3}Chandler's supposed to find out if he's getting a job at his agency.
+Dialogue: 0,0:04:25.22,0:04:27.64,英文,,0000,0000,0000,,{\blur3}But out of 15 interns, they're only hiring three.
+Dialogue: 0,0:04:27.85,0:04:29.64,英文,,0000,0000,0000,,{\blur3}- Ooh. Tough odds.     - Yeah.
+Dialogue: 0,0:04:29.85,0:04:33.60,英文,,0000,0000,0000,,{\blur3}If only it were a sure thing like your 24-state lottery.
+Dialogue: 0,0:04:34.65,0:04:38.44,英文,,0000,0000,0000,,{\blur3}Yeah, look who's coming around!
+Dialogue: 0,0:04:38.65,0:04:42.36,英文,,0000,0000,0000,,{\blur3}Damn it. All right, call me when you know more.
+Dialogue: 0,0:04:43.70,0:04:46.57,英文,,0000,0000,0000,,{\blur3}- Did you get it?     - One of the slots got filled.
+Dialogue: 0,0:04:47.07,0:04:51.50,英文,,0000,0000,0000,,{\blur3}- By you?     - Sense the tone.
+Dialogue: 0,0:04:52.79,0:04:56.33,英文,,0000,0000,0000,,{\blur3}- No, that kid Nate got it.     - Oh, I hate that guy.
+Dialogue: 0,0:04:56.50,0:04:59.75,英文,,0000,0000,0000,,{\blur3}- I mean, come on, pull up your pants!     - I know.
+Dialogue: 0,0:04:59.92,0:05:01.80,英文,,0000,0000,0000,,{\blur3}Well, there's two spots left, right?
+Dialogue: 0,0:05:02.01,0:05:04.63,英文,,0000,0000,0000,,{\blur3}Yeah. I mean, I want this so much. I want to get one.
+Dialogue: 0,0:05:04.80,0:05:07.01,英文,,0000,0000,0000,,{\blur3}I want my friend Charlie to get one.
+Dialogue: 0,0:05:07.18,0:05:09.26,英文,,0000,0000,0000,,{\blur3}Except I don't care about Charlie.
+Dialogue: 0,0:05:11.14,0:05:12.22,英文,,0000,0000,0000,,{\blur3}Hey!
+Dialogue: 0,0:05:12.39,0:05:15.14,英文,,0000,0000,0000,,{\blur3}You are not gonna believe this. I just saw my psychic...
+Dialogue: 0,0:05:15.31,0:05:19.19,英文,,0000,0000,0000,,{\blur3}and she said I was definitely gonna win the lottery tonight!
+Dialogue: 0,0:05:20.57,0:05:22.65,英文,,0000,0000,0000,,{\blur3}I thought we could use some extra luck...
+Dialogue: 0,0:05:22.82,0:05:24.86,英文,,0000,0000,0000,,{\blur3}so I brought a wishbone home from work.
+Dialogue: 0,0:05:25.07,0:05:31.54,英文,,0000,0000,0000,,{\blur3}A psychic and a wishbone? Guys, give someone else a chance.
+Dialogue: 0,0:05:32.04,0:05:34.08,英文,,0000,0000,0000,,{\blur3}- All right, who wants to do it?     - Ooh, can I?
+Dialogue: 0,0:05:34.29,0:05:37.25,英文,,0000,0000,0000,,{\blur3}Vegetarians never get to do the wishbone.
+Dialogue: 0,0:05:37.42,0:05:40.25,英文,,0000,0000,0000,,{\blur3}It's really not fair. Just because we don't eat the meat...
+Dialogue: 0,0:05:40.42,0:05:43.51,英文,,0000,0000,0000,,{\blur3}doesn't mean we don't like to play with the carcasses.
+Dialogue: 0,0:05:44.13,0:05:45.84,英文,,0000,0000,0000,,{\blur3}All right. Rash'?
+Dialogue: 0,0:05:46.05,0:05:48.43,英文,,0000,0000,0000,,{\blur3}I don't want that turkey smell all over my hands.
+Dialogue: 0,0:05:48.64,0:05:52.18,英文,,0000,0000,0000,,{\blur3}I'll do it! It'll get the casserole stink off of mine.
+Dialogue: 0,0:05:54.64,0:05:57.27,英文,,0000,0000,0000,,{\blur3}- I hope I win.     - Well, it doesn't really matter.
+Dialogue: 0,0:05:57.44,0:05:59.40,英文,,0000,0000,0000,,{\blur3}You're both wishing for the same thing.
+Dialogue: 0,0:05:59.61,0:06:04.36,英文,,0000,0000,0000,,{\blur3}I can't tell you what I'm wishing for, or else, you know, it won't come true. Ha, ha.
+Dialogue: 0,0:06:04.69,0:06:07.61,英文,,0000,0000,0000,,{\blur3}Right. But we know what you're wishing for.
+Dialogue: 0,0:06:07.82,0:06:10.78,英文,,0000,0000,0000,,{\blur3}- I can't really say.     - I understand.
+Dialogue: 0,0:06:10.95,0:06:13.49,英文,,0000,0000,0000,,{\blur3}But you're wishing for what we think, aren't you?
+Dialogue: 0,0:06:13.70,0:06:16.46,英文,,0000,0000,0000,,{\blur3}I'm not really comfortable with these questions!
+Dialogue: 0,0:06:16.62,0:06:18.71,英文,,0000,0000,0000,,{\blur3}- Please!     - Just do it!
+Dialogue: 0,0:06:18.92,0:06:20.88,英文,,0000,0000,0000,,{\blur3}Okay. One, two, three.
+Dialogue: 0,0:06:21.04,0:06:22.96,英文,,0000,0000,0000,,{\blur3}I won! Hey!
+Dialogue: 0,0:06:23.13,0:06:26.26,英文,,0000,0000,0000,,{\blur3}You know what? I'm sure your wish is gonna come true.
+Dialogue: 0,0:06:26.42,0:06:29.97,英文,,0000,0000,0000,,{\blur3}But, you guys, just in case, maybe a genie will come out if we rub this lamp.
+Dialogue: 0,0:06:30.14,0:06:31.68,英文,,0000,0000,0000,,{\blur3}Ow!
+Dialogue: 0,0:06:32.60,0:06:34.64,英文,,0000,0000,0000,,{\blur3}That thing gets hot!
+Dialogue: 0,0:06:34.81,0:06:36.48,英文,,0000,0000,0000,,{\blur3}Ross, just keep making yourjokes.
+Dialogue: 0,0:06:36.64,0:06:38.85,英文,,0000,0000,0000,,{\blur3}How are you gonna feel if we actually do win?
+Dialogue: 0,0:06:39.06,0:06:42.23,英文,,0000,0000,0000,,{\blur3}- Uh, you're not gonna win.     - I know the odds are against us...
+Dialogue: 0,0:06:42.40,0:06:46.57,英文,,0000,0000,0000,,{\blur3}but somebody has to win, and it could be us. And then how you gonna feel?
+Dialogue: 0,0:06:46.74,0:06:50.49,英文,,0000,0000,0000,,{\blur3}We're gonna be like, "Everybody, let's take our helicopters up to the Cape."
+Dialogue: 0,0:06:50.66,0:06:53.03,英文,,0000,0000,0000,,{\blur3}And you're gonna be all, like, "Oh, I can't, guys.
+Dialogue: 0,0:06:53.20,0:06:56.41,英文,,0000,0000,0000,,{\blur3}I'll have to meet you up there. I gotta gas up the Hyundai."
+Dialogue: 0,0:07:00.54,0:07:04.59,英文,,0000,0000,0000,,{\blur3}Okay, I've heard myself on tape, and I sound nothing like that.
+Dialogue: 0,0:07:05.38,0:07:07.97,英文,,0000,0000,0000,,{\blur3}I can see the headline now: "Lottery Winners' Friend...
+Dialogue: 0,0:07:08.13,0:07:10.55,英文,,0000,0000,0000,,{\blur3}Filled With Regret, Eats Own Arm."
+Dialogue: 0,0:07:11.26,0:07:12.72,英文,,0000,0000,0000,,{\blur3}Why would I eat my own arm?
+Dialogue: 0,0:07:12.93,0:07:16.52,英文,,0000,0000,0000,,{\blur3}Well, you wouldn't, but we own the paper. We can print whatever we want.
+Dialogue: 0,0:07:16.68,0:07:19.31,英文,,0000,0000,0000,,{\blur3}You know what? I'm gonna throw in 50 bucks for you.
+Dialogue: 0,0:07:19.98,0:07:21.90,英文,,0000,0000,0000,,{\blur3}- Why?     - Because I know that you think...
+Dialogue: 0,0:07:22.06,0:07:25.15,英文,,0000,0000,0000,,{\blur3}that the lottery is boo-hockey...
+Dialogue: 0,0:07:25.52,0:07:29.07,英文,,0000,0000,0000,,{\blur3}but we're all here, and we're gonna watch the numbers and have fun.
+Dialogue: 0,0:07:29.24,0:07:33.24,英文,,0000,0000,0000,,{\blur3}And you're my brother, and I want you to be a part of this.
+Dialogue: 0,0:07:33.95,0:07:37.66,英文,,0000,0000,0000,,{\blur3}You don't have to do that. I mean, I'll pay for myself.
+Dialogue: 0,0:07:37.83,0:07:41.71,英文,,0000,0000,0000,,{\blur3}But just the fact that you want me to have fun with you guys, that's so sweet.
+Dialogue: 0,0:07:41.87,0:07:43.50,英文,,0000,0000,0000,,{\blur3}Come here.
+Dialogue: 0,0:07:44.54,0:07:47.00,英文,,0000,0000,0000,,{\blur3}Get a room.
+Dialogue: 0,0:07:50.34,0:07:53.01,英文,,0000,0000,0000,,{\blur3}So now that you're in, what are you gonna do if we win?
+Dialogue: 0,0:07:53.22,0:07:57.85,英文,,0000,0000,0000,,{\blur3}- I don't know. I'll probably just invest it.     - Ooh. Calm down.
+Dialogue: 0,0:07:58.02,0:08:00.81,英文,,0000,0000,0000,,{\blur3}Seriously, that's your fantasy? To invest it?
+Dialogue: 0,0:08:01.02,0:08:03.29,英文,,0000,0000,0000,,{\blur3}Oh, I'm sorry. Did I say,
+Dialogue: 0,0:08:03.29,0:08:05.73,英文,,0000,0000,0000,,{\blur3}"invest it"? I meant, "Be cool and piss it all away."
+Dialogue: 0,0:08:08.07,0:08:11.68,英文,,0000,0000,0000,,{\blur3}Oh! Oh! I know! We should pool all our money and buy the Knicks!
+Dialogue: 0,0:08:11.99,0:08:13.86,英文,,0000,0000,0000,,{\blur3}I don't really care about the Knicks.
+Dialogue: 0,0:08:14.07,0:08:16.99,英文,,0000,0000,0000,,{\blur3}You will when I pick you as starting forward.
+Dialogue: 0,0:08:17.41,0:08:21.41,英文,,0000,0000,0000,,{\blur3}You would do that? I never get picked!
+Dialogue: 0,0:08:21.79,0:08:23.79,英文,,0000,0000,0000,,{\blur3}I'm not sure a sports team is the way to go.
+Dialogue: 0,0:08:23.96,0:08:27.46,英文,,0000,0000,0000,,{\blur3}You won't let me buy the Knicks? I can't believe you're taking this away.
+Dialogue: 0,0:08:27.63,0:08:30.80,英文,,0000,0000,0000,,{\blur3}You're right, it has been your dream for over 15 seconds.
+Dialogue: 0,0:08:32.51,0:08:35.97,英文,,0000,0000,0000,,{\blur3}Uh, how long until they announce the numbers, Mommy?
+Dialogue: 0,0:08:36.47,0:08:40.72,英文,,0000,0000,0000,,{\blur3}I'll take this one too. Uh, "Mommy"?
+Dialogue: 0,0:08:41.18,0:08:43.94,英文,,0000,0000,0000,,{\blur3}Oh, I've gotten into the habit of calling Rachel "Mommy"...
+Dialogue: 0,0:08:44.10,0:08:45.98,英文,,0000,0000,0000,,{\blur3}when we're around Emma.
+Dialogue: 0,0:08:46.15,0:08:50.03,英文,,0000,0000,0000,,{\blur3}Which I now realize we are not.
+Dialogue: 0,0:08:51.15,0:08:53.07,英文,,0000,0000,0000,,{\blur3}I'm hoping that if she hears it enough...
+Dialogue: 0,0:08:53.24,0:08:54.57,英文,,0000,0000,0000,,{\blur3}- it'll be her first word.     - Oh.
+Dialogue: 0,0:08:54.78,0:08:57.82,英文,,0000,0000,0000,,{\blur3}Although if we're gonna do that, we should probably call me "Daddy" too.
+Dialogue: 0,0:08:59.49,0:09:01.98,英文,,0000,0000,0000,,{\blur3}Mm. I like that, Daddy.
+Dialogue: 0,0:09:05.67,0:09:08.54,英文,,0000,0000,0000,,{\blur3}I, uh... I was just talking about Rachel.
+Dialogue: 0,0:09:08.75,0:09:10.84,英文,,0000,0000,0000,,{\blur3}Ooh, is Daddy getting angry?
+Dialogue: 0,0:09:13.51,0:09:16.18,英文,,0000,0000,0000,,{\blur3}Is Daddy gonna spank me?
+Dialogue: 0,0:09:18.10,0:09:20.35,英文,,0000,0000,0000,,{\blur3}Well, that depends.
+Dialogue: 0,0:09:20.51,0:09:23.27,英文,,0000,0000,0000,,{\blur3}Have you been a bad...? No, I can't.
+Dialogue: 0,0:09:26.73,0:09:30.94,英文,,0000,0000,0000,,{\blur3}Hello? Hello? Hey, Charlie. Did anybody else hear?
+Dialogue: 0,0:09:31.94,0:09:34.49,英文,,0000,0000,0000,,{\blur3}What? Susan got it? How?
+Dialogue: 0,0:09:34.65,0:09:37.78,英文,,0000,0000,0000,,{\blur3}Oh, man, I would've slept with him!
+Dialogue: 0,0:09:38.53,0:09:40.58,英文,,0000,0000,0000,,{\blur3}All right, bye.
+Dialogue: 0,0:09:41.16,0:09:43.79,英文,,0000,0000,0000,,{\blur3}Dude, I'm sorry. But hey, there's one spot left, right?
+Dialogue: 0,0:09:43.95,0:09:46.67,英文,,0000,0000,0000,,{\blur3}- Well, Charlie's gonna get that.     - Hey, don't say that.
+Dialogue: 0,0:09:46.83,0:09:49.50,英文,,0000,0000,0000,,{\blur3}You've got just as good a chance of getting that job.
+Dialogue: 0,0:09:49.71,0:09:51.38,英文,,0000,0000,0000,,{\blur3}He is the boss' son.
+Dialogue: 0,0:09:51.92,0:09:54.46,英文,,0000,0000,0000,,{\blur3}- Come on, lottery!     - Yeah!
+Dialogue: 0,0:09:54.63,0:09:57.34,英文,,0000,0000,0000,,{\blur3}- It starts in, like, 20 minutes.     - Okay, here we go.
+Dialogue: 0,0:09:57.51,0:10:00.89,英文,,0000,0000,0000,,{\blur3}We need to sort through the tickets quickly to see if we've won.
+Dialogue: 0,0:10:01.05,0:10:03.77,英文,,0000,0000,0000,,{\blur3}So does anybody have any ideas how to organize this?
+Dialogue: 0,0:10:03.93,0:10:06.10,英文,,0000,0000,0000,,{\blur3}Okay, how about this:
+Dialogue: 0,0:10:06.89,0:10:08.94,英文,,0000,0000,0000,,{\blur3}We divide them into six groups of 40.
+Dialogue: 0,0:10:09.10,0:10:12.15,英文,,0000,0000,0000,,{\blur3}The remaining 10 can be read by whoever finishes first.
+Dialogue: 0,0:10:12.36,0:10:15.11,英文,,0000,0000,0000,,{\blur3}- I have another idea.     - I'm sorry, idea time is over.
+Dialogue: 0,0:10:17.20,0:10:19.66,英文,,0000,0000,0000,,{\blur3}- Well, are all the tickets in the bowl?     - Yeah.
+Dialogue: 0,0:10:19.87,0:10:23.33,英文,,0000,0000,0000,,{\blur3}- What about the ones on the nightstand?     - There are no tickets there.
+Dialogue: 0,0:10:23.54,0:10:25.83,英文,,0000,0000,0000,,{\blur3}Yes, there are. I just saw them a few minutes ago.
+Dialogue: 0,0:10:27.12,0:10:29.91,英文,,0000,0000,0000,,{\blur3}Heh. Uh, no, you didn't. You must be mistaken.
+Dialogue: 0,0:10:30.54,0:10:33.84,英文,,0000,0000,0000,,{\blur3}- There are 20 tickets on the nightstand.     - Chandler, sense the tone.
+Dialogue: 0,0:10:35.51,0:10:39.72,英文,,0000,0000,0000,,{\blur3}Well, well, well. Look what Mommy found.
+Dialogue: 0,0:10:40.68,0:10:44.10,英文,,0000,0000,0000,,{\blur3}Okay, fine. I bought 20 extra tickets for me and Chandler.
+Dialogue: 0,0:10:45.47,0:10:47.98,英文,,0000,0000,0000,,{\blur3}The psychic also said that I would be betrayed.
+Dialogue: 0,0:10:49.69,0:10:52.56,英文,,0000,0000,0000,,{\blur3}I can't believe this. I thought we were all in this together.
+Dialogue: 0,0:10:52.77,0:10:56.11,英文,,0000,0000,0000,,{\blur3}- Hey, you just got in five minutes ago!     - Three minutes ago!
+Dialogue: 0,0:10:56.28,0:10:58.82,英文,,0000,0000,0000,,{\blur3}I don't know why that's important.
+Dialogue: 0,0:10:59.03,0:11:03.16,英文,,0000,0000,0000,,{\blur3}I was with you the whole time. When did you even get those?
+Dialogue: 0,0:11:03.37,0:11:07.87,英文,,0000,0000,0000,,{\blur3}When you were reading the dirty magazines without taking off the plastic.
+Dialogue: 0,0:11:08.21,0:11:09.96,英文,,0000,0000,0000,,{\blur3}I'll show you how.
+Dialogue: 0,0:11:10.92,0:11:14.21,英文,,0000,0000,0000,,{\blur3}Okay. Well, Monica, suppose one of your special tickets wins?
+Dialogue: 0,0:11:14.38,0:11:17.21,英文,,0000,0000,0000,,{\blur3}How are you gonna feel when you win and lose your friends?
+Dialogue: 0,0:11:17.42,0:11:21.22,英文,,0000,0000,0000,,{\blur3}Please. If I win the lottery, you guys are not gonna leave me.
+Dialogue: 0,0:11:21.39,0:11:25.56,英文,,0000,0000,0000,,{\blur3}Someone gave me muffins last week. I couldn't get rid of you for three days!
+Dialogue: 0,0:11:26.64,0:11:29.85,英文,,0000,0000,0000,,{\blur3}Chandler, would you just tell her what she did was wrong?
+Dialogue: 0,0:11:30.06,0:11:32.94,英文,,0000,0000,0000,,{\blur3}She's right. You shouldn't have bought tickets just for us.
+Dialogue: 0,0:11:33.15,0:11:34.77,英文,,0000,0000,0000,,{\blur3}Let me finish.
+Dialogue: 0,0:11:34.94,0:11:37.57,英文,,0000,0000,0000,,{\blur3}However, it doesn't look like I'm gonna get this job...
+Dialogue: 0,0:11:37.73,0:11:42.07,英文,,0000,0000,0000,,{\blur3}so I can't afford to have principles. So screw you! The tickets are ours!
+Dialogue: 0,0:11:43.03,0:11:45.62,英文,,0000,0000,0000,,{\blur3}There's the man I married.
+Dialogue: 0,0:11:45.87,0:11:48.16,英文,,0000,0000,0000,,{\blur3}All right. Believe me, if you win the lottery...
+Dialogue: 0,0:11:48.33,0:11:50.33,英文,,0000,0000,0000,,{\blur3}it's the last you're gonna hear from us.
+Dialogue: 0,0:11:50.54,0:11:55.25,英文,,0000,0000,0000,,{\blur3}Fine. Don't be my friends. I'll buy new friends.
+Dialogue: 0,0:11:55.50,0:11:58.29,英文,,0000,0000,0000,,{\blur3}Yeah, and then I'll pay for their plastic surgery
+Dialogue: 0,0:11:58.29,0:12:00.42,英文,,0000,0000,0000,,{\blur3}so they look just like you!
+Dialogue: 0,0:12:00.59,0:12:03.22,英文,,0000,0000,0000,,{\blur3}You know what? I want my share of the tickets.
+Dialogue: 0,0:12:03.39,0:12:05.89,英文,,0000,0000,0000,,{\blur3}I want my tickets too! And I'm buying the Knicks!
+Dialogue: 0,0:12:06.05,0:12:08.52,英文,,0000,0000,0000,,{\blur3}And Steffi Graf! Ha, ha.
+Dialogue: 0,0:12:08.68,0:12:11.06,英文,,0000,0000,0000,,{\blur3}Cool. Then I want mine too! And if I win...
+Dialogue: 0,0:12:11.23,0:12:14.40,英文,,0000,0000,0000,,{\blur3}I'm gonna put it all into a very low-yield bond!
+Dialogue: 0,0:12:14.60,0:12:18.94,英文,,0000,0000,0000,,{\blur3}No. You guys, we gotta keep all the tickets together.
+Dialogue: 0,0:12:19.11,0:12:21.15,英文,,0000,0000,0000,,{\blur3}No. No, we should divide them up...
+Dialogue: 0,0:12:21.32,0:12:23.74,英文,,0000,0000,0000,,{\blur3}and I should get extra because we used my car!
+Dialogue: 0,0:12:23.95,0:12:26.66,英文,,0000,0000,0000,,{\blur3}Hey! Hey! If anybody gets extra tickets, it should be me!
+Dialogue: 0,0:12:26.83,0:12:31.46,英文,,0000,0000,0000,,{\blur3}- This whole thing was my idea!     - Yeah. Thanks for inventing the lottery!
+Dialogue: 0,0:12:32.54,0:12:35.04,英文,,0000,0000,0000,,{\blur3}Just give them to me, and I'll split them up!
+Dialogue: 0,0:12:35.21,0:12:37.21,英文,,0000,0000,0000,,{\blur3}- OW!     - Ah!
+Dialogue: 0,0:12:37.38,0:12:39.42,英文,,0000,0000,0000,,{\blur3}- Hey     - Aah!
+Dialogue: 0,0:12:40.09,0:12:43.13,英文,,0000,0000,0000,,{\blur3}God, I can't take it anymore! I'm putting an end to this!
+Dialogue: 0,0:12:43.34,0:12:46.68,英文,,0000,0000,0000,,{\blur3}- Okay, if she jumps, I get her tickets!     - Wait, no, no! Hey!
+Dialogue: 0,0:12:48.47,0:12:51.48,英文,,0000,0000,0000,,{\blur3}If we're not doing this together, we're not doing it at all.
+Dialogue: 0,0:12:51.64,0:12:53.98,英文,,0000,0000,0000,,{\blur3}- Say goodbye to your tickets.     - No! No! No!
+Dialogue: 0,0:12:54.19,0:12:56.77,英文,,0000,0000,0000,,{\blur3}Do not come any closer!
+Dialogue: 0,0:12:56.94,0:13:00.65,英文,,0000,0000,0000,,{\blur3}Can I come a little bit closer? Valuable things are getting squished.
+Dialogue: 0,0:13:00.86,0:13:03.53,英文,,0000,0000,0000,,{\blur3}Now, what's more important, your friends or money?
+Dialogue: 0,0:13:03.74,0:13:06.11,英文,,0000,0000,0000,,{\blur3}- Friends!     - Money!
+Dialogue: 0,0:13:09.45,0:13:10.99,英文,,0000,0000,0000,,{\blur3}Friends.
+Dialogue: 0,0:13:11.87,0:13:14.29,英文,,0000,0000,0000,,{\blur3}Hey, Monica, what about your extra tickets?
+Dialogue: 0,0:13:14.50,0:13:16.50,英文,,0000,0000,0000,,{\blur3}They're all in there.
+Dialogue: 0,0:13:17.25,0:13:20.59,英文,,0000,0000,0000,,{\blur3}- Even these five that I hid in my bra.     - Monica!
+Dialogue: 0,0:13:20.75,0:13:23.59,英文,,0000,0000,0000,,{\blur3}Okay. Good. You guys were so scared.
+Dialogue: 0,0:13:23.76,0:13:26.59,英文,,0000,0000,0000,,{\blur3}There is no way I was gonna dump this...
+Dialogue: 0,0:13:26.76,0:13:29.39,英文,,0000,0000,0000,,{\blur3}- Aah!
+Dialogue: 0,0:13:32.06,0:13:34.73,英文,,0000,0000,0000,,{\blur3}I think I broke your bowl.
+Dialogue: 0,0:13:35.02,0:13:37.69,英文,,0000,0000,0000,,{\blur3}Go! Go! Go!
+Dialogue: 0,0:13:52.04,0:13:56.37,英文,,0000,0000,0000,,{\blur3}What a beautiful night to be running around the street, looking for tickets.
+Dialogue: 0,0:13:57.12,0:13:59.33,英文,,0000,0000,0000,,{\blur3}And the wind sure made it fun.
+Dialogue: 0,0:14:00.17,0:14:02.63,英文,,0000,0000,0000,,{\blur3}- Phoebe, we lost half of them.     - So what?
+Dialogue: 0,0:14:02.80,0:14:04.92,英文,,0000,0000,0000,,{\blur3}Monica, we have the winning ticket.
+Dialogue: 0,0:14:05.09,0:14:08.55,英文,,0000,0000,0000,,{\blur3}My psychic said I was gonna win, remember?
+Dialogue: 0,0:14:08.72,0:14:12.47,英文,,0000,0000,0000,,{\blur3}Weird your psychic didn't mention anything about the scary pigeon.
+Dialogue: 0,0:14:13.97,0:14:17.60,英文,,0000,0000,0000,,{\blur3}As a matter of fact, she said that's how I'm going to die.
+Dialogue: 0,0:14:17.77,0:14:22.07,英文,,0000,0000,0000,,{\blur3}So excuse me for being a little skittish.
+Dialogue: 0,0:14:22.23,0:14:24.40,英文,,0000,0000,0000,,{\blur3}There's two messages. This could be from work.
+Dialogue: 0,0:14:24.57,0:14:27.95,英文,,0000,0000,0000,,{\blur3}- Oh, play them.     - Okay. Here we go.
+Dialogue: 0,0:14:29.32,0:14:35.16,英文,,0000,0000,0000,,{\blur3}Hello. This is the pigeon from the balcony calling to apologize.
+Dialogue: 0,0:14:35.62,0:14:41.08,英文,,0000,0000,0000,,{\blur3}I shouldn't have knocked the tickets out of the pretty lady's hand.
+Dialogue: 0,0:14:41.75,0:14:46.30,英文,,0000,0000,0000,,{\blur3}It was all my fault. Not hers. Bye. Coo.
+Dialogue: 0,0:14:52.10,0:14:55.35,英文,,0000,0000,0000,,{\blur3}Well, I bet that was very hard for him to do.
+Dialogue: 0,0:14:57.39,0:14:59.06,英文,,0000,0000,0000,,{\blur3}Hey, Chandler, it's Charlie.
+Dialogue: 0,0:14:59.23,0:15:01.10,英文,,0000,0000,0000,,{\blur3}This is it. Shh, Shh!
+Dialogue: 0,0:15:01.27,0:15:05.44,英文,,0000,0000,0000,,{\blur3}Listen, um, it turns out I got the last spot.
+Dialogue: 0,0:15:05.61,0:15:08.45,英文,,0000,0000,0000,,{\blur3}I'm really sorry, man. It was a lot of fun working with you
+Dialogue: 0,0:15:08.61,0:15:11.07,英文,,0000,0000,0000,,{\blur3}Give me a call if you want.
+Dialogue: 0,0:15:11.24,0:15:13.99,英文,,0000,0000,0000,,{\blur3}Gosh, I'm so sorry, honey.
+Dialogue: 0,0:15:14.16,0:15:15.70,英文,,0000,0000,0000,,{\blur3}Sorry, Chandler.
+Dialogue: 0,0:15:15.87,0:15:20.79,英文,,0000,0000,0000,,{\blur3}It is so unfair. It's like that time they promoted Saundra over me at work.
+Dialogue: 0,0:15:21.00,0:15:22.71,英文,,0000,0000,0000,,{\blur3}Was she related to Ralph Lauren?
+Dialogue: 0,0:15:22.92,0:15:26.59,英文,,0000,0000,0000,,{\blur3}No, she was just much better at her job than me.
+Dialogue: 0,0:15:26.80,0:15:28.63,英文,,0000,0000,0000,,{\blur3}You guys, the drawing's about to start.
+Dialogue: 0,0:15:29.47,0:15:31.92,英文,,0000,0000,0000,,{\blur3}We should call my mom's and say good night to Emma...
+Dialogue: 0,0:15:31.97,0:15:34.01,英文,,0000,0000,0000,,{\blur3}- before she goes down.     - Good idea.
+Dialogue: 0,0:15:34.51,0:15:37.31,英文,,0000,0000,0000,,{\blur3}Honey, you're being really strong about this.
+Dialogue: 0,0:15:37.47,0:15:40.02,英文,,0000,0000,0000,,{\blur3}I know how badly you wanted that job.
+Dialogue: 0,0:15:40.23,0:15:43.02,英文,,0000,0000,0000,,{\blur3}Yeah, you know, I really thought I deserved it.
+Dialogue: 0,0:15:43.31,0:15:48.61,英文,,0000,0000,0000,,{\blur3}But let's go win the lottery. I mean, we still have a 130 chances to win, right?
+Dialogue: 0,0:15:50.24,0:15:52.66,英文,,0000,0000,0000,,{\blur3}Hundred and thirty-one.
+Dialogue: 0,0:15:53.57,0:15:56.28,英文,,0000,0000,0000,,{\blur3}Yeah, good night, sweetheart. I love you.
+Dialogue: 0,0:15:56.45,0:16:00.29,英文,,0000,0000,0000,,{\blur3}And remember, you're Daddy's little girl. Heh.
+Dialogue: 0,0:16:00.46,0:16:03.12,英文,,0000,0000,0000,,{\blur3}Phoebe's totally ruined that for me.
+Dialogue: 0,0:16:06.75,0:16:08.25,英文,,0000,0000,0000,,{\blur3}Hi, Mom. Put her back on.
+Dialogue: 0,0:16:08.42,0:16:10.42,英文,,0000,0000,0000,,{\blur3}Rach, they're announcing the numbers!
+Dialogue: 0,0:16:11.17,0:16:14.64,英文,,0000,0000,0000,,{\blur3}My God, I can already feel myself changing.
+Dialogue: 0,0:16:15.05,0:16:18.93,英文,,0000,0000,0000,,{\blur3}Here are your official Powerball numbers. We have 53.
+Dialogue: 0,0:16:19.14,0:16:21.64,英文,,0000,0000,0000,,{\blur3}- I've got that.     - We have one too!
+Dialogue: 0,0:16:21.81,0:16:24.60,英文,,0000,0000,0000,,{\blur3}We are on the road, people!
+Dialogue: 0,0:16:25.94,0:16:26.98,英文,,0000,0000,0000,,{\blur3}Come on!
+Dialogue: 0,0:16:27.19,0:16:32.65,英文,,0000,0000,0000,,{\blur3}Mom, please, I know you love your new lips, but I can barely understand you.
+Dialogue: 0,0:16:32.82,0:16:35.95,英文,,0000,0000,0000,,{\blur3}Would you please just let me say good night to my daughter?
+Dialogue: 0,0:16:36.16,0:16:38.54,英文,,0000,0000,0000,,{\blur3}And here we go. The Powerball is seven.
+Dialogue: 0,0:16:38.74,0:16:42.46,英文,,0000,0000,0000,,{\blur3}All right, check your numbers! Make me rich.
+Dialogue: 0,0:16:43.92,0:16:45.92,英文,,0000,0000,0000,,{\blur3}You guys, you're not gonna believe this.
+Dialogue: 0,0:16:46.08,0:16:49.46,英文,,0000,0000,0000,,{\blur3}I was just saying good night to Emma, and she said her first words.
+Dialogue: 0,0:16:49.88,0:16:51.76,英文,,0000,0000,0000,,{\blur3}- What?     - Well, what did she say?
+Dialogue: 0,0:16:51.97,0:16:54.80,英文,,0000,0000,0000,,{\blur3}She said, "Gleba"!
+Dialogue: 0,0:16:58.64,0:17:00.89,英文,,0000,0000,0000,,{\blur3}Make me rich!
+Dialogue: 0,0:17:01.52,0:17:04.89,英文,,0000,0000,0000,,{\blur3}- Isn't that amazing?     - Oh, yeah. No, no, no, that's great.
+Dialogue: 0,0:17:05.06,0:17:06.77,英文,,0000,0000,0000,,{\blur3}Why aren't you more excited?
+Dialogue: 0,0:17:07.52,0:17:11.23,英文,,0000,0000,0000,,{\blur3}Rach, heh, "gleba" is not a word.
+Dialogue: 0,0:17:11.65,0:17:15.66,英文,,0000,0000,0000,,{\blur3}- Well, of course it is.     - Okay. What does it mean?
+Dialogue: 0,0:17:15.86,0:17:18.91,英文,,0000,0000,0000,,{\blur3}Well, I don't know all the words.
+Dialogue: 0,0:17:19.28,0:17:22.79,英文,,0000,0000,0000,,{\blur3}You know, I'm just glad I didn't miss my daughter's first word.
+Dialogue: 0,0:17:22.95,0:17:27.29,英文,,0000,0000,0000,,{\blur3}- Yes you did! Gleba is a word!     - Okay. Use it in a sentence.
+Dialogue: 0,0:17:27.50,0:17:31.30,英文,,0000,0000,0000,,{\blur3}Okay. Uh, Emma just said, "Gleba
+Dialogue: 0,0:17:34.34,0:17:38.34,英文,,0000,0000,0000,,{\blur3}- It's not a word.     - Ugh. Okay, fine. I'm gonna look it up.
+Dialogue: 0,0:17:38.51,0:17:40.06,英文,,0000,0000,0000,,{\blur3}Oh, okay, great.
+Dialogue: 0,0:17:40.26,0:17:43.98,英文,,0000,0000,0000,,{\blur3}While you're at it, she said another word the other day. Why don't you look up:
+Dialogue: 0,0:17:49.86,0:17:54.24,英文,,0000,0000,0000,,{\blur3}All right. Okay. Okay. Gleba Gleba. Gleba. Gleba!
+Dialogue: 0,0:17:54.44,0:17:59.82,英文,,0000,0000,0000,,{\blur3}Here it is! "The fleshy, spore-bearing inner mass of a certain fungi."
+Dialogue: 0,0:18:03.50,0:18:04.58,英文,,0000,0000,0000,,{\blur3}Heh.
+Dialogue: 0,0:18:04.75,0:18:08.17,英文,,0000,0000,0000,,{\blur3}She's gonna be a scientist.
+Dialogue: 0,0:18:15.42,0:18:17.97,英文,,0000,0000,0000,,{\blur3}- Damn it. Anybody got anything?     - No.
+Dialogue: 0,0:18:18.64,0:18:20.30,英文,,0000,0000,0000,,{\blur3}I'm still looking through mine.
+Dialogue: 0,0:18:20.51,0:18:23.68,英文,,0000,0000,0000,,{\blur3}Just double-checking. No.
+Dialogue: 0,0:18:23.85,0:18:26.77,英文,,0000,0000,0000,,{\blur3}No. No.
+Dialogue: 0,0:18:31.61,0:18:33.65,英文,,0000,0000,0000,,{\blur3}No!
+Dialogue: 0,0:18:36.86,0:18:39.66,英文,,0000,0000,0000,,{\blur3}Hello? Hold on.
+Dialogue: 0,0:18:39.82,0:18:40.87,英文,,0000,0000,0000,,{\blur3}It's your boss.
+Dialogue: 0,0:18:41.03,0:18:43.83,英文,,0000,0000,0000,,{\blur3}Ah, the "I'm sorry I rejected you" phone call.
+Dialogue: 0,0:18:43.99,0:18:46.62,英文,,0000,0000,0000,,{\blur3}I'm not used to getting these from guys.
+Dialogue: 0,0:18:47.66,0:18:50.17,英文,,0000,0000,0000,,{\blur3}- Hey, Steve.     - Chandler, hi.
+Dialogue: 0,0:18:50.33,0:18:53.25,英文,,0000,0000,0000,,{\blur3}I'm sure you've heard we filled the three positions.
+Dialogue: 0,0:18:53.42,0:18:55.76,英文,,0000,0000,0000,,{\blur3}We felt that with your maturity and experience...
+Dialogue: 0,0:18:55.92,0:18:58.38,英文,,0000,0000,0000,,{\blur3}you wouldn't be happy being someone's assistant.
+Dialogue: 0,0:18:58.59,0:19:01.18,英文,,0000,0000,0000,,{\blur3}I'd love to be somebody's assistant. Answering phones...
+Dialogue: 0,0:19:01.34,0:19:03.18,英文,,0000,0000,0000,,{\blur3}getting coffee, I live for that stuff.
+Dialogue: 0,0:19:03.35,0:19:08.27,英文,,0000,0000,0000,,{\blur3}And I'm not too mature. Farts, boobies, butt cracks!
+Dialogue: 0,0:19:10.31,0:19:13.61,英文,,0000,0000,0000,,{\blur3}Chandler, you were the strongest person in the program.
+Dialogue: 0,0:19:13.77,0:19:17.24,英文,,0000,0000,0000,,{\blur3}We're offering you the position of junior copywriter.
+Dialogue: 0,0:19:18.95,0:19:21.70,英文,,0000,0000,0000,,{\blur3}Me? That guy who just said, "butt cracks"?
+Dialogue: 0,0:19:21.87,0:19:23.07,英文,,0000,0000,0000,,{\blur3}Yes, that's right.
+Dialogue: 0,0:19:23.28,0:19:25.62,英文,,0000,0000,0000,,{\blur3}We're excited about the level of sophistication...
+Dialogue: 0,0:19:25.79,0:19:28.12,英文,,0000,0000,0000,,{\blur3}you'll be bringing to the job.
+Dialogue: 0,0:19:29.54,0:19:33.21,英文,,0000,0000,0000,,{\blur3}Okay. Well, thanks, you won't regret it. I'll see you tomorrow.
+Dialogue: 0,0:19:45.68,0:19:47.35,英文,,0000,0000,0000,,{\blur3}What?
+Dialogue: 0,0:19:47.52,0:19:49.48,英文,,0000,0000,0000,,{\blur3}Oh, yeah, I'm gonna be a junior copywriter!
+Dialogue: 0,0:19:51.56,0:19:54.52,英文,,0000,0000,0000,,{\blur3}Congratulations! Oh, sweetie, I'm so proud of you.
+Dialogue: 0,0:19:54.69,0:19:57.32,英文,,0000,0000,0000,,{\blur3}Thanks. Does that mean I get the good loving tonight?
+Dialogue: 0,0:19:57.48,0:20:01.32,英文,,0000,0000,0000,,{\blur3}You bet. No TV or anything.
+Dialogue: 0,0:20:01.99,0:20:05.33,英文,,0000,0000,0000,,{\blur3}- Hey, that is so great about the job.     - Thanks, man.
+Dialogue: 0,0:20:05.49,0:20:07.66,英文,,0000,0000,0000,,{\blur3}I'd like to think I had something to do with it.
+Dialogue: 0,0:20:07.87,0:20:11.08,英文,,0000,0000,0000,,{\blur3}- Really? Why?     - Well, before with the wishbone.
+Dialogue: 0,0:20:11.25,0:20:17.00,英文,,0000,0000,0000,,{\blur3}I, uh, didn't wish we would win the lottery. I wished you'd get the job.
+Dialogue: 0,0:20:17.46,0:20:19.51,英文,,0000,0000,0000,,{\blur3}Qh, yeah?
+Dialogue: 0,0:20:19.84,0:20:21.88,英文,,0000,0000,0000,,{\blur3}Don't tell Monica. She'll rip your heart out.
+Dialogue: 0,0:20:22.09,0:20:23.26,英文,,0000,0000,0000,,{\blur3}Oh, yeah.
+Dialogue: 0,0:20:26.01,0:20:28.51,英文,,0000,0000,0000,,{\blur3}Well, you know what? There was a little part of me...
+Dialogue: 0,0:20:28.68,0:20:30.77,英文,,0000,0000,0000,,{\blur3}that really thought we were gonna win.
+Dialogue: 0,0:20:30.98,0:20:37.44,英文,,0000,0000,0000,,{\blur3}Me too. So much for my dinosaur Amelia Earhart theme park.
+Dialogue: 0,0:20:38.57,0:20:42.03,英文,,0000,0000,0000,,{\blur3}You guys? What was the Powerball number again?
+Dialogue: 0,0:20:42.20,0:20:44.78,英文,,0000,0000,0000,,{\blur3}- Seven.     - We won.
+Dialogue: 0,0:20:45.07,0:20:46.87,英文,,0000,0000,0000,,{\blur3}- What?     - We won!
+Dialogue: 0,0:20:47.03,0:20:49.74,英文,,0000,0000,0000,,{\blur3}- Let me see! Let me see!     - Don't tear it!
+Dialogue: 0,0:20:50.12,0:20:53.92,英文,,0000,0000,0000,,{\blur3}Phoebe, you don't have any of the first five numbers!
+Dialogue: 0,0:20:55.00,0:21:01.26,英文,,0000,0000,0000,,{\blur3}I know that, but look, we got the Powerball number. We won $3!
+Dialogue: 0,0:21:02.13,0:21:06.22,英文,,0000,0000,0000,,{\blur3}Wow, you think we should get that over 20 years or go for the big payout?
+Dialogue: 0,0:21:06.39,0:21:11.02,英文,,0000,0000,0000,,{\blur3}I don't care. I've never won anything before. I can't believe this!
+Dialogue: 0,0:21:11.22,0:21:13.48,英文,,0000,0000,0000,,{\blur3}So, Pheebs, what are you gonna do with your $3?
+Dialogue: 0,0:21:13.69,0:21:16.81,英文,,0000,0000,0000,,{\blur3}Well, it's not all mine. We all get 50 cents.
+Dialogue: 0,0:21:18.44,0:21:20.60,英文,,0000,0000,0000,,{\blur3}Aw. You know what? You can have mine.
+Dialogue: 0,0:21:20.65,0:21:21.90,英文,,0000,0000,0000,,{\blur3}- Me too.     - Me too.
+Dialogue: 0,0:21:22.07,0:21:24.40,英文,,0000,0000,0000,,{\blur3}Me too. Ha, ha.
+Dialogue: 0,0:21:29.12,0:21:32.00,英文,,0000,0000,0000,,{\blur3}Well, I guess if everybody else is.
+Dialogue: 0,0:21:41.46,0:21:44.42,英文,,0000,0000,0000,,{\blur3}Hey, guys. So I just called the Powerball hot line.
+Dialogue: 0,0:21:44.76,0:21:49.89,英文,,0000,0000,0000,,{\blur3}- Can you believe it? Nobody won.     - Um, I beg to differ.
+Dialogue: 0,0:21:51.39,0:21:55.02,英文,,0000,0000,0000,,{\blur3}Maybe nobody won the jackpot, but there was this guy in here earlier...
+Dialogue: 0,0:21:55.18,0:22:00.11,英文,,0000,0000,0000,,{\blur3}and he found a ticket on the street right outside and won $10,000.
+Dialogue: 0,0:22:10.24,0:22:14.74,英文,,0000,0000,0000,,{\blur3}Coo. Again, don't blame the pretty lady.
+Dialogue: 0,0:22:15.12,0:22:20.08,英文,,0000,0000,0000,,{\blur3}It was not her fault. It was me, the pigeon. Coo.
+Dialogue: 0,0:22:23.63,0:22:26.92,英文,,0000,0000,0000,,{\blur3}Seriously, stop staring at her.

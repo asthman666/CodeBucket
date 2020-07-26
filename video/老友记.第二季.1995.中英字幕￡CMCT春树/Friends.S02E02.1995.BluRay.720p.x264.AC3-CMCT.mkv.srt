@@ -1,0 +1,350 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00E0E0E0,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,0,0,3,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:08.13,0:00:11.09,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Okay, these were expensive, and he's gonna grow out of them...{\r}
+Dialogue: 0,0:00:11.26,0:00:13.96,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}in 20 minutes, but I couldn't resist!{\r}
+Dialogue: 0,0:00:17.80,0:00:19.92,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Look at these.{\r}
+Dialogue: 0,0:00:20.10,0:00:21.13,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Hey, Ben.{\r}
+Dialogue: 0,0:00:21.31,0:00:23.05,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}"Just do it"! Unh!{\r}
+Dialogue: 0,0:00:25.06,0:00:26.77,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Oh, my God! Oh!{\r}
+Dialogue: 0,0:00:26.94,0:00:28.73,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Was that too much pressure for him?{\r}
+Dialogue: 0,0:00:30.44,0:00:34.53,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Oh, is he hungry already? Aw.     - I guess so.{\r}
+Dialogue: 0,0:00:34.70,0:00:36.40,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You know, it's...{\r}
+Dialogue: 0,0:00:39.41,0:00:42.45,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Something funny about sneakers. I'll be right back.{\r}
+Dialogue: 0,0:00:42.87,0:00:45.36,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Oh, uh, I gotta get one too.{\r}
+Dialogue: 0,0:00:48.04,0:00:49.95,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Hey, what are you guys doing?{\r}
+Dialogue: 0,0:00:50.21,0:00:52.67,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}We're just hanging out by the spoons.{\r}
+Dialogue: 0,0:00:53.34,0:00:54.75,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Ladle?{\r}
+Dialogue: 0,0:00:54.97,0:00:56.17,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Will you guys grow up?{\r}
+Dialogue: 0,0:00:56.39,0:00:59.17,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}This is the most natural, beautiful thing in the world.{\r}
+Dialogue: 0,0:00:59.35,0:01:02.38,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Yeah, we know. But there's a baby sucking on it.{\r}
+Dialogue: 0,0:01:04.56,0:01:09.93,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}This is my son having lunch, okay? It'll happen a lot, so get used to it.{\r}
+Dialogue: 0,0:01:10.11,0:01:13.65,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}If you have a problem, if you're uncomfortable, just ask questions.{\r}
+Dialogue: 0,0:01:13.82,0:01:16.48,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Carol's fine with it. Come on.{\r}
+Dialogue: 0,0:01:18.49,0:01:20.61,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Carol?     - Carol.{\r}
+Dialogue: 0,0:01:22.24,0:01:25.91,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I was wondering if Joey could ask you a question about breast-feeding?{\r}
+Dialogue: 0,0:01:28.38,0:01:29.71,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Sure.     - Uh...{\r}
+Dialogue: 0,0:01:31.88,0:01:33.33,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Does it hurt?{\r}
+Dialogue: 0,0:01:34.59,0:01:37.08,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}It did at first, but not anymore.{\r}
+Dialogue: 0,0:01:37.51,0:01:38.54,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Chandler?{\r}
+Dialogue: 0,0:01:40.14,0:01:43.43,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}So, uh, how often can you do it?{\r}
+Dialogue: 0,0:01:44.06,0:01:45.47,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}As much as he needs.{\r}
+Dialogue: 0,0:01:46.27,0:01:48.35,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Oh, okay, I got one, I got one. Uh...{\r}
+Dialogue: 0,0:01:51.06,0:01:54.18,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}If he blows into one, does the other one get bigger?{\r}
+Dialogue: 0,0:01:59.95,0:02:04.48,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}∮ So no one told you life was gonna be this way ∮{\r}
+Dialogue: 0,0:02:05.02,0:02:09.19,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}∮ Your job's a joke, you're broke, your love life's D.O.A. ∮{\r}
+Dialogue: 0,0:02:10.10,0:02:13.91,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}∮ It's like you're always stuck in second gear ∮{\r}
+Dialogue: 0,0:02:14.37,0:02:16.47,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}∮ When it hasn't been your day, ∮{\r}
+Dialogue: 0,0:02:16.47,0:02:19.47,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}∮ your week, your month, or even your year ∮{\r}
+Dialogue: 0,0:02:19.47,0:02:23.43,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}∮ but I'll be there for you ∮{\r}
+Dialogue: 0,0:02:23.43,0:02:25.26,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}∮ When the rain starts to pour ∮{\r}
+Dialogue: 0,0:02:25.26,0:02:28.38,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}∮ I'll be there for you ∮{\r}
+Dialogue: 0,0:02:28.38,0:02:30.22,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}∮ Like I've been there before ∮{\r}
+Dialogue: 0,0:02:30.22,0:02:33.23,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}∮ I'll be there for you ∮{\r}
+Dialogue: 0,0:02:33.23,0:02:36.89,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}∮ 'Cause you're there for me too ∮{\r}
+Dialogue: 0,0:02:44.70,0:02:47.61,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Rachel, do you have muffins left?     - Yeah, I forget which ones.{\r}
+Dialogue: 0,0:02:47.79,0:02:49.82,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Oh, you're busy, I'll get it.{\r}
+Dialogue: 0,0:02:50.00,0:02:51.58,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Anyone else want one?     - No, thanks.{\r}
+Dialogue: 0,0:02:51.75,0:02:52.96,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}No, I'm all set.{\r}
+Dialogue: 0,0:02:53.13,0:02:55.12,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Oh, you're losing your apron. Let me get it.{\r}
+Dialogue: 0,0:02:55.30,0:02:56.79,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Oh.     - There you go.{\r}
+Dialogue: 0,0:02:56.96,0:02:58.29,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Thank you.{\r}
+Dialogue: 0,0:03:00.18,0:03:02.04,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Ugh, what a bitch.{\r}
+Dialogue: 0,0:03:05.26,0:03:08.60,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Listen, guys, I have a friend at Bloomingdale's who's quitting...{\r}
+Dialogue: 0,0:03:08.60,0:03:10.51,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}and he wants to abuse his discount.{\r}
+Dialogue: 0,0:03:10.69,0:03:13.35,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}So anyone want to come take advantage of it?{\r}
+Dialogue: 0,0:03:13.52,0:03:16.23,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I can't. I have to take my grandmother to the vet.{\r}
+Dialogue: 0,0:03:19.61,0:03:22.98,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Okay. Um, I'll go with you.     - Great.{\r}
+Dialogue: 0,0:03:25.66,0:03:27.37,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Hi, honey.     - Hey, sweetums.{\r}
+Dialogue: 0,0:03:28.45,0:03:31.07,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- And hello to the rest.     - Hi.{\r}
+Dialogue: 0,0:03:33.42,0:03:34.53,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}What are you doing?{\r}
+Dialogue: 0,0:03:34.70,0:03:37.08,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You can't go shopping with her. What about Rachel?{\r}
+Dialogue: 0,0:03:37.96,0:03:40.05,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- It's gonna be a problem, isn't it?     - Come on.{\r}
+Dialogue: 0,0:03:40.22,0:03:42.13,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You're going to Bloomingdale's with Julie.{\r}
+Dialogue: 0,0:03:42.30,0:03:45.29,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}It's like cheating on Rachel in her house of worship.{\r}
+Dialogue: 0,0:03:45.47,0:03:48.43,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- But I...     - Monica, she will kill you.{\r}
+Dialogue: 0,0:03:50.06,0:03:52.77,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}She will kill you like a dog in the street!{\r}
+Dialogue: 0,0:03:57.32,0:04:00.93,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}So, uh, Jules tells me you guys are going shopping tomorrow.{\r}
+Dialogue: 0,0:04:01.11,0:04:04.44,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Yeah, um, it's actually not that big a deal. In fact...{\r}
+Dialogue: 0,0:04:04.61,0:04:08.73,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}It's a big deal to me. This is great. I really appreciate this.{\r}
+Dialogue: 0,0:04:08.91,0:04:10.49,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You're welcome.{\r}
+Dialogue: 0,0:04:25.30,0:04:26.59,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Bijan for men?{\r}
+Dialogue: 0,0:04:27.97,0:04:31.21,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Bijan for men?{\r}
+Dialogue: 0,0:04:32.93,0:04:34.67,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Hey, Annabel.     - Hey, Joey.{\r}
+Dialogue: 0,0:04:34.85,0:04:37.09,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Did you hear about the new guy?     - Who?{\r}
+Dialogue: 0,0:04:37.27,0:04:41.61,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Nobody knows his name. Me and the girls call him "The Hombre Man."{\r}
+Dialogue: 0,0:04:51.12,0:04:52.53,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Hombre?{\r}
+Dialogue: 0,0:04:57.33,0:04:59.67,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}What's he doing in my section?{\r}
+Dialogue: 0,0:04:59.88,0:05:01.58,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I guess he doesn't know.{\r}
+Dialogue: 0,0:05:01.84,0:05:03.37,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Well, he's gonna.{\r}
+Dialogue: 0,0:05:04.51,0:05:06.54,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I'll see you a little later, okay?{\r}
+Dialogue: 0,0:05:09.76,0:05:11.34,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Hey, how you doing?{\r}
+Dialogue: 0,0:05:11.89,0:05:13.60,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Morning.{\r}
+Dialogue: 0,0:05:13.77,0:05:15.80,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Listen, uh, heh. I know you're new...{\r}
+Dialogue: 0,0:05:15.98,0:05:19.14,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}but, uh, it's kind of understood that everything...{\r}
+Dialogue: 0,0:05:19.31,0:05:22.81,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}from young men's to the escalator is, uh, my territory.{\r}
+Dialogue: 0,0:05:24.49,0:05:26.57,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Your territory, huh?     - Yeah.{\r}
+Dialogue: 0,0:05:27.91,0:05:29.65,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Bijan for men?     - No, thanks.{\r}
+Dialogue: 0,0:05:29.83,0:05:31.32,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Hombre?{\r}
+Dialogue: 0,0:05:31.49,0:05:33.65,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Yeah, all right.{\r}
+Dialogue: 0,0:05:40.42,0:05:41.50,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You were saying?{\r}
+Dialogue: 0,0:05:45.51,0:05:49.55,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Phoebe, listen. You were with me, and we were shopping all day.{\r}
+Dialogue: 0,0:05:49.72,0:05:52.09,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- What?     - We were shopping and we had lunch.{\r}
+Dialogue: 0,0:05:52.26,0:05:54.13,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}All right. What did I have?{\r}
+Dialogue: 0,0:05:54.31,0:05:57.42,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- You had a salad.     - No wonder I don't feel full.{\r}
+Dialogue: 0,0:05:58.65,0:05:59.89,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Hi, guys. What's up?{\r}
+Dialogue: 0,0:06:00.06,0:06:02.98,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I went shopping with Monica all day and I had a salad.{\r}
+Dialogue: 0,0:06:05.24,0:06:07.57,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Good, Pheebs. What'd you buy?{\r}
+Dialogue: 0,0:06:08.99,0:06:11.40,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}We went shopping for, um...{\r}
+Dialogue: 0,0:06:11.91,0:06:13.02,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}For, um...{\r}
+Dialogue: 0,0:06:13.37,0:06:15.20,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}For fur.{\r}
+Dialogue: 0,0:06:17.75,0:06:20.83,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- You went shopping for fur?     - Yeah.{\r}
+Dialogue: 0,0:06:21.42,0:06:25.29,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}And then I realized that I'm against that and, um...{\r}
+Dialogue: 0,0:06:25.46,0:06:27.70,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}So then we bought some, um...{\r}
+Dialogue: 0,0:06:29.13,0:06:30.21,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Um, boobs.{\r}
+Dialogue: 0,0:06:36.06,0:06:38.14,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You bought boobs?{\r}
+Dialogue: 0,0:06:40.23,0:06:41.84,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Bras!{\r}
+Dialogue: 0,0:06:42.69,0:06:43.80,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}We bought bras!{\r}
+Dialogue: 0,0:06:44.77,0:06:47.02,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}We bought bras.{\r}
+Dialogue: 0,0:06:50.11,0:06:53.61,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Bijan for men?{\r}
+Dialogue: 0,0:06:53.78,0:06:55.57,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Bijan for...{\r}
+Dialogue: 0,0:06:57.12,0:06:58.41,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Hey, Annabel. Uh...{\r}
+Dialogue: 0,0:06:58.58,0:07:02.66,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Listen, I was wondering if after work we could grab a cup of coffee?{\r}
+Dialogue: 0,0:07:02.83,0:07:05.25,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Actually, I sort of have plans.{\r}
+Dialogue: 0,0:07:10.47,0:07:12.08,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You ready, Annabel?{\r}
+Dialogue: 0,0:07:13.39,0:07:14.84,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You bet.{\r}
+Dialogue: 0,0:07:16.68,0:07:19.17,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Maybe some other time.     - Yeah.{\r}
+Dialogue: 0,0:07:28.57,0:07:32.69,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}It's not the first time I lost a girl to a cowboy spraying cologne.{\r}
+Dialogue: 0,0:07:32.91,0:07:34.40,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Bijan for men?{\r}
+Dialogue: 0,0:07:34.87,0:07:36.48,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Bijan for men!{\r}
+Dialogue: 0,0:07:38.04,0:07:39.95,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Okay, and this is Funny Clown.{\r}
+Dialogue: 0,0:07:40.12,0:07:43.74,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Funny Clown is only for after his naps, not before or he won't sleep.{\r}
+Dialogue: 0,0:07:43.92,0:07:47.38,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}We've been through this before. We have a good time.{\r}
+Dialogue: 0,0:07:47.55,0:07:50.83,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}We laugh, we play. It's like we're father and son.{\r}
+Dialogue: 0,0:07:52.68,0:07:55.76,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Honey, relax. Ross is great with him.{\r}
+Dialogue: 0,0:07:55.93,0:07:59.84,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Don't look so surprised. I'm a lovely person.{\r}
+Dialogue: 0,0:08:01.31,0:08:03.72,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Oh, this is so cute.{\r}
+Dialogue: 0,0:08:04.15,0:08:05.51,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Ah, I got that for him!{\r}
+Dialogue: 0,0:08:05.69,0:08:07.35,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}"My Mommies Love Me."{\r}
+Dialogue: 0,0:08:10.99,0:08:12.40,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}That's clever.{\r}
+Dialogue: 0,0:08:14.11,0:08:15.23,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Hello?{\r}
+Dialogue: 0,0:08:15.41,0:08:17.11,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Oh, hi, Jul...{\r}
+Dialogue: 0,0:08:18.45,0:08:19.99,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Hi, Jew!{\r}
+Dialogue: 0,0:08:24.83,0:08:26.20,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Uh huh. Okay, um, sure.{\r}
+Dialogue: 0,0:08:26.38,0:08:29.37,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}That'd be great. See you then. Bye.{\r}
+Dialogue: 0,0:08:29.55,0:08:31.79,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Did you just say, "Hi, Jew"?{\r}
+Dialogue: 0,0:08:35.34,0:08:38.26,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Yes. Um, yes, I did.{\r}
+Dialogue: 0,0:08:38.43,0:08:40.64,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}That was my friend Eddie Moskowitz.{\r}
+Dialogue: 0,0:08:44.94,0:08:47.68,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Yeah, he likes it. Reaffirms his faith.{\r}
+Dialogue: 0,0:08:53.36,0:08:55.32,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Ben, dinner!{\r}
+Dialogue: 0,0:08:56.28,0:08:57.65,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Thanks, Aunt Pheebs.{\r}
+Dialogue: 0,0:08:57.91,0:09:01.45,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You didn't microwave that, did you? It's breast milk, you're not supposed to.{\r}
+Dialogue: 0,0:09:02.08,0:09:04.49,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Duh, I think I know how to heat breast milk. Heh.{\r}
+Dialogue: 0,0:09:06.42,0:09:08.03,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Okay.{\r}
+Dialogue: 0,0:09:08.21,0:09:10.45,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}What did you just do?{\r}
+Dialogue: 0,0:09:10.63,0:09:12.41,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I licked my arm, what?{\r}
+Dialogue: 0,0:09:12.59,0:09:14.92,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}It's breast milk!{\r}
+Dialogue: 0,0:09:15.09,0:09:16.33,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}So?{\r}
+Dialogue: 0,0:09:16.51,0:09:20.59,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Phoebe, that is juice squeezed from a person.{\r}
+Dialogue: 0,0:09:21.43,0:09:24.22,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- What is the big deal?     - No, no...{\r}
+Dialogue: 0,0:09:25.48,0:09:27.43,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}What did you just do?{\r}
+Dialogue: 0,0:09:29.48,0:09:32.89,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Can people stop drinking the breast milk?{\r}
+Dialogue: 0,0:09:34.40,0:09:37.31,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- You won't even taste it?     - No.{\r}
+Dialogue: 0,0:09:37.49,0:09:39.70,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Not even if you just pretend it's milk?{\r}
+Dialogue: 0,0:09:39.87,0:09:43.20,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Not even if Carol's breast had a picture of a missing child on it.{\r}
+Dialogue: 0,0:09:50.84,0:09:51.87,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Hey.     - Hi.{\r}
+Dialogue: 0,0:09:52.05,0:09:54.38,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Where is everybody?     - Took Ben to the park.{\r}
+Dialogue: 0,0:09:54.55,0:09:56.91,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Where have you been?     - Just out.{\r}
+Dialogue: 0,0:09:57.09,0:10:01.38,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Had some lunch. Just me. A little quality time with me.{\r}
+Dialogue: 0,0:10:02.01,0:10:05.13,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Hey, thanks for your jacket.     - Oh, no problem.{\r}
+Dialogue: 0,0:10:05.31,0:10:07.55,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- You can borrow it, by the way.     - Heh.{\r}
+Dialogue: 0,0:10:08.73,0:10:11.22,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Oh, here are your keys, honey.     - Thank you.{\r}
+Dialogue: 0,0:10:12.57,0:10:14.48,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Mon?     - Mm-hmm?{\r}
+Dialogue: 0,0:10:14.65,0:10:18.49,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}If, uh, you were at lunch alone, how come it cost you $53?{\r}
+Dialogue: 0,0:10:21.83,0:10:24.07,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You know what probably happened?{\r}
+Dialogue: 0,0:10:24.24,0:10:27.16,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Someone must have stolen my credit card.     - Ah.{\r}
+Dialogue: 0,0:10:28.00,0:10:30.33,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}And put the receipt back in your pocket?{\r}
+Dialogue: 0,0:10:31.96,0:10:34.79,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Huh. That is an excellent, excellent question.{\r}
+Dialogue: 0,0:10:35.21,0:10:36.67,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}That is excellent.{\r}
+Dialogue: 0,0:10:37.97,0:10:40.88,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}What's with you? Who did you have lunch with?{\r}
+Dialogue: 0,0:10:41.09,0:10:42.46,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Judy.     - Who?{\r}
+Dialogue: 0,0:10:42.64,0:10:45.13,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Julie. Jody?     - What?{\r}
+Dialogue: 0,0:10:46.81,0:10:50.52,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- You were with Julie?     - Mm. Look.{\r}
+Dialogue: 0,0:10:50.69,0:10:53.30,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}When it started, I was just trying to be nice to her...{\r}
+Dialogue: 0,0:10:53.48,0:10:56.35,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}because she was my brother's girlfriend.{\r}
+Dialogue: 0,0:10:56.53,0:10:59.73,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}And then one thing led to another...{\r}
+Dialogue: 0,0:10:59.90,0:11:02.77,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}and before I knew it, we were...{\r}
+Dialogue: 0,0:11:03.24,0:11:04.90,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- shopping.     - Aah.{\r}
+Dialogue: 0,0:11:09.66,0:11:11.33,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Oh, my God.{\r}
+Dialogue: 0,0:11:12.75,0:11:14.71,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Wait, we only did it once.{\r}
+Dialogue: 0,0:11:16.71,0:11:18.50,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}It didn't mean anything to me.{\r}
+Dialogue: 0,0:11:20.01,0:11:21.79,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Yeah, right. Sure.     - Really!{\r}
+Dialogue: 0,0:11:21.97,0:11:24.84,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Rachel, I was thinking of you the whole time.{\r}
+Dialogue: 0,0:11:27.85,0:11:32.09,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Look, I'm sorry, all right? I never meant for you to find out.{\r}
+Dialogue: 0,0:11:32.27,0:11:35.98,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Oh, please! Please! You wanted to get caught!{\r}
+Dialogue: 0,0:11:36.44,0:11:37.68,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}That is not true!{\r}
+Dialogue: 0,0:11:37.90,0:11:40.31,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}So you just happened to leave it in here?{\r}
+Dialogue: 0,0:11:41.40,0:11:45.11,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Did it ever occur to you that I might just be that stupid?{\r}
+Dialogue: 0,0:11:47.04,0:11:49.32,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Okay, Monica, I just have to know one thing.{\r}
+Dialogue: 0,0:11:53.12,0:11:55.16,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Did you go with her to Bloomingdale's?{\r}
+Dialogue: 0,0:12:05.09,0:12:07.96,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Okay. Okay.{\r}
+Dialogue: 0,0:12:09.18,0:12:13.22,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Okay, I just really, um... I just need to not be with you right now.{\r}
+Dialogue: 0,0:12:22.95,0:12:24.11,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Hi, who's this?{\r}
+Dialogue: 0,0:12:24.28,0:12:27.44,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Hi, Joanne. Is Rachel working? It's Monica.{\r}
+Dialogue: 0,0:12:28.53,0:12:30.82,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Yes, I know I did a horrible thing.{\r}
+Dialogue: 0,0:12:31.29,0:12:33.90,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Joanne, it's not as simple as all that, okay?{\r}
+Dialogue: 0,0:12:35.38,0:12:38.83,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}No, I don't care what Steve thinks. Hi, Steve.{\r}
+Dialogue: 0,0:12:42.38,0:12:44.17,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Hey!     - Hi!{\r}
+Dialogue: 0,0:12:44.72,0:12:45.92,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}How did we do?{\r}
+Dialogue: 0,0:12:46.09,0:12:48.80,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Oh, I tasted Ben's milk and Ross freaked out.{\r}
+Dialogue: 0,0:12:48.97,0:12:50.84,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I... I did not freak out.{\r}
+Dialogue: 0,0:12:51.02,0:12:54.13,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Why'd you freak out?     - Because it's breast milk.{\r}
+Dialogue: 0,0:12:55.27,0:12:56.93,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}It's gross!{\r}
+Dialogue: 0,0:12:57.11,0:12:58.64,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}My breast milk is gross?{\r}
+Dialogue: 0,0:13:00.53,0:13:02.48,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}This should be fun.{\r}
+Dialogue: 0,0:13:04.49,0:13:06.35,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}No, Carol. There's nothing wrong with it.{\r}
+Dialogue: 0,0:13:06.53,0:13:10.15,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I just don't think breast milk is for adults.{\r}
+Dialogue: 0,0:13:10.33,0:13:13.69,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Of course, the packaging does appeal to grownups and kids.{\r}
+Dialogue: 0,0:13:15.92,0:13:18.91,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Ross, you're being silly. I've tried it. It's no big deal.{\r}
+Dialogue: 0,0:13:19.09,0:13:21.54,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Come on, just taste it.     - Ha-ha-ha.{\r}
+Dialogue: 0,0:13:21.71,0:13:23.54,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}That would be no.{\r}
+Dialogue: 0,0:13:24.34,0:13:25.50,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Come on.     - Try it.{\r}
+Dialogue: 0,0:13:25.68,0:13:28.29,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- It's natural.     - It doesn't taste bad.{\r}
+Dialogue: 0,0:13:28.47,0:13:31.38,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Yeah, it tastes kind of sweet. Sort of like, uh...{\r}
+Dialogue: 0,0:13:31.56,0:13:33.67,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Like what?     - Cantaloupe juice.{\r}
+Dialogue: 0,0:13:33.85,0:13:35.39,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Exactly.{\r}
+Dialogue: 0,0:13:42.40,0:13:43.98,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You've tasted it.{\r}
+Dialogue: 0,0:13:44.61,0:13:46.19,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You've tasted it.{\r}
+Dialogue: 0,0:13:48.41,0:13:50.24,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Oh, you've tasted it.{\r}
+Dialogue: 0,0:13:52.41,0:13:55.37,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You can keep saying it, but it won't stop being true.{\r}
+Dialogue: 0,0:14:03.21,0:14:04.62,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Give me the bottle.{\r}
+Dialogue: 0,0:14:10.43,0:14:11.92,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Get me the towel.{\r}
+Dialogue: 0,0:14:35.04,0:14:36.07,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Howdy.{\r}
+Dialogue: 0,0:14:38.41,0:14:40.45,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Give me a box of juice.{\r}
+Dialogue: 0,0:14:42.84,0:14:45.12,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Well, they switched me over to Hombre.{\r}
+Dialogue: 0,0:14:45.55,0:14:48.38,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Maybe it's because of the way you're dressed.{\r}
+Dialogue: 0,0:14:49.76,0:14:53.50,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Or maybe this guy's doing so good they want to put more people on it.{\r}
+Dialogue: 0,0:14:54.06,0:14:56.97,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}This guy goes through two bottles a day now.{\r}
+Dialogue: 0,0:14:59.27,0:15:00.68,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}What do you care?{\r}
+Dialogue: 0,0:15:01.52,0:15:04.85,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You're an actor. This is your day job. Isn't supposed to mean anything.{\r}
+Dialogue: 0,0:15:05.07,0:15:07.56,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I know, but I was the best.{\r}
+Dialogue: 0,0:15:07.78,0:15:10.89,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You know? I liked being the best.{\r}
+Dialogue: 0,0:15:15.45,0:15:17.32,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Maybe I should get out of the game.{\r}
+Dialogue: 0,0:15:17.50,0:15:20.66,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}They need guys up in housewares to serve cheese.{\r}
+Dialogue: 0,0:15:21.54,0:15:22.70,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Say you do that.{\r}
+Dialogue: 0,0:15:22.88,0:15:26.96,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Sooner or later, somebody will come along that slices a better cheddar.{\r}
+Dialogue: 0,0:15:29.05,0:15:30.58,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}And then where you gonna run?{\r}
+Dialogue: 0,0:15:30.76,0:15:32.79,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- I guess you're right.     - Damn right I'm right.{\r}
+Dialogue: 0,0:15:32.97,0:15:35.51,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Show this guy what you're made of. Stand your ground.{\r}
+Dialogue: 0,0:15:35.68,0:15:40.17,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Show him that you're the baddest Hombre west of the lingerie!{\r}
+Dialogue: 0,0:15:40.94,0:15:42.97,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- I'm gonna do it!     - All right!{\r}
+Dialogue: 0,0:15:44.02,0:15:47.81,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Now, go see Miss Kitty and she'll fix you up with a nice hooker.{\r}
+Dialogue: 0,0:15:50.07,0:15:51.68,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I don't know what to say.{\r}
+Dialogue: 0,0:15:51.86,0:15:54.20,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}That works good because I'm not listening.{\r}
+Dialogue: 0,0:15:54.91,0:15:56.77,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I feel terrible. I really do.{\r}
+Dialogue: 0,0:15:56.95,0:15:59.19,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Oh, I'm sorry. Did my back hurt your knife?{\r}
+Dialogue: 0,0:16:00.04,0:16:01.62,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Rachel!{\r}
+Dialogue: 0,0:16:02.42,0:16:04.91,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Say that I'm friends with her. We spend time together.{\r}
+Dialogue: 0,0:16:05.08,0:16:07.17,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Is that so terrible?     - Yes.{\r}
+Dialogue: 0,0:16:07.34,0:16:09.92,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- It's that terrible?     - Yes, Monica! You don't get it.{\r}
+Dialogue: 0,0:16:10.09,0:16:11.80,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}It's bad enough she stole the guy...{\r}
+Dialogue: 0,0:16:12.05,0:16:14.54,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}who may be the person I'm supposed to be with.{\r}
+Dialogue: 0,0:16:15.01,0:16:16.05,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}But now...{\r}
+Dialogue: 0,0:16:17.43,0:16:18.92,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}she's actually...{\r}
+Dialogue: 0,0:16:19.81,0:16:22.55,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}But now she's actually stealing you!{\r}
+Dialogue: 0,0:16:24.56,0:16:25.97,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Me?{\r}
+Dialogue: 0,0:16:26.15,0:16:28.10,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}What are you talking about?{\r}
+Dialogue: 0,0:16:28.27,0:16:30.73,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Nobody could steal me from you.{\r}
+Dialogue: 0,0:16:30.94,0:16:34.40,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Because I'm friends with her doesn't make me any less friends with you.{\r}
+Dialogue: 0,0:16:35.24,0:16:36.60,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Honey.{\r}
+Dialogue: 0,0:16:36.78,0:16:39.07,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I mean, you're my...{\r}
+Dialogue: 0,0:16:39.79,0:16:41.95,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}And we're...{\r}
+Dialogue: 0,0:16:44.42,0:16:47.33,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Oh, I love you!     - I love you too!{\r}
+Dialogue: 0,0:16:51.71,0:16:55.80,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You guys, um, I know that this really doesn't have anything to do with me.{\r}
+Dialogue: 0,0:16:55.97,0:16:58.51,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}But, um, I love you guys too!{\r}
+Dialogue: 0,0:17:04.81,0:17:06.64,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Ugh, I really needed that.{\r}
+Dialogue: 0,0:17:08.48,0:17:10.52,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Look, I know you're in a place right now...{\r}
+Dialogue: 0,0:17:10.69,0:17:13.27,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}where you really need to hate Julie's guts.{\r}
+Dialogue: 0,0:17:13.49,0:17:16.32,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}But she didn't do anything wrong.{\r}
+Dialogue: 0,0:17:16.95,0:17:20.94,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}She's just a girl who met a guy, and now they go out.{\r}
+Dialogue: 0,0:17:21.62,0:17:24.61,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I think that if you gave her a chance, you'd like her.{\r}
+Dialogue: 0,0:17:27.17,0:17:28.78,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Will you give that a chance?{\r}
+Dialogue: 0,0:17:29.67,0:17:30.91,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}For me?{\r}
+Dialogue: 0,0:17:33.26,0:17:35.37,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I'd do anything for you, you know that.{\r}
+Dialogue: 0,0:17:35.80,0:17:37.92,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I'd do anything for you!{\r}
+Dialogue: 0,0:17:39.35,0:17:41.55,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Wait, wait, wait, wait!{\r}
+Dialogue: 0,0:17:59.74,0:18:01.28,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Morning.{\r}
+Dialogue: 0,0:18:03.12,0:18:05.86,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Heh. I said, morning.{\r}
+Dialogue: 0,0:18:07.29,0:18:08.53,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I heard you.{\r}
+Dialogue: 0,0:18:10.04,0:18:13.28,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}All right, everybody. I'm opening the doors.{\r}
+Dialogue: 0,0:18:13.46,0:18:14.75,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You boys ready?{\r}
+Dialogue: 0,0:18:20.26,0:18:21.59,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Ready.{\r}
+Dialogue: 0,0:18:21.76,0:18:23.22,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Yeah, I'm ready.{\r}
+Dialogue: 0,0:19:09.89,0:19:12.26,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You idiot! You stupid cowboy!{\r}
+Dialogue: 0,0:19:12.44,0:19:14.65,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}You've blinded me! I'm suing!{\r}
+Dialogue: 0,0:19:14.82,0:19:18.52,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Oh, my God! Todd! What the hell did you do?{\r}
+Dialogue: 0,0:19:18.69,0:19:20.53,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I'm sorry. I'm such a doofus!{\r}
+Dialogue: 0,0:19:20.78,0:19:23.07,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I'm so sorry. I'm so sorry.{\r}
+Dialogue: 0,0:19:24.24,0:19:26.07,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}My God, what happened?{\r}
+Dialogue: 0,0:19:26.95,0:19:29.44,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Eh, these new kids, they never last.{\r}
+Dialogue: 0,0:19:29.62,0:19:31.99,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Sooner or later they all...{\r}
+Dialogue: 0,0:19:32.63,0:19:34.41,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}stop lasting.{\r}
+Dialogue: 0,0:19:35.54,0:19:39.16,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Listen, uh, what do you say I buy you that cup of coffee now?{\r}
+Dialogue: 0,0:19:39.55,0:19:40.91,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Sure.{\r}
+Dialogue: 0,0:19:53.27,0:19:55.98,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- So.     - So.{\r}
+Dialogue: 0,0:19:59.82,0:20:02.23,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I just thought the two of us should hang out a bit.{\r}
+Dialogue: 0,0:20:02.41,0:20:05.19,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I mean, you know, we've never really talked.{\r}
+Dialogue: 0,0:20:05.37,0:20:08.61,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I guess you'd know that, being one of the two of us. Ha, ha, right?{\r}
+Dialogue: 0,0:20:08.79,0:20:10.78,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- I know.     - Mm.{\r}
+Dialogue: 0,0:20:10.96,0:20:14.29,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I probably shouldn't even tell you this...{\r}
+Dialogue: 0,0:20:14.50,0:20:17.62,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}...but I'm pretty much totally intimidated by you.{\r}
+Dialogue: 0,0:20:18.67,0:20:21.13,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Really? Me?{\r}
+Dialogue: 0,0:20:21.30,0:20:23.16,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Oh, my God, are you kidding?{\r}
+Dialogue: 0,0:20:23.34,0:20:25.17,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Ross is so crazy about you...{\r}
+Dialogue: 0,0:20:25.34,0:20:28.59,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}and I really wanted you to like me, and I...{\r}
+Dialogue: 0,0:20:28.76,0:20:31.60,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}It's probably me just being totally paranoid...{\r}
+Dialogue: 0,0:20:31.81,0:20:35.30,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}but I kind of got the feeling that maybe you don't.{\r}
+Dialogue: 0,0:20:42.07,0:20:43.78,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Well...{\r}
+Dialogue: 0,0:20:44.61,0:20:46.48,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}you're not totally paranoid.{\r}
+Dialogue: 0,0:20:52.12,0:20:53.24,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Okay. Um...{\r}
+Dialogue: 0,0:20:55.62,0:20:57.03,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- God. Um...     - Heh.{\r}
+Dialogue: 0,0:20:59.13,0:21:02.59,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}When you and, uh, Ross first started going out...{\r}
+Dialogue: 0,0:21:02.76,0:21:06.22,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}it was really hard for me, um...{\r}
+Dialogue: 0,0:21:07.09,0:21:12.43,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}for many reasons of which I'm not gonna bore you with now, but, um...{\r}
+Dialogue: 0,0:21:16.15,0:21:20.64,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}I see how happy he is and how good you guys are together.{\r}
+Dialogue: 0,0:21:21.86,0:21:25.85,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}And, um, Monica's always saying how nice you are...{\r}
+Dialogue: 0,0:21:26.03,0:21:28.36,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}and God, I hate it when she's right.{\r}
+Dialogue: 0,0:21:30.45,0:21:32.28,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Thanks.     - Yeah.{\r}
+Dialogue: 0,0:21:32.45,0:21:36.16,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}Listen. Would you like to go to a movie sometime or something?{\r}
+Dialogue: 0,0:21:36.33,0:21:39.29,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Yeah, that'd be great. I'd love it.     - Yeah?{\r}
+Dialogue: 0,0:21:39.46,0:21:41.95,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- I'd love it too. Okay.     - Okay.{\r}
+Dialogue: 0,0:21:42.13,0:21:43.71,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Oh, shoot, I gotta go.     - Okay.{\r}
+Dialogue: 0,0:21:43.88,0:21:46.00,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- So I'll talk to you later.     - All right, Julie.{\r}
+Dialogue: 0,0:21:46.18,0:21:47.84,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}- Bye.     - Bye.{\r}
+Dialogue: 0,0:21:55.52,0:21:57.98,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}What a manipulative bitch.{\r}
+Dialogue: 0,0:22:29.13,0:22:30.80,Default,,0000,0000,0000,,{\blur3\fnCronos Pro Subhead\fs16\1c&H3CF1F3&}It's not bad.{\r}

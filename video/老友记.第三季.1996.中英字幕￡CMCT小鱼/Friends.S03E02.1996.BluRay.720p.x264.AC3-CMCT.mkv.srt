@@ -1,0 +1,414 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: eng,Cronos Pro Subhead,18,&H003CF1F3,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,0,0,8,1
+Style: eng&chs,Cronos Pro Subhead,18,&H003CF1F3,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,0,0,2,1
+Style: chs&eng,STKaiti,20,&H00F5F5F5,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,0,0,2,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:02.16,0:00:04.50,eng,,0000,0000,0000,,{\blur3}All right, they got water, orange juice...{\r}
+Dialogue: 0,0:00:04.87,0:00:07.25,eng,,0000,0000,0000,,{\blur3}...and what looks like cider.{\r}
+Dialogue: 0,0:00:07.75,0:00:08.79,eng,,0000,0000,0000,,{\blur3}Taste it.{\r}
+Dialogue: 0,0:00:13.93,0:00:14.93,eng,,0000,0000,0000,,{\blur3}Yeah, it's fat.{\r}
+Dialogue: 0,0:00:15.18,0:00:16.47,eng,,0000,0000,0000,,{\blur3}I drank fat!{\r}
+Dialogue: 0,0:00:18.22,0:00:20.26,eng,,0000,0000,0000,,{\blur3}I know, I did that two minutes ago.{\r}
+Dialogue: 0,0:00:22.89,0:00:23.93,eng,,0000,0000,0000,,{\blur3}Hey.{\r}
+Dialogue: 0,0:00:24.14,0:00:25.60,eng,,0000,0000,0000,,{\blur3}Hey, Mr. Tux.{\r}
+Dialogue: 0,0:00:26.10,0:00:28.44,eng,,0000,0000,0000,,{\blur3}- Why aren't you dressed?     - We have a half-hour.{\r}
+Dialogue: 0,0:00:28.69,0:00:31.82,eng,,0000,0000,0000,,{\blur3}That was four minutes ago. We have to be out the door at 20 to 8.{\r}
+Dialogue: 0,0:00:32.07,0:00:35.57,eng,,0000,0000,0000,,{\blur3}Relax, we'll be ready. It takes us two minutes to get dressed.{\r}
+Dialogue: 0,0:00:35.82,0:00:37.99,eng,,0000,0000,0000,,{\blur3}I'd feel better if you got dressed now.{\r}
+Dialogue: 0,0:00:38.49,0:00:39.91,eng,,0000,0000,0000,,{\blur3}- Okay.     - Okay.{\r}
+Dialogue: 0,0:00:42.66,0:00:43.70,eng,,0000,0000,0000,,{\blur3}Hey!{\r}
+Dialogue: 0,0:00:43.87,0:00:45.79,eng,,0000,0000,0000,,{\blur3}Oh, look at you, all sexy.{\r}
+Dialogue: 0,0:00:46.04,0:00:47.08,eng,,0000,0000,0000,,{\blur3}Really?{\r}
+Dialogue: 0,0:00:50.92,0:00:52.05,eng,,0000,0000,0000,,{\blur3}- Hi.     - Hi.{\r}
+Dialogue: 0,0:00:52.30,0:00:57.18,eng,,0000,0000,0000,,{\blur3}- How come you didn't come over earlier?     - Because I'm a stupid, stupid man.{\r}
+Dialogue: 0,0:00:58.72,0:01:00.47,eng,,0000,0000,0000,,{\blur3}Hey, Ross, want some cider?{\r}
+Dialogue: 0,0:01:00.72,0:01:01.76,eng,,0000,0000,0000,,{\blur3}No.{\r}
+Dialogue: 0,0:01:03.14,0:01:04.89,eng,,0000,0000,0000,,{\blur3}So you're pretty close, huh?{\r}
+Dialogue: 0,0:01:05.10,0:01:06.94,eng,,0000,0000,0000,,{\blur3}Makeup's on. Hair's done.{\r}
+Dialogue: 0,0:01:07.19,0:01:08.56,eng,,0000,0000,0000,,{\blur3}I just have to get dressed.{\r}
+Dialogue: 0,0:01:08.81,0:01:11.61,eng,,0000,0000,0000,,{\blur3}And that takes, what? Just 6 or 7 minutes?{\r}
+Dialogue: 0,0:01:11.86,0:01:14.23,eng,,0000,0000,0000,,{\blur3}Yeah. Once I figure out what I'm wearing.{\r}
+Dialogue: 0,0:01:17.03,0:01:18.20,eng,,0000,0000,0000,,{\blur3}Glass of fat?{\r}
+Dialogue: 0,0:01:24.60,0:01:29.10,eng,,0000,0000,0000,,{\blur3}# So no one told you life was gonna be this way #{\r}
+Dialogue: 0,0:01:29.67,0:01:33.84,eng,,0000,0000,0000,,{\blur3}# Your job's a joke, you're broke, your love life's D.O.A. #{\r}
+Dialogue: 0,0:01:34.75,0:01:38.56,eng,,0000,0000,0000,,{\blur3}# It's like you're always stuck in second gear #{\r}
+Dialogue: 0,0:01:39.02,0:01:41.12,eng,,0000,0000,0000,,{\blur3}# When it hasn't been your day, #{\r}
+Dialogue: 0,0:01:41.12,0:01:44.12,eng,,0000,0000,0000,,{\blur3}# your week, your month, or even your year #{\r}
+Dialogue: 0,0:01:44.12,0:01:48.08,eng,,0000,0000,0000,,{\blur3}# but I'll be there for you #{\r}
+Dialogue: 0,0:01:48.08,0:01:49.91,eng,,0000,0000,0000,,{\blur3}# When the rain starts to pour #{\r}
+Dialogue: 0,0:01:49.91,0:01:53.03,eng,,0000,0000,0000,,{\blur3}# I'll be there for you #{\r}
+Dialogue: 0,0:01:53.03,0:01:54.87,eng,,0000,0000,0000,,{\blur3}# Like I've been there before #{\r}
+Dialogue: 0,0:01:54.87,0:01:57.88,eng,,0000,0000,0000,,{\blur3}# I'll be there for you #{\r}
+Dialogue: 0,0:01:57.88,0:02:01.54,eng,,0000,0000,0000,,{\blur3}# 'Cause you're there for me too #{\r}
+Dialogue: 0,0:02:08.16,0:02:11.04,eng,,0000,0000,0000,,{\blur3}What's the matter? You nervous about your speech?{\r}
+Dialogue: 0,0:02:11.29,0:02:12.67,eng,,0000,0000,0000,,{\blur3}Nope.{\r}
+Dialogue: 0,0:02:14.21,0:02:16.13,eng,,0000,0000,0000,,{\blur3}- You wanna hear it?     - Am I in it?{\r}
+Dialogue: 0,0:02:21.05,0:02:23.97,eng,,0000,0000,0000,,{\blur3}After I thank everyone for donating to the museum...{\r}
+Dialogue: 0,0:02:24.22,0:02:26.97,eng,,0000,0000,0000,,{\blur3}...I sing a song about the wonder that is Joey.{\r}
+Dialogue: 0,0:02:28.81,0:02:29.85,eng,,0000,0000,0000,,{\blur3}- Hello.     - Hey.{\r}
+Dialogue: 0,0:02:31.23,0:02:32.69,eng,,0000,0000,0000,,{\blur3}Hello! You look great!{\r}
+Dialogue: 0,0:02:32.94,0:02:35.07,eng,,0000,0000,0000,,{\blur3}Thank you. I know, though.{\r}
+Dialogue: 0,0:02:36.69,0:02:40.53,eng,,0000,0000,0000,,{\blur3}You see this? This is a person who is ready to go.{\r}
+Dialogue: 0,0:02:40.74,0:02:41.95,eng,,0000,0000,0000,,{\blur3}Phoebe, you...{\r}
+Dialogue: 0,0:02:42.45,0:02:43.57,eng,,0000,0000,0000,,{\blur3}You are my star.{\r}
+Dialogue: 0,0:02:43.91,0:02:46.91,eng,,0000,0000,0000,,{\blur3}Aw. Well, you're my lucky penny.{\r}
+Dialogue: 0,0:02:49.87,0:02:55.00,eng,,0000,0000,0000,,{\blur3}All right, I took the quiz, and it turns out I do put career before men.{\r}
+Dialogue: 0,0:02:57.76,0:02:58.80,eng,,0000,0000,0000,,{\blur3}Get up.{\r}
+Dialogue: 0,0:02:59.22,0:03:00.26,eng,,0000,0000,0000,,{\blur3}What?{\r}
+Dialogue: 0,0:03:00.68,0:03:03.22,eng,,0000,0000,0000,,{\blur3}- You're in my seat.     - How is this your seat?{\r}
+Dialogue: 0,0:03:06.68,0:03:07.93,eng,,0000,0000,0000,,{\blur3}I was sitting there.{\r}
+Dialogue: 0,0:03:08.10,0:03:09.60,eng,,0000,0000,0000,,{\blur3}But then you left.{\r}
+Dialogue: 0,0:03:10.19,0:03:12.73,eng,,0000,0000,0000,,{\blur3}Well, it's not like I went to Spain.{\r}
+Dialogue: 0,0:03:13.56,0:03:15.90,eng,,0000,0000,0000,,{\blur3}I went to the bathroom. You knew I'd be back.{\r}
+Dialogue: 0,0:03:16.11,0:03:17.94,eng,,0000,0000,0000,,{\blur3}What's the big deal? Sit somewhere else!{\r}
+Dialogue: 0,0:03:18.11,0:03:21.70,eng,,0000,0000,0000,,{\blur3}The "big deal" is, I was sitting there last! So...{\r}
+Dialogue: 0,0:03:21.95,0:03:23.24,eng,,0000,0000,0000,,{\blur3}...it's my seat.{\r}
+Dialogue: 0,0:03:23.78,0:03:27.95,eng,,0000,0000,0000,,{\blur3}Well, actually, the last place you were sitting was in there, so...{\r}
+Dialogue: 0,0:03:28.45,0:03:31.00,eng,,0000,0000,0000,,{\blur3}You guys, you know what? It doesn't matter.{\r}
+Dialogue: 0,0:03:31.25,0:03:35.79,eng,,0000,0000,0000,,{\blur3}You both have to go get dressed before the big vein in my head pops.{\r}
+Dialogue: 0,0:03:36.04,0:03:38.80,eng,,0000,0000,0000,,{\blur3}I just have to do one thing. It's not a big deal.{\r}
+Dialogue: 0,0:03:39.09,0:03:40.21,eng,,0000,0000,0000,,{\blur3}Get up!{\r}
+Dialogue: 0,0:03:42.01,0:03:43.05,eng,,0000,0000,0000,,{\blur3}- Hi.     - Hey.{\r}
+Dialogue: 0,0:03:43.26,0:03:45.51,eng,,0000,0000,0000,,{\blur3}Ooh. Phoebe, you look great!{\r}
+Dialogue: 0,0:03:46.14,0:03:47.97,eng,,0000,0000,0000,,{\blur3}All right already.{\r}
+Dialogue: 0,0:03:48.89,0:03:50.77,eng,,0000,0000,0000,,{\blur3}Ooh. Are you gonna do magic?{\r}
+Dialogue: 0,0:03:53.27,0:03:55.06,eng,,0000,0000,0000,,{\blur3}That's funny. Change.{\r}
+Dialogue: 0,0:03:55.27,0:03:57.15,eng,,0000,0000,0000,,{\blur3}- Hang on, I just got in.     - I don't care.{\r}
+Dialogue: 0,0:03:57.44,0:03:59.23,eng,,0000,0000,0000,,{\blur3}It starts at 8. We can't be late.{\r}
+Dialogue: 0,0:03:59.48,0:04:02.32,eng,,0000,0000,0000,,{\blur3}"He could not, would not, want to wait."{\r}
+Dialogue: 0,0:04:03.07,0:04:05.82,eng,,0000,0000,0000,,{\blur3}Our table is down in front. My boss will be there.{\r}
+Dialogue: 0,0:04:06.07,0:04:08.45,eng,,0000,0000,0000,,{\blur3}Everyone will see if we arrive after it starts.{\r}
+Dialogue: 0,0:04:08.66,0:04:10.66,eng,,0000,0000,0000,,{\blur3}Has somebody been drinking my fat?{\r}
+Dialogue: 0,0:04:12.25,0:04:16.00,eng,,0000,0000,0000,,{\blur3}Does this look like something a paleontologist's girlfriend would wear?{\r}
+Dialogue: 0,0:04:16.25,0:04:18.84,eng,,0000,0000,0000,,{\blur3}I don't know. You might be the first one.{\r}
+Dialogue: 0,0:04:20.13,0:04:22.34,eng,,0000,0000,0000,,{\blur3}- Rach, did you check the machine?     - No.{\r}
+Dialogue: 0,0:04:22.76,0:04:26.68,eng,,0000,0000,0000,,{\blur3}Wait. This is the outfit that makes my calves look fat. Never mind.{\r}
+Dialogue: 0,0:04:30.56,0:04:33.43,eng,,0000,0000,0000,,{\blur3}Well, Joey, I wrote a little song today.{\r}
+Dialogue: 0,0:04:33.85,0:04:35.19,eng,,0000,0000,0000,,{\blur3}It's called, "Get up!"{\r}
+Dialogue: 0,0:04:36.44,0:04:39.11,eng,,0000,0000,0000,,{\blur3}All right. You can have the chair.{\r}
+Dialogue: 0,0:04:39.32,0:04:42.53,eng,,0000,0000,0000,,{\blur3}- Really?     - Oh, my. Would you look at that?{\r}
+Dialogue: 0,0:04:46.66,0:04:48.16,eng,,0000,0000,0000,,{\blur3}I'm coming over.{\r}
+Dialogue: 0,0:04:48.37,0:04:50.99,eng,,0000,0000,0000,,{\blur3}What if I'm already there when you play this message?{\r}
+Dialogue: 0,0:04:51.20,0:04:53.12,eng,,0000,0000,0000,,{\blur3}Is that too spooky?{\r}
+Dialogue: 0,0:04:55.16,0:04:57.67,eng,,0000,0000,0000,,{\blur3}Hi, Rach, are you there? It's me. Pick up.{\r}
+Dialogue: 0,0:04:58.13,0:04:59.88,eng,,0000,0000,0000,,{\blur3}Rachel? Rach?{\r}
+Dialogue: 0,0:05:00.38,0:05:01.63,eng,,0000,0000,0000,,{\blur3}What?{\r}
+Dialogue: 0,0:05:03.13,0:05:04.17,eng,,0000,0000,0000,,{\blur3}Never mind.{\r}
+Dialogue: 0,0:05:06.55,0:05:09.05,eng,,0000,0000,0000,,{\blur3}Monica, it's Richard. Call me.{\r}
+Dialogue: 0,0:05:12.72,0:05:14.22,eng,,0000,0000,0000,,{\blur3}Is that message old or new?{\r}
+Dialogue: 0,0:05:15.73,0:05:17.35,eng,,0000,0000,0000,,{\blur3}Old or new? Old or new?{\r}
+Dialogue: 0,0:05:17.60,0:05:20.40,eng,,0000,0000,0000,,{\blur3}It's definitely old. Didn't you hear the double beep?{\r}
+Dialogue: 0,0:05:20.69,0:05:23.07,eng,,0000,0000,0000,,{\blur3}What if it's new? We agreed not to talk.{\r}
+Dialogue: 0,0:05:23.23,0:05:26.07,eng,,0000,0000,0000,,{\blur3}It could be important. Shouldn't I call him back?{\r}
+Dialogue: 0,0:05:26.32,0:05:28.70,eng,,0000,0000,0000,,{\blur3}Honey, you did call him back. It's old.{\r}
+Dialogue: 0,0:05:28.91,0:05:30.99,eng,,0000,0000,0000,,{\blur3}Yeah, see, Mon, listen. Listen.{\r}
+Dialogue: 0,0:05:31.20,0:05:33.33,eng,,0000,0000,0000,,{\blur3}When Carol and I broke up...{\r}
+Dialogue: 0,0:05:33.58,0:05:36.62,eng,,0000,0000,0000,,{\blur3}...I went through the same thing. You know what I did?{\r}
+Dialogue: 0,0:05:36.83,0:05:38.83,eng,,0000,0000,0000,,{\blur3}I got dressed.{\r}
+Dialogue: 0,0:05:41.42,0:05:44.34,eng,,0000,0000,0000,,{\blur3}Really, really quickly, okay? Okay?{\r}
+Dialogue: 0,0:05:44.55,0:05:46.59,eng,,0000,0000,0000,,{\blur3}There we go. There we go.{\r}
+Dialogue: 0,0:05:47.34,0:05:49.76,eng,,0000,0000,0000,,{\blur3}You know what? Don't get up. Just sit there.{\r}
+Dialogue: 0,0:05:50.05,0:05:53.10,eng,,0000,0000,0000,,{\blur3}I just hope you don't mind my hand right here.{\r}
+Dialogue: 0,0:05:54.39,0:05:57.73,eng,,0000,0000,0000,,{\blur3}Not touching. Can't get mad! Not touching. Can't get mad!{\r}
+Dialogue: 0,0:05:57.94,0:06:00.10,eng,,0000,0000,0000,,{\blur3}Not touching. Can't get mad!{\r}
+Dialogue: 0,0:06:00.36,0:06:02.73,eng,,0000,0000,0000,,{\blur3}Oh! Oh, my God!{\r}
+Dialogue: 0,0:06:03.19,0:06:04.61,eng,,0000,0000,0000,,{\blur3}You rotten boys!{\r}
+Dialogue: 0,0:06:05.78,0:06:08.03,eng,,0000,0000,0000,,{\blur3}- Sorry, Phoebe.     - What am I gonna do?{\r}
+Dialogue: 0,0:06:08.28,0:06:10.11,eng,,0000,0000,0000,,{\blur3}Don't rub it! What gets out hummus?{\r}
+Dialogue: 0,0:06:10.37,0:06:12.03,eng,,0000,0000,0000,,{\blur3}What gets out hummus?{\r}
+Dialogue: 0,0:06:12.53,0:06:14.58,eng,,0000,0000,0000,,{\blur3}Monica! What gets out hummus?{\r}
+Dialogue: 0,0:06:15.62,0:06:18.96,eng,,0000,0000,0000,,{\blur3}If it is a new message, what is he calling to say?{\r}
+Dialogue: 0,0:06:19.79,0:06:22.04,eng,,0000,0000,0000,,{\blur3}Okay, thanks. Yeah, I'll try that.{\r}
+Dialogue: 0,0:06:23.63,0:06:25.80,eng,,0000,0000,0000,,{\blur3}Maybe he called to say you're obsessive and crazy?{\r}
+Dialogue: 0,0:06:26.09,0:06:28.30,eng,,0000,0000,0000,,{\blur3}- So should I call him back?     - No!{\r}
+Dialogue: 0,0:06:29.68,0:06:30.72,eng,,0000,0000,0000,,{\blur3}No!{\r}
+Dialogue: 0,0:06:32.80,0:06:35.81,eng,,0000,0000,0000,,{\blur3}- Fine, we'll both sit in the chair.     - Fine with me.{\r}
+Dialogue: 0,0:06:39.69,0:06:42.06,eng,,0000,0000,0000,,{\blur3}I am so comfortable.{\r}
+Dialogue: 0,0:06:43.31,0:06:44.31,eng,,0000,0000,0000,,{\blur3}Me too.{\r}
+Dialogue: 0,0:06:44.65,0:06:48.19,eng,,0000,0000,0000,,{\blur3}In fact, I think I might be a little too comfortable.{\r}
+Dialogue: 0,0:06:52.32,0:06:55.91,eng,,0000,0000,0000,,{\blur3}Okay, we have 19 minutes. I want you to go and change.{\r}
+Dialogue: 0,0:06:56.16,0:07:00.33,eng,,0000,0000,0000,,{\blur3}When you come back, Joey will go change, and he'll have vacated the chair.{\r}
+Dialogue: 0,0:07:00.75,0:07:01.83,eng,,0000,0000,0000,,{\blur3}- Okay.     - All right.{\r}
+Dialogue: 0,0:07:02.08,0:07:03.63,eng,,0000,0000,0000,,{\blur3}Fine. I'm going.{\r}
+Dialogue: 0,0:07:03.84,0:07:07.42,eng,,0000,0000,0000,,{\blur3}When I get back, it's Chair City. And I'm the guy...{\r}
+Dialogue: 0,0:07:07.63,0:07:09.34,eng,,0000,0000,0000,,{\blur3}...who's sitting in a chair!{\r}
+Dialogue: 0,0:07:11.47,0:07:12.80,eng,,0000,0000,0000,,{\blur3}Is this a little too...?{\r}
+Dialogue: 0,0:07:13.01,0:07:15.01,eng,,0000,0000,0000,,{\blur3}Pheebs? What happened?{\r}
+Dialogue: 0,0:07:15.26,0:07:16.51,eng,,0000,0000,0000,,{\blur3}I got the hummus.{\r}
+Dialogue: 0,0:07:16.81,0:07:20.77,eng,,0000,0000,0000,,{\blur3}Oh, honey, we'll find you something. You wanna wear my black jacket?{\r}
+Dialogue: 0,0:07:20.98,0:07:23.19,eng,,0000,0000,0000,,{\blur3}- It won't go with this dress.     - You're right.{\r}
+Dialogue: 0,0:07:23.44,0:07:27.82,eng,,0000,0000,0000,,{\blur3}- Well, let's just get you out of that.     - No, no, no. Not out of that.{\r}
+Dialogue: 0,0:07:28.03,0:07:30.94,eng,,0000,0000,0000,,{\blur3}- Not out of clothes.     - Can Phoebe borrow your green dress?{\r}
+Dialogue: 0,0:07:31.11,0:07:32.15,eng,,0000,0000,0000,,{\blur3}I called him.{\r}
+Dialogue: 0,0:07:33.61,0:07:36.74,eng,,0000,0000,0000,,{\blur3}Yes. I got his machine and I left a message.{\r}
+Dialogue: 0,0:07:36.99,0:07:38.45,eng,,0000,0000,0000,,{\blur3}But it's okay. It's okay...{\r}
+Dialogue: 0,0:07:38.70,0:07:41.87,eng,,0000,0000,0000,,{\blur3}...because it was, like, a casual, breezy message.{\r}
+Dialogue: 0,0:07:42.12,0:07:43.17,eng,,0000,0000,0000,,{\blur3}It was breezy.{\r}
+Dialogue: 0,0:07:44.04,0:07:45.96,eng,,0000,0000,0000,,{\blur3}Oh, God, what if it wasn't breezy?{\r}
+Dialogue: 0,0:07:46.17,0:07:50.55,eng,,0000,0000,0000,,{\blur3}How could it not be breezy? No, because you're in such a breezy place.{\r}
+Dialogue: 0,0:07:51.30,0:07:55.51,eng,,0000,0000,0000,,{\blur3}I got it. I'll play my message, and you guys tell me if it's breezy enough.{\r}
+Dialogue: 0,0:07:55.72,0:07:57.80,eng,,0000,0000,0000,,{\blur3}But how you gonna do that?{\r}
+Dialogue: 0,0:07:58.39,0:08:00.89,eng,,0000,0000,0000,,{\blur3}I know the code to his answering machine.{\r}
+Dialogue: 0,0:08:01.14,0:08:03.69,eng,,0000,0000,0000,,{\blur3}Okay, Mon, I really don't think this is the...{\r}
+Dialogue: 0,0:08:03.90,0:08:06.65,eng,,0000,0000,0000,,{\blur3}Okay, you're dialing. You are dialing.{\r}
+Dialogue: 0,0:08:16.82,0:08:19.53,eng,,0000,0000,0000,,{\blur3}Hi, this is Richard. Please leave a message at the tone.{\r}
+Dialogue: 0,0:08:21.87,0:08:23.58,eng,,0000,0000,0000,,{\blur3}You have two new messages.{\r}
+Dialogue: 0,0:08:24.04,0:08:25.42,eng,,0000,0000,0000,,{\blur3}What a cool job.{\r}
+Dialogue: 0,0:08:25.71,0:08:27.67,eng,,0000,0000,0000,,{\blur3}"You have two new messages."{\r}
+Dialogue: 0,0:08:29.55,0:08:31.84,eng,,0000,0000,0000,,{\blur3}Please pass the pie.{\r}
+Dialogue: 0,0:08:34.18,0:08:36.80,eng,,0000,0000,0000,,{\blur3}Hi, it's Monica. I'm just checking in.{\r}
+Dialogue: 0,0:08:37.01,0:08:40.26,eng,,0000,0000,0000,,{\blur3}I got a message and didn't know if it was old or new...{\r}
+Dialogue: 0,0:08:40.52,0:08:42.52,eng,,0000,0000,0000,,{\blur3}...so I'm just checking.{\r}
+Dialogue: 0,0:08:42.73,0:08:44.35,eng,,0000,0000,0000,,{\blur3}So let me know.{\r}
+Dialogue: 0,0:08:44.60,0:08:45.94,eng,,0000,0000,0000,,{\blur3}Or don't. Whatever.{\r}
+Dialogue: 0,0:08:46.23,0:08:47.77,eng,,0000,0000,0000,,{\blur3}I'm breezy!{\r}
+Dialogue: 0,0:08:49.19,0:08:52.61,eng,,0000,0000,0000,,{\blur3}You can't say you're "breezy." That negates the "breezy."{\r}
+Dialogue: 0,0:08:54.90,0:08:57.86,eng,,0000,0000,0000,,{\blur3}Hola. It's me. Yesterday was really fun.{\r}
+Dialogue: 0,0:08:58.57,0:09:00.83,eng,,0000,0000,0000,,{\blur3}Call me about this weekend, okay?{\r}
+Dialogue: 0,0:09:04.12,0:09:05.75,eng,,0000,0000,0000,,{\blur3}Now, she sounded breezy.{\r}
+Dialogue: 0,0:09:09.46,0:09:13.13,eng,,0000,0000,0000,,{\blur3}He's seeing someone. I can't believe he's seeing someone.{\r}
+Dialogue: 0,0:09:13.38,0:09:15.97,eng,,0000,0000,0000,,{\blur3}- You don't know that.     - Well, whose voice was that?{\r}
+Dialogue: 0,0:09:16.13,0:09:19.14,eng,,0000,0000,0000,,{\blur3}Maybe it was his sister's. Maybe it was his daughter's.{\r}
+Dialogue: 0,0:09:20.51,0:09:23.81,eng,,0000,0000,0000,,{\blur3}Michelle. Of course! Did it sound like Michelle?{\r}
+Dialogue: 0,0:09:24.48,0:09:28.48,eng,,0000,0000,0000,,{\blur3}Oh, great. It's starting to rain. That'll make it easier to get a cab.{\r}
+Dialogue: 0,0:09:29.48,0:09:30.48,eng,,0000,0000,0000,,{\blur3}It was Michelle.{\r}
+Dialogue: 0,0:09:30.69,0:09:32.40,eng,,0000,0000,0000,,{\blur3}It was definitely Michelle.{\r}
+Dialogue: 0,0:09:32.65,0:09:36.82,eng,,0000,0000,0000,,{\blur3}Try Monica's green dress. If it doesn't fit, wear my gray silk one.{\r}
+Dialogue: 0,0:09:37.11,0:09:39.66,eng,,0000,0000,0000,,{\blur3}- Unless I wear it.     - You don't know what you're wearing?{\r}
+Dialogue: 0,0:09:39.87,0:09:42.49,eng,,0000,0000,0000,,{\blur3}I'm just trying to look nice for your big night.{\r}
+Dialogue: 0,0:09:42.70,0:09:45.37,eng,,0000,0000,0000,,{\blur3}Yeah, which we have to leave for in 12 minutes.{\r}
+Dialogue: 0,0:09:45.66,0:09:48.37,eng,,0000,0000,0000,,{\blur3}Come on, I'll just pick something out for you.{\r}
+Dialogue: 0,0:09:48.67,0:09:50.88,eng,,0000,0000,0000,,{\blur3}You'll notice that I'm fully dressed.{\r}
+Dialogue: 0,0:09:51.17,0:09:54.50,eng,,0000,0000,0000,,{\blur3}I, in turn, have noticed that you are not.{\r}
+Dialogue: 0,0:09:54.76,0:09:59.55,eng,,0000,0000,0000,,{\blur3}So in the words of A.A. Milne, "Get out of my chair, dill-hole."{\r}
+Dialogue: 0,0:10:02.01,0:10:03.39,eng,,0000,0000,0000,,{\blur3}Okay.{\r}
+Dialogue: 0,0:10:11.06,0:10:13.69,eng,,0000,0000,0000,,{\blur3}- What are you doing?     - You said to give you the chair.{\r}
+Dialogue: 0,0:10:13.94,0:10:16.03,eng,,0000,0000,0000,,{\blur3}You didn't say anything about cushions.{\r}
+Dialogue: 0,0:10:16.19,0:10:17.90,eng,,0000,0000,0000,,{\blur3}They're the essence of the chair!{\r}
+Dialogue: 0,0:10:18.20,0:10:20.78,eng,,0000,0000,0000,,{\blur3}That's right! I'm taking the essence.{\r}
+Dialogue: 0,0:10:21.87,0:10:23.70,eng,,0000,0000,0000,,{\blur3}Oh, he'll be back.{\r}
+Dialogue: 0,0:10:23.91,0:10:26.37,eng,,0000,0000,0000,,{\blur3}Oh, there's nobody in the room.{\r}
+Dialogue: 0,0:10:27.04,0:10:30.67,eng,,0000,0000,0000,,{\blur3}- I'm sorry, I thought it looked pretty.     - That was a Halloween costume.{\r}
+Dialogue: 0,0:10:30.88,0:10:34.21,eng,,0000,0000,0000,,{\blur3}Unless you would like me to go as Little Bo Peep.{\r}
+Dialogue: 0,0:10:34.67,0:10:37.38,eng,,0000,0000,0000,,{\blur3}I didn't recognize it without that inflatable sheep.{\r}
+Dialogue: 0,0:10:37.67,0:10:41.43,eng,,0000,0000,0000,,{\blur3}Yeah, which, by the way, Chandler, I would like back one of these days.{\r}
+Dialogue: 0,0:10:44.06,0:10:46.72,eng,,0000,0000,0000,,{\blur3}Rach, good! Listen, isn't this perfect for me?{\r}
+Dialogue: 0,0:10:46.93,0:10:49.27,eng,,0000,0000,0000,,{\blur3}Oh, it's perfect! But not for tonight.{\r}
+Dialogue: 0,0:10:49.56,0:10:52.90,eng,,0000,0000,0000,,{\blur3}Of course not for tonight. Hi. I'm going to a benefit.{\r}
+Dialogue: 0,0:10:53.11,0:10:55.23,eng,,0000,0000,0000,,{\blur3}Not for tonight? What are you doing?{\r}
+Dialogue: 0,0:10:55.44,0:10:58.78,eng,,0000,0000,0000,,{\blur3}No, I'm sorry. We didn't mean it. I love you. Breathe.{\r}
+Dialogue: 0,0:11:00.20,0:11:03.20,eng,,0000,0000,0000,,{\blur3}We used them as pillows when we went camping.{\r}
+Dialogue: 0,0:11:03.41,0:11:04.41,eng,,0000,0000,0000,,{\blur3}What?{\r}
+Dialogue: 0,0:11:05.41,0:11:06.58,eng,,0000,0000,0000,,{\blur3}The sheep.{\r}
+Dialogue: 0,0:11:08.00,0:11:10.79,eng,,0000,0000,0000,,{\blur3}Hey, what you do on your own time...{\r}
+Dialogue: 0,0:11:14.46,0:11:16.92,eng,,0000,0000,0000,,{\blur3}Where's my underwear?{\r}
+Dialogue: 0,0:11:17.09,0:11:20.59,eng,,0000,0000,0000,,{\blur3}- Come on, you took his underwear?     - He took my essence!{\r}
+Dialogue: 0,0:11:20.80,0:11:25.64,eng,,0000,0000,0000,,{\blur3}Okay, hold on. Why can't you just wear the underwear you're wearing now?{\r}
+Dialogue: 0,0:11:25.93,0:11:28.52,eng,,0000,0000,0000,,{\blur3}Because I'm not wearing any underwear now.{\r}
+Dialogue: 0,0:11:29.73,0:11:32.10,eng,,0000,0000,0000,,{\blur3}Then why do you have to wear underwear tonight?{\r}
+Dialogue: 0,0:11:32.35,0:11:34.10,eng,,0000,0000,0000,,{\blur3}It's a rented tux, okay?{\r}
+Dialogue: 0,0:11:34.36,0:11:37.65,eng,,0000,0000,0000,,{\blur3}I'm not gonna go "commando" in another man's fatigues.{\r}
+Dialogue: 0,0:11:39.99,0:11:43.45,eng,,0000,0000,0000,,{\blur3}Then somebody's gonna have to give somebody back his cushions.{\r}
+Dialogue: 0,0:11:44.28,0:11:48.45,eng,,0000,0000,0000,,{\blur3}Okay. You hide my clothes. I'm gonna do the exact opposite to you.{\r}
+Dialogue: 0,0:11:50.79,0:11:53.87,eng,,0000,0000,0000,,{\blur3}What, are you gonna show me my clothes?{\r}
+Dialogue: 0,0:11:54.13,0:11:55.54,eng,,0000,0000,0000,,{\blur3}Hey, opposite...{\r}
+Dialogue: 0,0:11:56.54,0:11:57.79,eng,,0000,0000,0000,,{\blur3}...is opposite.{\r}
+Dialogue: 0,0:11:59.63,0:12:01.26,eng,,0000,0000,0000,,{\blur3}He's got nothing!{\r}
+Dialogue: 0,0:12:02.13,0:12:03.68,eng,,0000,0000,0000,,{\blur3}Okay, I'm ready.{\r}
+Dialogue: 0,0:12:08.97,0:12:12.14,eng,,0000,0000,0000,,{\blur3}Rachel didn't have anything I liked but this ribbon.{\r}
+Dialogue: 0,0:12:12.35,0:12:14.81,eng,,0000,0000,0000,,{\blur3}I thought, all right, I'll be political.{\r}
+Dialogue: 0,0:12:16.56,0:12:19.65,eng,,0000,0000,0000,,{\blur3}- What are you supporting?     - Christmas.{\r}
+Dialogue: 0,0:12:21.15,0:12:26.16,eng,,0000,0000,0000,,{\blur3}Hey, that's okay with me. Two down, and I have exactly 12 minutes...{\r}
+Dialogue: 0,0:12:26.66,0:12:27.66,eng,,0000,0000,0000,,{\blur3}What?{\r}
+Dialogue: 0,0:12:28.70,0:12:31.29,eng,,0000,0000,0000,,{\blur3}My watch stopped. My watch. Okay, see...{\r}
+Dialogue: 0,0:12:31.50,0:12:34.33,eng,,0000,0000,0000,,{\blur3}...the dinosaur tail isn't going around anymore.{\r}
+Dialogue: 0,0:12:35.00,0:12:37.58,eng,,0000,0000,0000,,{\blur3}What time is it? It's 7:33. I have 7 minutes.{\r}
+Dialogue: 0,0:12:37.84,0:12:39.00,eng,,0000,0000,0000,,{\blur3}I have seven minutes!{\r}
+Dialogue: 0,0:12:39.17,0:12:42.17,eng,,0000,0000,0000,,{\blur3}Which shoes should I wear? The black or the purple?{\r}
+Dialogue: 0,0:12:42.51,0:12:44.88,eng,,0000,0000,0000,,{\blur3}- Just pick one, okay?     - Oh, okay, okay. The black.{\r}
+Dialogue: 0,0:12:45.09,0:12:47.39,eng,,0000,0000,0000,,{\blur3}Do you have black with little strappies?{\r}
+Dialogue: 0,0:12:47.68,0:12:51.68,eng,,0000,0000,0000,,{\blur3}Yeah, but those go better with pants. Maybe I should wear pants.{\r}
+Dialogue: 0,0:12:52.18,0:12:56.81,eng,,0000,0000,0000,,{\blur3}Yeah, pants! What an idea! Or better yet, go without pants.{\r}
+Dialogue: 0,0:12:57.02,0:13:00.11,eng,,0000,0000,0000,,{\blur3}I don't know what you're doing but just get in there...{\r}
+Dialogue: 0,0:13:00.36,0:13:02.86,eng,,0000,0000,0000,,{\blur3}...and pick out any shoes that fit your feet.{\r}
+Dialogue: 0,0:13:03.03,0:13:06.53,eng,,0000,0000,0000,,{\blur3}I don't care if they match. I don't care if they make...{\r}
+Dialogue: 0,0:13:06.74,0:13:11.37,eng,,0000,0000,0000,,{\blur3}...your ankles or your knees or your earlobes look fat. Just do it!{\r}
+Dialogue: 0,0:13:11.58,0:13:14.25,eng,,0000,0000,0000,,{\blur3}Go in there, pick something out so we can go.{\r}
+Dialogue: 0,0:13:17.04,0:13:19.54,eng,,0000,0000,0000,,{\blur3}- All right.     - Thank you.{\r}
+Dialogue: 0,0:13:20.42,0:13:24.09,eng,,0000,0000,0000,,{\blur3}I've got to call Michelle to see if that was her voice.{\r}
+Dialogue: 0,0:13:24.34,0:13:26.22,eng,,0000,0000,0000,,{\blur3}It was. It was her voice.{\r}
+Dialogue: 0,0:13:26.47,0:13:29.55,eng,,0000,0000,0000,,{\blur3}Monica, I think you've gone over to the bad place.{\r}
+Dialogue: 0,0:13:33.56,0:13:35.39,eng,,0000,0000,0000,,{\blur3}Hola.{\r}
+Dialogue: 0,0:13:35.73,0:13:38.06,eng,,0000,0000,0000,,{\blur3}Hello? Hello?{\r}
+Dialogue: 0,0:13:39.40,0:13:42.48,eng,,0000,0000,0000,,{\blur3}- Okay. That was her, right?     - Definitely. Yeah.{\r}
+Dialogue: 0,0:13:42.73,0:13:44.57,eng,,0000,0000,0000,,{\blur3}So there you go. Whew!{\r}
+Dialogue: 0,0:13:44.74,0:13:48.07,eng,,0000,0000,0000,,{\blur3}We're out of the woods. I think I'll get dressed now.{\r}
+Dialogue: 0,0:13:49.62,0:13:51.41,eng,,0000,0000,0000,,{\blur3}- I'll get it.     - Okay.{\r}
+Dialogue: 0,0:13:52.66,0:13:54.12,eng,,0000,0000,0000,,{\blur3}Hi, Monica and Rachel's.{\r}
+Dialogue: 0,0:13:54.62,0:13:57.66,eng,,0000,0000,0000,,{\blur3}Yeah, just a second. Can I ask who's calling?{\r}
+Dialogue: 0,0:13:57.96,0:13:59.25,eng,,0000,0000,0000,,{\blur3}Ooh! It's Michelle! Ooh!{\r}
+Dialogue: 0,0:14:01.46,0:14:05.42,eng,,0000,0000,0000,,{\blur3}She must have that "caller I.D." thing. You should get that.{\r}
+Dialogue: 0,0:14:08.43,0:14:09.47,eng,,0000,0000,0000,,{\blur3}Michelle?{\r}
+Dialogue: 0,0:14:09.93,0:14:13.93,eng,,0000,0000,0000,,{\blur3}Yeah, that was me. I dialed your number by mistake.{\r}
+Dialogue: 0,0:14:14.18,0:14:15.31,eng,,0000,0000,0000,,{\blur3}Just try to be...{\r}
+Dialogue: 0,0:14:17.31,0:14:18.77,eng,,0000,0000,0000,,{\blur3}You're so sweet.{\r}
+Dialogue: 0,0:14:19.44,0:14:21.48,eng,,0000,0000,0000,,{\blur3}Yeah, we were a great couple.{\r}
+Dialogue: 0,0:14:21.81,0:14:23.69,eng,,0000,0000,0000,,{\blur3}I know, I really miss him.{\r}
+Dialogue: 0,0:14:24.28,0:14:26.90,eng,,0000,0000,0000,,{\blur3}Well, you know how it is. It's just that...{\r}
+Dialogue: 0,0:14:27.11,0:14:28.78,eng,,0000,0000,0000,,{\blur3}You know what's weird?{\r}
+Dialogue: 0,0:14:30.70,0:14:32.78,eng,,0000,0000,0000,,{\blur3}Donald Duck never wore pants.{\r}
+Dialogue: 0,0:14:34.29,0:14:36.12,eng,,0000,0000,0000,,{\blur3}But when he gets out of the shower...{\r}
+Dialogue: 0,0:14:36.33,0:14:38.96,eng,,0000,0000,0000,,{\blur3}...he always puts a towel around his waist.{\r}
+Dialogue: 0,0:14:41.63,0:14:43.92,eng,,0000,0000,0000,,{\blur3}I mean, what is that about?{\r}
+Dialogue: 0,0:14:45.50,0:14:48.42,eng,,0000,0000,0000,,{\blur3}I only beeped in so I could hear my own message.{\r}
+Dialogue: 0,0:14:48.63,0:14:49.97,eng,,0000,0000,0000,,{\blur3}I mean, that's allowed.{\r}
+Dialogue: 0,0:14:52.72,0:14:57.06,eng,,0000,0000,0000,,{\blur3}I would really appreciate it if you wouldn't tell your dad about...{\r}
+Dialogue: 0,0:14:57.31,0:15:00.48,eng,,0000,0000,0000,,{\blur3}What do you mean, you don't feel comfortable with this? We're friends!{\r}
+Dialogue: 0,0:15:02.94,0:15:04.86,eng,,0000,0000,0000,,{\blur3}That bitch always hated me.{\r}
+Dialogue: 0,0:15:05.15,0:15:08.57,eng,,0000,0000,0000,,{\blur3}- I'm calling her back.     - No, no, no! Tick, tick, tick.{\r}
+Dialogue: 0,0:15:08.74,0:15:10.49,eng,,0000,0000,0000,,{\blur3}- Okay, fine.     - Okay.{\r}
+Dialogue: 0,0:15:11.82,0:15:15.16,eng,,0000,0000,0000,,{\blur3}- She's got a phone in there, right?     - Okay, we're on it.{\r}
+Dialogue: 0,0:15:26.17,0:15:29.84,eng,,0000,0000,0000,,{\blur3}I know it says, "black tie optional"...{\r}
+Dialogue: 0,0:15:30.09,0:15:32.76,eng,,0000,0000,0000,,{\blur3}...but this may be pushing it a little.{\r}
+Dialogue: 0,0:15:33.18,0:15:34.84,eng,,0000,0000,0000,,{\blur3}I'm not gonna go.{\r}
+Dialogue: 0,0:15:37.01,0:15:38.22,eng,,0000,0000,0000,,{\blur3}You're not gonna go?{\r}
+Dialogue: 0,0:15:38.52,0:15:42.19,eng,,0000,0000,0000,,{\blur3}No, I think I'm gonna catch up on my correspondence.{\r}
+Dialogue: 0,0:15:43.60,0:15:46.52,eng,,0000,0000,0000,,{\blur3}How can you not be going?{\r}
+Dialogue: 0,0:15:47.23,0:15:48.52,eng,,0000,0000,0000,,{\blur3}I'm not gonna go.{\r}
+Dialogue: 0,0:15:48.78,0:15:52.53,eng,,0000,0000,0000,,{\blur3}So I think that will accomplish the "not going."{\r}
+Dialogue: 0,0:15:57.41,0:15:59.74,eng,,0000,0000,0000,,{\blur3}Um, you know, just out of curiosity...{\r}
+Dialogue: 0,0:16:00.20,0:16:03.50,eng,,0000,0000,0000,,{\blur3}Ever since I was humiliated and yelled at in front of my friends...{\r}
+Dialogue: 0,0:16:03.71,0:16:08.13,eng,,0000,0000,0000,,{\blur3}...I'm just, I don't know, not in a very museum benefit-y kind of mood.{\r}
+Dialogue: 0,0:16:08.38,0:16:12.38,eng,,0000,0000,0000,,{\blur3}Right. Well, okay. Okay. God, I'm sorry. I'm sorry I yelled.{\r}
+Dialogue: 0,0:16:12.59,0:16:14.80,eng,,0000,0000,0000,,{\blur3}- That's fine.     - No, but you're mad.{\r}
+Dialogue: 0,0:16:15.05,0:16:17.01,eng,,0000,0000,0000,,{\blur3}I'm not mad. I'm just not going.{\r}
+Dialogue: 0,0:16:17.22,0:16:18.72,eng,,0000,0000,0000,,{\blur3}- Right.     - Okay.{\r}
+Dialogue: 0,0:16:20.02,0:16:23.06,eng,,0000,0000,0000,,{\blur3}You know that I have to go, right?{\r}
+Dialogue: 0,0:16:23.31,0:16:27.77,eng,,0000,0000,0000,,{\blur3}So is it gonna be like I'm abandoning you while you're upset?{\r}
+Dialogue: 0,0:16:27.94,0:16:28.98,eng,,0000,0000,0000,,{\blur3}- No.     - No?{\r}
+Dialogue: 0,0:16:29.15,0:16:33.24,eng,,0000,0000,0000,,{\blur3}- You're not upset about the yelling.     - Right. And the humiliating.{\r}
+Dialogue: 0,0:16:33.45,0:16:35.57,eng,,0000,0000,0000,,{\blur3}Well, of course, the humiliating.{\r}
+Dialogue: 0,0:16:37.62,0:16:38.66,eng,,0000,0000,0000,,{\blur3}So we...{\r}
+Dialogue: 0,0:16:39.24,0:16:40.41,eng,,0000,0000,0000,,{\blur3}...we're okay?{\r}
+Dialogue: 0,0:16:40.62,0:16:42.62,eng,,0000,0000,0000,,{\blur3}- We're good.     - Right.{\r}
+Dialogue: 0,0:16:46.04,0:16:48.25,eng,,0000,0000,0000,,{\blur3}- Honey? I love you.     - Yes, Ross.{\r}
+Dialogue: 0,0:16:49.75,0:16:51.46,eng,,0000,0000,0000,,{\blur3}Get away from that phone!{\r}
+Dialogue: 0,0:16:54.17,0:16:56.18,eng,,0000,0000,0000,,{\blur3}She's just getting dressed now.{\r}
+Dialogue: 0,0:16:59.35,0:17:02.64,eng,,0000,0000,0000,,{\blur3}Is it wrong that I was totally aroused by that?{\r}
+Dialogue: 0,0:17:10.57,0:17:13.11,eng,,0000,0000,0000,,{\blur3}Okay, buddy boy, here it is.{\r}
+Dialogue: 0,0:17:13.49,0:17:17.32,eng,,0000,0000,0000,,{\blur3}You hide my clothes. I'm wearing everything you own.{\r}
+Dialogue: 0,0:17:17.87,0:17:19.45,eng,,0000,0000,0000,,{\blur3}Oh, my God!{\r}
+Dialogue: 0,0:17:21.12,0:17:24.79,eng,,0000,0000,0000,,{\blur3}That is so not the opposite of taking somebody's underwear!{\r}
+Dialogue: 0,0:17:25.08,0:17:26.62,eng,,0000,0000,0000,,{\blur3}Look at me! I'm Chandler.{\r}
+Dialogue: 0,0:17:26.83,0:17:29.79,eng,,0000,0000,0000,,{\blur3}Could I be wearing any more clothes?{\r}
+Dialogue: 0,0:17:31.38,0:17:33.67,eng,,0000,0000,0000,,{\blur3}Maybe if I wasn't going commando...{\r}
+Dialogue: 0,0:17:38.80,0:17:41.10,eng,,0000,0000,0000,,{\blur3}It's hot with all this stuff on.{\r}
+Dialogue: 0,0:17:41.31,0:17:43.89,eng,,0000,0000,0000,,{\blur3}I better not do any, I don't know, lunges.{\r}
+Dialogue: 0,0:17:46.64,0:17:48.98,eng,,0000,0000,0000,,{\blur3}Okay, enough. Enough with the lunging.{\r}
+Dialogue: 0,0:17:49.23,0:17:51.86,eng,,0000,0000,0000,,{\blur3}I'm sick of this. I've had it up to here.{\r}
+Dialogue: 0,0:17:52.11,0:17:54.61,eng,,0000,0000,0000,,{\blur3}Neither of you can come to the party!{\r}
+Dialogue: 0,0:17:55.11,0:17:56.61,eng,,0000,0000,0000,,{\blur3}Jeez, what a baby!{\r}
+Dialogue: 0,0:17:57.65,0:18:00.32,eng,,0000,0000,0000,,{\blur3}Way to ruin it. I was just gonna go get dressed.{\r}
+Dialogue: 0,0:18:00.53,0:18:02.99,eng,,0000,0000,0000,,{\blur3}The only person I cared about getting dressed...{\r}
+Dialogue: 0,0:18:03.20,0:18:05.66,eng,,0000,0000,0000,,{\blur3}...is the person who's not even gonna go.{\r}
+Dialogue: 0,0:18:05.87,0:18:07.75,eng,,0000,0000,0000,,{\blur3}Look, Rach, I'm sorry, okay?{\r}
+Dialogue: 0,0:18:08.00,0:18:12.13,eng,,0000,0000,0000,,{\blur3}Look, I was a jerk, okay? I'm sorry I yelled. I want you there.{\r}
+Dialogue: 0,0:18:12.34,0:18:13.63,eng,,0000,0000,0000,,{\blur3}I need you there.{\r}
+Dialogue: 0,0:18:15.34,0:18:19.22,eng,,0000,0000,0000,,{\blur3}What can I do to show you how much I want you to be there?{\r}
+Dialogue: 0,0:18:20.43,0:18:22.35,eng,,0000,0000,0000,,{\blur3}You could drink the fat.{\r}
+Dialogue: 0,0:18:24.89,0:18:27.52,eng,,0000,0000,0000,,{\blur3}Welcome to an adult conversation.{\r}
+Dialogue: 0,0:18:27.94,0:18:30.23,eng,,0000,0000,0000,,{\blur3}No, no, no. Now wait a minute. Wait a minute.{\r}
+Dialogue: 0,0:18:30.52,0:18:34.19,eng,,0000,0000,0000,,{\blur3}- That actually sounds interesting.     - What?{\r}
+Dialogue: 0,0:18:34.44,0:18:36.57,eng,,0000,0000,0000,,{\blur3}I think you should drink the fat.{\r}
+Dialogue: 0,0:18:42.95,0:18:46.95,eng,,0000,0000,0000,,{\blur3}Okay, if that's what it takes to show you how much you mean to me...{\r}
+Dialogue: 0,0:18:47.20,0:18:49.87,eng,,0000,0000,0000,,{\blur3}...and how much I want you there, that's what I'll do.{\r}
+Dialogue: 0,0:18:50.08,0:18:52.96,eng,,0000,0000,0000,,{\blur3}Let me get you another glass. That's been sitting out.{\r}
+Dialogue: 0,0:18:53.71,0:18:55.71,eng,,0000,0000,0000,,{\blur3}I think this will be fine.{\r}
+Dialogue: 0,0:18:56.96,0:18:59.88,eng,,0000,0000,0000,,{\blur3}Okay, vanilla milkshake. Just a vanilla milkshake...{\r}
+Dialogue: 0,0:19:00.18,0:19:02.97,eng,,0000,0000,0000,,{\blur3}...with chicken bits floating in it.{\r}
+Dialogue: 0,0:19:06.22,0:19:07.43,eng,,0000,0000,0000,,{\blur3}Cheers.{\r}
+Dialogue: 0,0:19:07.68,0:19:10.31,eng,,0000,0000,0000,,{\blur3}No, don't! Okay, okay, I'll go. I'll go.{\r}
+Dialogue: 0,0:19:10.56,0:19:11.73,eng,,0000,0000,0000,,{\blur3}You will?{\r}
+Dialogue: 0,0:19:12.60,0:19:14.56,eng,,0000,0000,0000,,{\blur3}You were really gonna do that?{\r}
+Dialogue: 0,0:19:14.77,0:19:15.82,eng,,0000,0000,0000,,{\blur3}Well, yeah.{\r}
+Dialogue: 0,0:19:16.73,0:19:18.90,eng,,0000,0000,0000,,{\blur3}You were gonna drink the fat.{\r}
+Dialogue: 0,0:19:22.45,0:19:24.45,eng,,0000,0000,0000,,{\blur3}Let's see what else he'll do!{\r}
+Dialogue: 0,0:19:26.29,0:19:29.12,eng,,0000,0000,0000,,{\blur3}How about you get changed? Give him his underwear.{\r}
+Dialogue: 0,0:19:29.33,0:19:32.62,eng,,0000,0000,0000,,{\blur3}I'll get a cab. I want everyone downstairs in two minutes.{\r}
+Dialogue: 0,0:19:32.83,0:19:33.96,eng,,0000,0000,0000,,{\blur3}Monica!{\r}
+Dialogue: 0,0:19:34.54,0:19:35.59,eng,,0000,0000,0000,,{\blur3}Stop it.{\r}
+Dialogue: 0,0:19:35.75,0:19:36.92,eng,,0000,0000,0000,,{\blur3}Stop it!{\r}
+Dialogue: 0,0:19:41.43,0:19:43.09,eng,,0000,0000,0000,,{\blur3}Ross went to get a cab so we...{\r}
+Dialogue: 0,0:19:43.30,0:19:45.93,eng,,0000,0000,0000,,{\blur3}What are you doing? No, Monica, no!{\r}
+Dialogue: 0,0:19:49.27,0:19:50.73,eng,,0000,0000,0000,,{\blur3}Hi, this is Richard.{\r}
+Dialogue: 0,0:19:52.60,0:19:55.10,eng,,0000,0000,0000,,{\blur3}You have three new messages.{\r}
+Dialogue: 0,0:19:56.15,0:19:57.73,eng,,0000,0000,0000,,{\blur3}Not anymore.{\r}
+Dialogue: 0,0:19:58.44,0:19:59.94,eng,,0000,0000,0000,,{\blur3}Message erased.{\r}
+Dialogue: 0,0:20:02.15,0:20:06.12,eng,,0000,0000,0000,,{\blur3}To record your message, begin speaking at the tone.{\r}
+Dialogue: 0,0:20:07.62,0:20:09.62,eng,,0000,0000,0000,,{\blur3}Hi, Richard. It's Monica.{\r}
+Dialogue: 0,0:20:09.87,0:20:12.83,eng,,0000,0000,0000,,{\blur3}Listen, I did something kind of crazy tonight.{\r}
+Dialogue: 0,0:20:13.04,0:20:15.96,eng,,0000,0000,0000,,{\blur3}Maybe I'm getting my period or something. I don't know.{\r}
+Dialogue: 0,0:20:16.63,0:20:20.30,eng,,0000,0000,0000,,{\blur3}Anyway, I beeped into your machine and I heard this message...{\r}
+Dialogue: 0,0:20:20.51,0:20:21.96,eng,,0000,0000,0000,,{\blur3}...that freaked me out...{\r}
+Dialogue: 0,0:20:22.63,0:20:25.30,eng,,0000,0000,0000,,{\blur3}...and Michelle will tell you the rest.{\r}
+Dialogue: 0,0:20:25.51,0:20:30.26,eng,,0000,0000,0000,,{\blur3}I'm sorry, okay? And I hope that we can just forget the whole thing.{\r}
+Dialogue: 0,0:20:33.19,0:20:36.77,eng,,0000,0000,0000,,{\blur3}Your outgoing message has now been changed.{\r}
+Dialogue: 0,0:20:37.90,0:20:38.90,eng,,0000,0000,0000,,{\blur3}Outgoing?{\r}
+Dialogue: 0,0:20:39.07,0:20:40.36,eng,,0000,0000,0000,,{\blur3}Did that say outgoing?{\r}
+Dialogue: 0,0:20:40.57,0:20:41.98,eng,,0000,0000,0000,,{\blur3}Not outgoing!{\r}
+Dialogue: 0,0:20:45.16,0:20:47.07,eng,,0000,0000,0000,,{\blur3}Hi, Richard, it's Monica.{\r}
+Dialogue: 0,0:20:47.32,0:20:50.28,eng,,0000,0000,0000,,{\blur3}Listen, I did something kind of crazy tonight.{\r}
+Dialogue: 0,0:20:50.49,0:20:53.16,eng,,0000,0000,0000,,{\blur3}Maybe I'm getting my period or something. I don't know.{\r}
+Dialogue: 0,0:20:53.37,0:20:55.83,eng,,0000,0000,0000,,{\blur3}- How did you do that?     - I don't know!{\r}
+Dialogue: 0,0:20:56.08,0:20:58.17,eng,,0000,0000,0000,,{\blur3}- Goodbye.     - No!{\r}
+Dialogue: 0,0:21:01.09,0:21:05.38,eng,,0000,0000,0000,,{\blur3}Okay, I've got two cabs and no people! Go, go, go!{\r}
+Dialogue: 0,0:21:05.59,0:21:08.84,eng,,0000,0000,0000,,{\blur3}Maybe we can call the phone company to change the message?{\r}
+Dialogue: 0,0:21:09.10,0:21:10.39,eng,,0000,0000,0000,,{\blur3}They could change his number.{\r}
+Dialogue: 0,0:21:10.60,0:21:13.72,eng,,0000,0000,0000,,{\blur3}I think after this, he'll be doing that himself.{\r}
+Dialogue: 0,0:21:15.69,0:21:16.73,eng,,0000,0000,0000,,{\blur3}Rachel!{\r}
+Dialogue: 0,0:21:22.57,0:21:25.19,eng,,0000,0000,0000,,{\blur3}You... You look...{\r}
+Dialogue: 0,0:21:27.70,0:21:30.87,eng,,0000,0000,0000,,{\blur3}And I still have about five seconds to spare.{\r}
+Dialogue: 0,0:21:36.96,0:21:38.58,eng,,0000,0000,0000,,{\blur3}That was about 7 seconds.{\r}
+Dialogue: 0,0:21:38.83,0:21:40.42,eng,,0000,0000,0000,,{\blur3}So we're a little late.{\r}
+Dialogue: 0,0:21:40.63,0:21:42.42,eng,,0000,0000,0000,,{\blur3}Come on.{\r}
+Dialogue: 0,0:21:43.42,0:21:45.26,eng,,0000,0000,0000,,{\blur3}Oh, and by the way...{\r}
+Dialogue: 0,0:21:45.55,0:21:46.55,eng,,0000,0000,0000,,{\blur3}What?{\r}
+Dialogue: 0,0:21:46.93,0:21:48.13,eng,,0000,0000,0000,,{\blur3}I'm going commando too.{\r}
+Dialogue: 0,0:21:59.65,0:22:00.73,eng,,0000,0000,0000,,{\blur3}Dr. Geller?{\r}
+Dialogue: 0,0:22:01.02,0:22:04.53,eng,,0000,0000,0000,,{\blur3}- Sherman Whitfield, London Institute.     - What a pleasure.{\r}
+Dialogue: 0,0:22:04.94,0:22:09.61,eng,,0000,0000,0000,,{\blur3}I was quite impressed with your paper on pre-Cretaceous fossils.{\r}
+Dialogue: 0,0:22:09.91,0:22:12.12,eng,,0000,0000,0000,,{\blur3}Yes, it confirmed everything I'd written.{\r}
+Dialogue: 0,0:22:12.41,0:22:13.74,eng,,0000,0000,0000,,{\blur3}Excuse me.{\r}
+Dialogue: 0,0:22:13.99,0:22:15.04,eng,,0000,0000,0000,,{\blur3}Hi.{\r}
+Dialogue: 0,0:22:15.58,0:22:16.62,eng,,0000,0000,0000,,{\blur3}Yes?{\r}
+Dialogue: 0,0:22:16.91,0:22:18.71,eng,,0000,0000,0000,,{\blur3}You're kind of sitting in my seat.{\r}
+Dialogue: 0,0:22:20.08,0:22:21.71,eng,,0000,0000,0000,,{\blur3}What do you mean, your seat?{\r}
+Dialogue: 0,0:22:22.29,0:22:25.21,eng,,0000,0000,0000,,{\blur3}- I mean, I was sitting there.     - But you got up.{\r}
+Dialogue: 0,0:22:25.42,0:22:27.55,eng,,0000,0000,0000,,{\blur3}But I never left the room.{\r}
+Dialogue: 0,0:22:28.30,0:22:30.63,eng,,0000,0000,0000,,{\blur3}But you left the chair area.{\r}
+Dialogue: 0,0:22:32.18,0:22:35.01,eng,,0000,0000,0000,,{\blur3}All right, that's it. Give me your underwear.{\r}

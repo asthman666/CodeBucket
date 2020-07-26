@@ -1,0 +1,402 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: eng,Cronos Pro Subhead,18,&H003CF1F3,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,0,0,8,1
+Style: eng&chs,Cronos Pro Subhead,18,&H003CF1F3,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,0,0,2,1
+Style: chs&eng,STKaiti,20,&H00F5F5F5,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,0,0,2,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:04.25,0:00:06.04,eng,,0000,0000,0000,,{\blur3}Oh, come on!{\r}
+Dialogue: 0,0:00:06.84,0:00:08.75,eng,,0000,0000,0000,,{\blur3}Hey, it's your Thanksgiving too.{\r}
+Dialogue: 0,0:00:08.92,0:00:11.30,eng,,0000,0000,0000,,{\blur3}You know, instead of watching football, you could help.{\r}
+Dialogue: 0,0:00:11.46,0:00:13.17,eng,,0000,0000,0000,,{\blur3}We know.{\r}
+Dialogue: 0,0:00:14.30,0:00:17.97,eng,,0000,0000,0000,,{\blur3}Rachel, you wanna put the marshmallows in concentric circles.{\r}
+Dialogue: 0,0:00:19.43,0:00:22.43,eng,,0000,0000,0000,,{\blur3}No, you want to put them in concentric circles.{\r}
+Dialogue: 0,0:00:22.60,0:00:24.64,eng,,0000,0000,0000,,{\blur3}I want to do this.{\r}
+Dialogue: 0,0:00:34.20,0:00:36.07,eng,,0000,0000,0000,,{\blur3}Every year.{\r}
+Dialogue: 0,0:00:42.00,0:00:46.50,eng,,0000,0000,0000,,{\blur3}# So no one told you life was gonna be this way #{\r}
+Dialogue: 0,0:00:47.07,0:00:51.24,eng,,0000,0000,0000,,{\blur3}# Your job's a joke, you're broke, your love life's D.O.A. #{\r}
+Dialogue: 0,0:00:52.15,0:00:55.96,eng,,0000,0000,0000,,{\blur3}# It's like you're always stuck in second gear #{\r}
+Dialogue: 0,0:00:56.42,0:00:58.52,eng,,0000,0000,0000,,{\blur3}# When it hasn't been your day, #{\r}
+Dialogue: 0,0:00:58.52,0:01:01.52,eng,,0000,0000,0000,,{\blur3}# your week, your month, or even your year #{\r}
+Dialogue: 0,0:01:01.52,0:01:05.48,eng,,0000,0000,0000,,{\blur3}# but I'll be there for you #{\r}
+Dialogue: 0,0:01:05.48,0:01:07.31,eng,,0000,0000,0000,,{\blur3}# When the rain starts to pour #{\r}
+Dialogue: 0,0:01:07.31,0:01:10.43,eng,,0000,0000,0000,,{\blur3}# I'll be there for you #{\r}
+Dialogue: 0,0:01:10.43,0:01:12.27,eng,,0000,0000,0000,,{\blur3}# Like I've been there before #{\r}
+Dialogue: 0,0:01:12.27,0:01:15.28,eng,,0000,0000,0000,,{\blur3}# I'll be there for you #{\r}
+Dialogue: 0,0:01:15.28,0:01:18.94,eng,,0000,0000,0000,,{\blur3}# 'Cause you're there for me too #{\r}
+Dialogue: 0,0:01:23.41,0:01:25.70,eng,,0000,0000,0000,,{\blur3}To the 10, to the 5. Touchdown, Giants!{\r}
+Dialogue: 0,0:01:26.54,0:01:31.17,eng,,0000,0000,0000,,{\blur3}You know, for once, I am gonna try to watch one of these things.{\r}
+Dialogue: 0,0:01:32.34,0:01:33.75,eng,,0000,0000,0000,,{\blur3}Halftime.{\r}
+Dialogue: 0,0:01:35.72,0:01:38.93,eng,,0000,0000,0000,,{\blur3}Who wants to, uh, throw the ball around? Get a little 3-on-3 going?{\r}
+Dialogue: 0,0:01:39.09,0:01:41.80,eng,,0000,0000,0000,,{\blur3}- Oh, that would be so much fun!     - Can I play too?{\r}
+Dialogue: 0,0:01:41.97,0:01:44.39,eng,,0000,0000,0000,,{\blur3}I've never played football, ever.{\r}
+Dialogue: 0,0:01:44.56,0:01:46.02,eng,,0000,0000,0000,,{\blur3}Great! You can cover Chandler.{\r}
+Dialogue: 0,0:01:48.73,0:01:50.40,eng,,0000,0000,0000,,{\blur3}I don't... I don't really want to play.{\r}
+Dialogue: 0,0:01:51.40,0:01:53.61,eng,,0000,0000,0000,,{\blur3}You never do anything since you and Janice broke up.{\r}
+Dialogue: 0,0:01:53.78,0:01:54.82,eng,,0000,0000,0000,,{\blur3}Not true.{\r}
+Dialogue: 0,0:01:54.98,0:01:58.53,eng,,0000,0000,0000,,{\blur3}I wanted to wear my bathrobe and eat peanut clusters all day.{\r}
+Dialogue: 0,0:01:58.70,0:02:01.99,eng,,0000,0000,0000,,{\blur3}And start drinking in the morning. Don't say I don't have goals!{\r}
+Dialogue: 0,0:02:02.83,0:02:05.37,eng,,0000,0000,0000,,{\blur3}You have to start getting over her, all right?{\r}
+Dialogue: 0,0:02:05.54,0:02:09.33,eng,,0000,0000,0000,,{\blur3}If you play, maybe it'll take your mind off Janice.{\r}
+Dialogue: 0,0:02:09.50,0:02:13.96,eng,,0000,0000,0000,,{\blur3}If you don't, everyone will be mad at you because the teams won't be even.{\r}
+Dialogue: 0,0:02:14.88,0:02:15.96,eng,,0000,0000,0000,,{\blur3}All right, I'll play.{\r}
+Dialogue: 0,0:02:16.13,0:02:18.38,eng,,0000,0000,0000,,{\blur3}Yay! Let's do it! Ross?{\r}
+Dialogue: 0,0:02:18.55,0:02:20.51,eng,,0000,0000,0000,,{\blur3}- What?     - Wanna play football?{\r}
+Dialogue: 0,0:02:23.60,0:02:26.68,eng,,0000,0000,0000,,{\blur3}Monica and I aren't supposed to play football.{\r}
+Dialogue: 0,0:02:27.31,0:02:29.89,eng,,0000,0000,0000,,{\blur3}Says who? Your mom? Ha-ha-ha.{\r}
+Dialogue: 0,0:02:30.31,0:02:31.35,eng,,0000,0000,0000,,{\blur3}Yes.{\r}
+Dialogue: 0,0:02:33.48,0:02:37.90,eng,,0000,0000,0000,,{\blur3}Ahem. Every Thanksgiving, um, we used to have a touch football game...{\r}
+Dialogue: 0,0:02:38.07,0:02:39.70,eng,,0000,0000,0000,,{\blur3}...called The Geller Bowl.{\r}
+Dialogue: 0,0:02:39.86,0:02:42.20,eng,,0000,0000,0000,,{\blur3}No, no, no. You say that proudly!{\r}
+Dialogue: 0,0:02:43.28,0:02:46.70,eng,,0000,0000,0000,,{\blur3}Anyway, Ross and I were always captains, and, um...{\r}
+Dialogue: 0,0:02:46.87,0:02:50.54,eng,,0000,0000,0000,,{\blur3}It got kind of competitive. And one year, Geller Bowl VI...{\r}
+Dialogue: 0,0:02:50.71,0:02:53.96,eng,,0000,0000,0000,,{\blur3}...I accidentally broke Ross' nose.{\r}
+Dialogue: 0,0:02:55.30,0:02:57.59,eng,,0000,0000,0000,,{\blur3}It was so not an accident.{\r}
+Dialogue: 0,0:02:57.76,0:02:59.84,eng,,0000,0000,0000,,{\blur3}She saw I was about to tag her, so she threw...{\r}
+Dialogue: 0,0:03:00.01,0:03:03.14,eng,,0000,0000,0000,,{\blur3}...her big fat grandma-arm elbow in my face...{\r}
+Dialogue: 0,0:03:03.30,0:03:05.22,eng,,0000,0000,0000,,{\blur3}...and just kept running.{\r}
+Dialogue: 0,0:03:05.39,0:03:07.39,eng,,0000,0000,0000,,{\blur3}To score the winning touchdown, by the way.{\r}
+Dialogue: 0,0:03:09.35,0:03:12.23,eng,,0000,0000,0000,,{\blur3}Uh, you did not win the game. The touchdown didn't count...{\r}
+Dialogue: 0,0:03:12.40,0:03:17.32,eng,,0000,0000,0000,,{\blur3}...because of the spectacularly illegal, and savage, nose-breaking.{\r}
+Dialogue: 0,0:03:18.57,0:03:19.86,eng,,0000,0000,0000,,{\blur3}I won the game.{\r}
+Dialogue: 0,0:03:20.03,0:03:23.45,eng,,0000,0000,0000,,{\blur3}Yeah? Then how come you didn't get the Geller Cup?{\r}
+Dialogue: 0,0:03:24.62,0:03:26.91,eng,,0000,0000,0000,,{\blur3}Ahem, there was a Geller Cup?{\r}
+Dialogue: 0,0:03:27.58,0:03:30.25,eng,,0000,0000,0000,,{\blur3}Yes, the trophy you got if you won the game.{\r}
+Dialogue: 0,0:03:30.41,0:03:33.83,eng,,0000,0000,0000,,{\blur3}But Dad said nobody won, and he was sick of our fighting.{\r}
+Dialogue: 0,0:03:34.00,0:03:36.25,eng,,0000,0000,0000,,{\blur3}So he took the trophy...{\r}
+Dialogue: 0,0:03:42.55,0:03:44.51,eng,,0000,0000,0000,,{\blur3}...threw it in the lake.{\r}
+Dialogue: 0,0:03:45.26,0:03:47.26,eng,,0000,0000,0000,,{\blur3}And was the curse lifted?{\r}
+Dialogue: 0,0:03:49.35,0:03:50.97,eng,,0000,0000,0000,,{\blur3}Anyway...{\r}
+Dialogue: 0,0:03:51.56,0:03:54.44,eng,,0000,0000,0000,,{\blur3}...Mom said we weren't allowed to play football again.{\r}
+Dialogue: 0,0:03:55.06,0:03:57.98,eng,,0000,0000,0000,,{\blur3}You know what? I think we should play a game.{\r}
+Dialogue: 0,0:03:58.15,0:04:00.03,eng,,0000,0000,0000,,{\blur3}I mean, come on. It's been 12 years.{\r}
+Dialogue: 0,0:04:00.90,0:04:02.95,eng,,0000,0000,0000,,{\blur3}Can I see you for a second?{\r}
+Dialogue: 0,0:04:07.41,0:04:08.45,eng,,0000,0000,0000,,{\blur3}Wuss!{\r}
+Dialogue: 0,0:04:08.62,0:04:10.99,eng,,0000,0000,0000,,{\blur3}All right, we're gonna play.{\r}
+Dialogue: 0,0:04:11.45,0:04:15.33,eng,,0000,0000,0000,,{\blur3}Wait. How we gonna get there? My mom won't let me cross the street.{\r}
+Dialogue: 0,0:04:20.88,0:04:22.30,eng,,0000,0000,0000,,{\blur3}Here you go.{\r}
+Dialogue: 0,0:04:22.67,0:04:23.72,eng,,0000,0000,0000,,{\blur3}All right.{\r}
+Dialogue: 0,0:04:23.88,0:04:25.51,eng,,0000,0000,0000,,{\blur3}- Let's bring it in.     - Wait.{\r}
+Dialogue: 0,0:04:25.68,0:04:27.14,eng,,0000,0000,0000,,{\blur3}Honey, throw it to me!{\r}
+Dialogue: 0,0:04:27.30,0:04:29.55,eng,,0000,0000,0000,,{\blur3}Here you go.{\r}
+Dialogue: 0,0:04:31.10,0:04:33.77,eng,,0000,0000,0000,,{\blur3}That almost hit me in the face!{\r}
+Dialogue: 0,0:04:33.94,0:04:35.73,eng,,0000,0000,0000,,{\blur3}We have to pick captains.{\r}
+Dialogue: 0,0:04:35.90,0:04:38.15,eng,,0000,0000,0000,,{\blur3}And then "Tennilles."{\r}
+Dialogue: 0,0:04:40.19,0:04:41.65,eng,,0000,0000,0000,,{\blur3}So how do we decide that?{\r}
+Dialogue: 0,0:04:41.82,0:04:44.07,eng,,0000,0000,0000,,{\blur3}- Why don't we just bunny up?     - What?{\r}
+Dialogue: 0,0:04:44.24,0:04:46.32,eng,,0000,0000,0000,,{\blur3}- Bunny!     - Bunny!{\r}
+Dialogue: 0,0:04:47.32,0:04:49.16,eng,,0000,0000,0000,,{\blur3}Looks like Ross and I are captains.{\r}
+Dialogue: 0,0:04:49.33,0:04:53.20,eng,,0000,0000,0000,,{\blur3}Okay, so, um, I bunnied first, so I get to pick first. Joey.{\r}
+Dialogue: 0,0:04:53.37,0:04:55.33,eng,,0000,0000,0000,,{\blur3}- Thank you.     - Monica.{\r}
+Dialogue: 0,0:04:55.50,0:04:57.33,eng,,0000,0000,0000,,{\blur3}I'm your best friend.{\r}
+Dialogue: 0,0:04:57.50,0:04:59.71,eng,,0000,0000,0000,,{\blur3}Sweetie, don't worry, you'll get picked.{\r}
+Dialogue: 0,0:04:59.88,0:05:01.71,eng,,0000,0000,0000,,{\blur3}Chandler.{\r}
+Dialogue: 0,0:05:03.84,0:05:05.63,eng,,0000,0000,0000,,{\blur3}- Ross?     - Phoebe.{\r}
+Dialogue: 0,0:05:09.30,0:05:10.97,eng,,0000,0000,0000,,{\blur3}Sweetie, now I pick you.{\r}
+Dialogue: 0,0:05:11.14,0:05:14.56,eng,,0000,0000,0000,,{\blur3}You don't pick me. You're stuck with me!{\r}
+Dialogue: 0,0:05:15.39,0:05:16.89,eng,,0000,0000,0000,,{\blur3}Okay. All right. So let's see.{\r}
+Dialogue: 0,0:05:17.06,0:05:20.31,eng,,0000,0000,0000,,{\blur3}Let's play from the, uh, trash can to the light post, right?{\r}
+Dialogue: 0,0:05:20.48,0:05:21.86,eng,,0000,0000,0000,,{\blur3}Two-hand touch. We'll kick off.{\r}
+Dialogue: 0,0:05:22.03,0:05:24.74,eng,,0000,0000,0000,,{\blur3}People, listen. I've got 28 minutes...{\r}
+Dialogue: 0,0:05:24.90,0:05:27.07,eng,,0000,0000,0000,,{\blur3}...before I have to baste again.{\r}
+Dialogue: 0,0:05:27.24,0:05:29.20,eng,,0000,0000,0000,,{\blur3}Wow, just like in the pros.{\r}
+Dialogue: 0,0:05:29.37,0:05:31.53,eng,,0000,0000,0000,,{\blur3}Okay, huddle up! Whoo!{\r}
+Dialogue: 0,0:05:31.70,0:05:35.41,eng,,0000,0000,0000,,{\blur3}- Huddle up over here!     - Wait for me! Wait for me!{\r}
+Dialogue: 0,0:05:35.71,0:05:37.50,eng,,0000,0000,0000,,{\blur3}Oh, cool! My first huddle.{\r}
+Dialogue: 0,0:05:37.67,0:05:39.50,eng,,0000,0000,0000,,{\blur3}- Okay.     - Ha, ha. Okay.{\r}
+Dialogue: 0,0:05:39.67,0:05:42.79,eng,,0000,0000,0000,,{\blur3}So what do you guys really think of Chandler?{\r}
+Dialogue: 0,0:05:44.38,0:05:47.09,eng,,0000,0000,0000,,{\blur3}- You know what you're doing, right?     - Yeah.{\r}
+Dialogue: 0,0:05:47.26,0:05:49.55,eng,,0000,0000,0000,,{\blur3}Okay. Joey will catch it. We'll block.{\r}
+Dialogue: 0,0:05:49.72,0:05:51.39,eng,,0000,0000,0000,,{\blur3}What's "block"?{\r}
+Dialogue: 0,0:05:51.60,0:05:55.68,eng,,0000,0000,0000,,{\blur3}- I thought you knew what you were doing.     - I thought you meant in life!{\r}
+Dialogue: 0,0:05:56.68,0:05:58.23,eng,,0000,0000,0000,,{\blur3}Break!{\r}
+Dialogue: 0,0:05:58.39,0:06:01.61,eng,,0000,0000,0000,,{\blur3}The ball is Janice. The ball is Janice.{\r}
+Dialogue: 0,0:06:06.94,0:06:09.20,eng,,0000,0000,0000,,{\blur3}Ow! Son of a...! Ow!{\r}
+Dialogue: 0,0:06:09.36,0:06:11.41,eng,,0000,0000,0000,,{\blur3}- Come on!     - I'm sorry. I'm sorry.{\r}
+Dialogue: 0,0:06:11.57,0:06:14.08,eng,,0000,0000,0000,,{\blur3}You know what? We're just gonna throw it.{\r}
+Dialogue: 0,0:06:15.66,0:06:16.91,eng,,0000,0000,0000,,{\blur3}I got it!{\r}
+Dialogue: 0,0:06:17.08,0:06:18.50,eng,,0000,0000,0000,,{\blur3}Go, go, go!{\r}
+Dialogue: 0,0:06:27.30,0:06:30.47,eng,,0000,0000,0000,,{\blur3}Score! Seven to nothing!{\r}
+Dialogue: 0,0:06:30.97,0:06:31.97,eng,,0000,0000,0000,,{\blur3}Honey, you okay?{\r}
+Dialogue: 0,0:06:32.14,0:06:33.47,eng,,0000,0000,0000,,{\blur3}Come on, let's go.{\r}
+Dialogue: 0,0:06:33.64,0:06:35.31,eng,,0000,0000,0000,,{\blur3}Whoo. Losers walk.{\r}
+Dialogue: 0,0:06:35.47,0:06:38.14,eng,,0000,0000,0000,,{\blur3}Yeah? Losers talk.{\r}
+Dialogue: 0,0:06:38.31,0:06:40.94,eng,,0000,0000,0000,,{\blur3}No, no, actually, losers rhyme.{\r}
+Dialogue: 0,0:06:42.90,0:06:44.36,eng,,0000,0000,0000,,{\blur3}Forty-three...{\r}
+Dialogue: 0,0:06:44.52,0:06:45.61,eng,,0000,0000,0000,,{\blur3}...Seventy-four...{\r}
+Dialogue: 0,0:06:49.78,0:06:51.28,eng,,0000,0000,0000,,{\blur3}- You wanna go shotgun?     - Yeah.{\r}
+Dialogue: 0,0:06:53.83,0:06:54.87,eng,,0000,0000,0000,,{\blur3}Hike.{\r}
+Dialogue: 0,0:06:55.03,0:06:57.95,eng,,0000,0000,0000,,{\blur3}- One Mississippi...     - Over here! Over here! Unh.{\r}
+Dialogue: 0,0:06:58.12,0:07:00.04,eng,,0000,0000,0000,,{\blur3}Ha! I almost caught that one!{\r}
+Dialogue: 0,0:07:01.62,0:07:04.63,eng,,0000,0000,0000,,{\blur3}Great. Now the score's seven to almost seven.{\r}
+Dialogue: 0,0:07:05.17,0:07:09.80,eng,,0000,0000,0000,,{\blur3}Okay, on this play, I want you to do a down-and-out to the right, okay?{\r}
+Dialogue: 0,0:07:09.97,0:07:11.76,eng,,0000,0000,0000,,{\blur3}- Break!     - Wait. What am I gonna do?{\r}
+Dialogue: 0,0:07:11.93,0:07:13.22,eng,,0000,0000,0000,,{\blur3}You?{\r}
+Dialogue: 0,0:07:13.39,0:07:14.43,eng,,0000,0000,0000,,{\blur3}You go long.{\r}
+Dialogue: 0,0:07:14.60,0:07:15.89,eng,,0000,0000,0000,,{\blur3}How long?{\r}
+Dialogue: 0,0:07:16.06,0:07:17.89,eng,,0000,0000,0000,,{\blur3}Until we start to look very small.{\r}
+Dialogue: 0,0:07:18.06,0:07:20.77,eng,,0000,0000,0000,,{\blur3}- Okay. Break!     - Break!{\r}
+Dialogue: 0,0:07:20.94,0:07:22.98,eng,,0000,0000,0000,,{\blur3}- Set, hike!     - One Mississippi...{\r}
+Dialogue: 0,0:07:23.15,0:07:24.86,eng,,0000,0000,0000,,{\blur3}Switch! Switch! Switch!{\r}
+Dialogue: 0,0:07:25.02,0:07:26.77,eng,,0000,0000,0000,,{\blur3}No, no, no, no!{\r}
+Dialogue: 0,0:07:35.95,0:07:38.16,eng,,0000,0000,0000,,{\blur3}Hey. Thanks for stopping our ball.{\r}
+Dialogue: 0,0:07:38.33,0:07:40.29,eng,,0000,0000,0000,,{\blur3}You are playing American football?{\r}
+Dialogue: 0,0:07:40.46,0:07:41.50,eng,,0000,0000,0000,,{\blur3}Yeah.{\r}
+Dialogue: 0,0:07:41.66,0:07:44.71,eng,,0000,0000,0000,,{\blur3}Wow, you're, like, from a whole other country!{\r}
+Dialogue: 0,0:07:45.42,0:07:48.55,eng,,0000,0000,0000,,{\blur3}- I'm Dutch.     - Hi, I'm Joey.{\r}
+Dialogue: 0,0:07:49.01,0:07:50.26,eng,,0000,0000,0000,,{\blur3}I am Margha.{\r}
+Dialogue: 0,0:07:51.05,0:07:54.05,eng,,0000,0000,0000,,{\blur3}Sorry, Dutch, I didn't get that last little bit.{\r}
+Dialogue: 0,0:07:54.22,0:07:56.89,eng,,0000,0000,0000,,{\blur3}You wanna play football or...? Hi, I'm Chandler.{\r}
+Dialogue: 0,0:07:57.05,0:07:58.93,eng,,0000,0000,0000,,{\blur3}Hello, Chandler.{\r}
+Dialogue: 0,0:07:59.10,0:08:02.52,eng,,0000,0000,0000,,{\blur3}Her name is Dutch and also "Margham."{\r}
+Dialogue: 0,0:08:03.23,0:08:05.27,eng,,0000,0000,0000,,{\blur3}- Margha.     - Margha.{\r}
+Dialogue: 0,0:08:05.44,0:08:06.56,eng,,0000,0000,0000,,{\blur3}Margha.{\r}
+Dialogue: 0,0:08:06.73,0:08:09.44,eng,,0000,0000,0000,,{\blur3}Mahan.{\r}
+Dialogue: 0,0:08:10.19,0:08:12.78,eng,,0000,0000,0000,,{\blur3}Come on, guys! Let's go! Second down!{\r}
+Dialogue: 0,0:08:13.74,0:08:16.78,eng,,0000,0000,0000,,{\blur3}- Uh, hello? It's third down.     - No, it's not. It's second.{\r}
+Dialogue: 0,0:08:17.95,0:08:19.99,eng,,0000,0000,0000,,{\blur3}"Wow" what?{\r}
+Dialogue: 0,0:08:20.16,0:08:24.08,eng,,0000,0000,0000,,{\blur3}It just amazes me that you're still pulling stuff like this. Heh.{\r}
+Dialogue: 0,0:08:24.75,0:08:28.71,eng,,0000,0000,0000,,{\blur3}- Pulling what? It's second down.     - Okay, it's second down.{\r}
+Dialogue: 0,0:08:28.88,0:08:31.63,eng,,0000,0000,0000,,{\blur3}Take all the second downs you need.{\r}
+Dialogue: 0,0:08:31.88,0:08:34.55,eng,,0000,0000,0000,,{\blur3}- I heard that.     - Well, I said it loud.{\r}
+Dialogue: 0,0:08:36.43,0:08:38.55,eng,,0000,0000,0000,,{\blur3}It is okay if I stay and watch?{\r}
+Dialogue: 0,0:08:38.72,0:08:41.89,eng,,0000,0000,0000,,{\blur3}- Just sit right there.     - Yeah, why don't you stick around?{\r}
+Dialogue: 0,0:08:42.06,0:08:43.77,eng,,0000,0000,0000,,{\blur3}- That went well.     - I think so.{\r}
+Dialogue: 0,0:08:43.94,0:08:46.90,eng,,0000,0000,0000,,{\blur3}I was thinking about, uh, asking her for her number.{\r}
+Dialogue: 0,0:08:47.06,0:08:50.94,eng,,0000,0000,0000,,{\blur3}Thanks, man, but it makes a stronger statement if I ask for it myself.{\r}
+Dialogue: 0,0:08:53.15,0:08:57.91,eng,,0000,0000,0000,,{\blur3}I was thinking about for me, as part of that getting-over-Janice thing.{\r}
+Dialogue: 0,0:08:58.53,0:09:00.12,eng,,0000,0000,0000,,{\blur3}Oh, yeah. That.{\r}
+Dialogue: 0,0:09:00.95,0:09:02.87,eng,,0000,0000,0000,,{\blur3}If it means that much, I'll let you have her.{\r}
+Dialogue: 0,0:09:03.04,0:09:04.12,eng,,0000,0000,0000,,{\blur3}Thanks.{\r}
+Dialogue: 0,0:09:05.04,0:09:07.12,eng,,0000,0000,0000,,{\blur3}Wh...? "Let me have her"?{\r}
+Dialogue: 0,0:09:07.96,0:09:10.59,eng,,0000,0000,0000,,{\blur3}You mean if you didn't, I wouldn't have a shot?{\r}
+Dialogue: 0,0:09:11.21,0:09:13.59,eng,,0000,0000,0000,,{\blur3}I don't like to say it out loud...{\r}
+Dialogue: 0,0:09:14.22,0:09:15.38,eng,,0000,0000,0000,,{\blur3}...but yeah!{\r}
+Dialogue: 0,0:09:16.76,0:09:20.14,eng,,0000,0000,0000,,{\blur3}We all have our strengths. You're better with numbers and stuff.{\r}
+Dialogue: 0,0:09:20.89,0:09:23.89,eng,,0000,0000,0000,,{\blur3}Math? You're giving me math?{\r}
+Dialogue: 0,0:09:24.81,0:09:27.14,eng,,0000,0000,0000,,{\blur3}All right, you know what? Forget about it.{\r}
+Dialogue: 0,0:09:27.31,0:09:29.69,eng,,0000,0000,0000,,{\blur3}You go for the girl. We'll see who gets her.{\r}
+Dialogue: 0,0:09:33.82,0:09:37.03,eng,,0000,0000,0000,,{\blur3}I want you to run a post-pattern to the left. And, sweetie...{\r}
+Dialogue: 0,0:09:37.20,0:09:38.53,eng,,0000,0000,0000,,{\blur3}Yeah, I know. Go long.{\r}
+Dialogue: 0,0:09:38.70,0:09:41.28,eng,,0000,0000,0000,,{\blur3}All I'm doing is running back and forth from the huddle.{\r}
+Dialogue: 0,0:09:42.91,0:09:46.58,eng,,0000,0000,0000,,{\blur3}Well, uh, you wanna just stay out there?{\r}
+Dialogue: 0,0:09:47.16,0:09:49.25,eng,,0000,0000,0000,,{\blur3}- Can I see that for a second?     - Yeah.{\r}
+Dialogue: 0,0:09:52.17,0:09:54.46,eng,,0000,0000,0000,,{\blur3}- Okay.     - Okay, let's go.{\r}
+Dialogue: 0,0:09:54.63,0:09:56.17,eng,,0000,0000,0000,,{\blur3}- I got Chandler     - Hike!{\r}
+Dialogue: 0,0:09:56.34,0:09:58.97,eng,,0000,0000,0000,,{\blur3}One Mississippi, two Mississippi, three Mississippi.{\r}
+Dialogue: 0,0:09:59.14,0:10:00.68,eng,,0000,0000,0000,,{\blur3}Fumble!{\r}
+Dialogue: 0,0:10:06.93,0:10:09.64,eng,,0000,0000,0000,,{\blur3}What's the matter with you? This is my favorite jersey.{\r}
+Dialogue: 0,0:10:10.19,0:10:12.27,eng,,0000,0000,0000,,{\blur3}Well, now you have two.{\r}
+Dialogue: 0,0:10:13.77,0:10:15.65,eng,,0000,0000,0000,,{\blur3}Hey, I am good at math!{\r}
+Dialogue: 0,0:10:16.61,0:10:18.86,eng,,0000,0000,0000,,{\blur3}That's it. I was still gonna let you have her.{\r}
+Dialogue: 0,0:10:19.03,0:10:21.78,eng,,0000,0000,0000,,{\blur3}But now, prepare to feel bad about yourself.{\r}
+Dialogue: 0,0:10:21.95,0:10:25.29,eng,,0000,0000,0000,,{\blur3}I've been preparing for that my entire life!{\r}
+Dialogue: 0,0:10:25.95,0:10:28.16,eng,,0000,0000,0000,,{\blur3}Or something about you that's mean!{\r}
+Dialogue: 0,0:10:28.71,0:10:30.50,eng,,0000,0000,0000,,{\blur3}Come on, guys. Let's go.{\r}
+Dialogue: 0,0:10:30.71,0:10:32.58,eng,,0000,0000,0000,,{\blur3}Tie score. We're running out of time.{\r}
+Dialogue: 0,0:10:33.04,0:10:34.25,eng,,0000,0000,0000,,{\blur3}Forty-two, 38, hike!{\r}
+Dialogue: 0,0:10:35.76,0:10:37.67,eng,,0000,0000,0000,,{\blur3}I got it! Ooh! Ugh!{\r}
+Dialogue: 0,0:10:37.84,0:10:40.13,eng,,0000,0000,0000,,{\blur3}Broken boobs! Ow.{\r}
+Dialogue: 0,0:10:40.30,0:10:42.72,eng,,0000,0000,0000,,{\blur3}- Pheebs, run!     - Run, Phoebe! Run!{\r}
+Dialogue: 0,0:10:42.89,0:10:45.93,eng,,0000,0000,0000,,{\blur3}- God! Touchdown! Touchdown!     - Yes! Touchdown! Hey, oh!{\r}
+Dialogue: 0,0:10:46.60,0:10:49.02,eng,,0000,0000,0000,,{\blur3}No, no, no.{\r}
+Dialogue: 0,0:10:49.19,0:10:51.85,eng,,0000,0000,0000,,{\blur3}Uh, the buzzer buzzed. It doesn't count.{\r}
+Dialogue: 0,0:10:52.19,0:10:54.11,eng,,0000,0000,0000,,{\blur3}- After the snap.     - Before the snap.{\r}
+Dialogue: 0,0:10:54.27,0:10:55.48,eng,,0000,0000,0000,,{\blur3}- After.     - Before.{\r}
+Dialogue: 0,0:10:55.69,0:10:57.40,eng,,0000,0000,0000,,{\blur3}- Does it really matter?     - Yes!{\r}
+Dialogue: 0,0:10:57.65,0:11:01.28,eng,,0000,0000,0000,,{\blur3}But I made a touchdown. It was my first touchdown.{\r}
+Dialogue: 0,0:11:01.45,0:11:04.24,eng,,0000,0000,0000,,{\blur3}Pheebs, that's great. Doesn't count.{\r}
+Dialogue: 0,0:11:04.41,0:11:07.04,eng,,0000,0000,0000,,{\blur3}- Does so count.     - Cheater, cheater, compulsive eater.{\r}
+Dialogue: 0,0:11:08.83,0:11:10.71,eng,,0000,0000,0000,,{\blur3}Oh, my God!{\r}
+Dialogue: 0,0:11:11.83,0:11:15.67,eng,,0000,0000,0000,,{\blur3}That's fine. Maybe you haven't grown up, but I have.{\r}
+Dialogue: 0,0:11:15.84,0:11:17.59,eng,,0000,0000,0000,,{\blur3}- Oh, okay.     - Dead leg!{\r}
+Dialogue: 0,0:11:19.84,0:11:23.26,eng,,0000,0000,0000,,{\blur3}Okay, fine. You want to win by cheating, go ahead.{\r}
+Dialogue: 0,0:11:23.43,0:11:25.39,eng,,0000,0000,0000,,{\blur3}The touchdown does count. You win.{\r}
+Dialogue: 0,0:11:25.55,0:11:27.68,eng,,0000,0000,0000,,{\blur3}No!{\r}
+Dialogue: 0,0:11:28.77,0:11:32.64,eng,,0000,0000,0000,,{\blur3}I won't do this again. I wanna beat you when you can't blame it...{\r}
+Dialogue: 0,0:11:32.81,0:11:36.73,eng,,0000,0000,0000,,{\blur3}...on the broken nose or the buzzer or the fact that you might have mono.{\r}
+Dialogue: 0,0:11:36.90,0:11:40.36,eng,,0000,0000,0000,,{\blur3}Let's just call this tie score and it's halftime.{\r}
+Dialogue: 0,0:11:40.53,0:11:42.11,eng,,0000,0000,0000,,{\blur3}First, I don't play with cheaters.{\r}
+Dialogue: 0,0:11:42.28,0:11:45.28,eng,,0000,0000,0000,,{\blur3}Second of all, you know I had swollen glands!{\r}
+Dialogue: 0,0:11:47.45,0:11:49.58,eng,,0000,0000,0000,,{\blur3}You know what? I think you'll play.{\r}
+Dialogue: 0,0:11:50.29,0:11:52.00,eng,,0000,0000,0000,,{\blur3}Oh, really? Why's that?{\r}
+Dialogue: 0,0:11:52.16,0:11:54.04,eng,,0000,0000,0000,,{\blur3}Because the winner gets this.{\r}
+Dialogue: 0,0:11:54.67,0:11:56.84,eng,,0000,0000,0000,,{\blur3}The Geller Cup!{\r}
+Dialogue: 0,0:11:59.34,0:12:02.34,eng,,0000,0000,0000,,{\blur3}Is everybody else seeing a troll doll nailed to a two-by-four?{\r}
+Dialogue: 0,0:12:03.93,0:12:06.05,eng,,0000,0000,0000,,{\blur3}Okay, good.{\r}
+Dialogue: 0,0:12:11.48,0:12:13.52,eng,,0000,0000,0000,,{\blur3}Okay, where the hell did you get that?{\r}
+Dialogue: 0,0:12:13.69,0:12:15.98,eng,,0000,0000,0000,,{\blur3}When you went to the hospital for your nose...{\r}
+Dialogue: 0,0:12:16.15,0:12:18.98,eng,,0000,0000,0000,,{\blur3}...I swam into the lake and fished it out.{\r}
+Dialogue: 0,0:12:19.15,0:12:20.28,eng,,0000,0000,0000,,{\blur3}That cup is mine!{\r}
+Dialogue: 0,0:12:20.44,0:12:23.57,eng,,0000,0000,0000,,{\blur3}No, it's not. You want it, you're gonna have to win it.{\r}
+Dialogue: 0,0:12:23.74,0:12:27.03,eng,,0000,0000,0000,,{\blur3}So are we not having dinner at all?{\r}
+Dialogue: 0,0:12:27.20,0:12:30.99,eng,,0000,0000,0000,,{\blur3}Come on, let's go. It's time to get serious. Huddle up.{\r}
+Dialogue: 0,0:12:31.45,0:12:33.54,eng,,0000,0000,0000,,{\blur3}Keep your head in the game.{\r}
+Dialogue: 0,0:12:33.71,0:12:37.04,eng,,0000,0000,0000,,{\blur3}It's hard, you know? His huddle's close to the Dutch girl.{\r}
+Dialogue: 0,0:12:38.42,0:12:42.05,eng,,0000,0000,0000,,{\blur3}If I take Chandler out of the running, will you be able to focus?{\r}
+Dialogue: 0,0:12:42.21,0:12:45.18,eng,,0000,0000,0000,,{\blur3}- What are you gonna do?     - Just make sure he catches the ball.{\r}
+Dialogue: 0,0:12:45.34,0:12:46.34,eng,,0000,0000,0000,,{\blur3}I'll do the rest.{\r}
+Dialogue: 0,0:12:46.51,0:12:49.43,eng,,0000,0000,0000,,{\blur3}- Come on, you wuss!     - Okay, come on.{\r}
+Dialogue: 0,0:12:50.26,0:12:52.06,eng,,0000,0000,0000,,{\blur3}- Go, Cha... Chandler.     - I got it!{\r}
+Dialogue: 0,0:12:52.22,0:12:54.35,eng,,0000,0000,0000,,{\blur3}Come on! This way! Come on!{\r}
+Dialogue: 0,0:12:54.77,0:12:56.52,eng,,0000,0000,0000,,{\blur3}- Look out!     - Oof!{\r}
+Dialogue: 0,0:12:59.94,0:13:03.03,eng,,0000,0000,0000,,{\blur3}Tackled by a girl! Bet you don't see that every day.{\r}
+Dialogue: 0,0:13:04.24,0:13:06.70,eng,,0000,0000,0000,,{\blur3}Whoa, whoa, whoa! What's with the tackling?{\r}
+Dialogue: 0,0:13:06.86,0:13:08.70,eng,,0000,0000,0000,,{\blur3}What?{\r}
+Dialogue: 0,0:13:08.87,0:13:10.58,eng,,0000,0000,0000,,{\blur3}I just touched him and he went over.{\r}
+Dialogue: 0,0:13:11.45,0:13:14.75,eng,,0000,0000,0000,,{\blur3}Okay. You wanna play rough? We can play rough.{\r}
+Dialogue: 0,0:13:14.91,0:13:17.87,eng,,0000,0000,0000,,{\blur3}Let's get ready to rumble!{\r}
+Dialogue: 0,0:13:57.75,0:13:59.92,eng,,0000,0000,0000,,{\blur3}- Go, go, go!     - Get her! Get her!{\r}
+Dialogue: 0,0:14:03.88,0:14:05.63,eng,,0000,0000,0000,,{\blur3}I love this game!{\r}
+Dialogue: 0,0:14:08.68,0:14:09.88,eng,,0000,0000,0000,,{\blur3}Where'd you get that?{\r}
+Dialogue: 0,0:14:10.72,0:14:12.60,eng,,0000,0000,0000,,{\blur3}I went really long.{\r}
+Dialogue: 0,0:14:13.97,0:14:15.81,eng,,0000,0000,0000,,{\blur3}Forty-two to 21.{\r}
+Dialogue: 0,0:14:15.98,0:14:18.43,eng,,0000,0000,0000,,{\blur3}Like the turkey, Ross is done!{\r}
+Dialogue: 0,0:14:20.06,0:14:23.27,eng,,0000,0000,0000,,{\blur3}You got to pick first, so you got the better team.{\r}
+Dialogue: 0,0:14:23.44,0:14:26.44,eng,,0000,0000,0000,,{\blur3}Pathetic! Why can't you just accept that we're winning...{\r}
+Dialogue: 0,0:14:26.61,0:14:27.94,eng,,0000,0000,0000,,{\blur3}...because I'm better than you?{\r}
+Dialogue: 0,0:14:28.11,0:14:31.99,eng,,0000,0000,0000,,{\blur3}Oh, what a great argument. Exhaling!{\r}
+Dialogue: 0,0:14:32.74,0:14:34.49,eng,,0000,0000,0000,,{\blur3}All right, I'll prove it to you. Okay?{\r}
+Dialogue: 0,0:14:34.66,0:14:38.58,eng,,0000,0000,0000,,{\blur3}I'll trade you Joey for Rachel and I'll still win the game.{\r}
+Dialogue: 0,0:14:38.75,0:14:41.12,eng,,0000,0000,0000,,{\blur3}What? The guys against the girls?{\r}
+Dialogue: 0,0:14:41.29,0:14:44.84,eng,,0000,0000,0000,,{\blur3}That's ridiculous because I'm only down by three touchdowns.{\r}
+Dialogue: 0,0:14:45.00,0:14:46.75,eng,,0000,0000,0000,,{\blur3}Oh, then bring it on!{\r}
+Dialogue: 0,0:14:46.92,0:14:50.22,eng,,0000,0000,0000,,{\blur3}Unless you're afraid you might lose to a bunch of girls.{\r}
+Dialogue: 0,0:14:52.43,0:14:55.81,eng,,0000,0000,0000,,{\blur3}Fine. Rachel, you're with Monica. Joey, you're with me.{\r}
+Dialogue: 0,0:14:56.10,0:14:58.14,eng,,0000,0000,0000,,{\blur3}I can not believe you're trading me.{\r}
+Dialogue: 0,0:14:58.31,0:15:01.48,eng,,0000,0000,0000,,{\blur3}Let's see what it's like to be on a winning team for a change.{\r}
+Dialogue: 0,0:15:01.65,0:15:03.31,eng,,0000,0000,0000,,{\blur3}You're gonna let me play?{\r}
+Dialogue: 0,0:15:03.77,0:15:05.27,eng,,0000,0000,0000,,{\blur3}All right, then!{\r}
+Dialogue: 0,0:15:06.11,0:15:07.90,eng,,0000,0000,0000,,{\blur3}The game is over? We eat now?{\r}
+Dialogue: 0,0:15:08.07,0:15:09.99,eng,,0000,0000,0000,,{\blur3}No, the game's not over. We're switching teams.{\r}
+Dialogue: 0,0:15:10.15,0:15:14.53,eng,,0000,0000,0000,,{\blur3}Chandler finds me so intimidating that it's better if we're on the same team.{\r}
+Dialogue: 0,0:15:14.70,0:15:16.78,eng,,0000,0000,0000,,{\blur3}Okay, let's play. Let's go.{\r}
+Dialogue: 0,0:15:16.95,0:15:18.37,eng,,0000,0000,0000,,{\blur3}Oh, uh, hold on a second.{\r}
+Dialogue: 0,0:15:18.54,0:15:21.08,eng,,0000,0000,0000,,{\blur3}Ahem. Where do Dutch people come from?{\r}
+Dialogue: 0,0:15:28.55,0:15:30.51,eng,,0000,0000,0000,,{\blur3}Uh, well, the, uh...{\r}
+Dialogue: 0,0:15:30.67,0:15:33.93,eng,,0000,0000,0000,,{\blur3}...Pennsylvania Dutch come from Pennsylvania.{\r}
+Dialogue: 0,0:15:34.47,0:15:36.51,eng,,0000,0000,0000,,{\blur3}And the, uh, other Dutch people?{\r}
+Dialogue: 0,0:15:36.68,0:15:39.47,eng,,0000,0000,0000,,{\blur3}They come from somewhere near the Netherlands, right?{\r}
+Dialogue: 0,0:15:39.64,0:15:41.52,eng,,0000,0000,0000,,{\blur3}Nice try.{\r}
+Dialogue: 0,0:15:41.69,0:15:43.94,eng,,0000,0000,0000,,{\blur3}The Netherlands is this make-believe place...{\r}
+Dialogue: 0,0:15:44.10,0:15:47.11,eng,,0000,0000,0000,,{\blur3}...where Peter Pan and Tinker Bell come from.{\r}
+Dialogue: 0,0:15:48.32,0:15:49.86,eng,,0000,0000,0000,,{\blur3}Oh, my.{\r}
+Dialogue: 0,0:15:50.65,0:15:53.70,eng,,0000,0000,0000,,{\blur3}Enough "geography for the insane." Let's play ball.{\r}
+Dialogue: 0,0:15:53.86,0:15:56.24,eng,,0000,0000,0000,,{\blur3}No. No, I'm not playing with this guy.{\r}
+Dialogue: 0,0:15:56.41,0:15:58.99,eng,,0000,0000,0000,,{\blur3}- Oh, fine with me.     - I've had enough of this.{\r}
+Dialogue: 0,0:15:59.16,0:16:03.08,eng,,0000,0000,0000,,{\blur3}Let's just cut to the chase. Heidi, which of my boys do you like?{\r}
+Dialogue: 0,0:16:04.04,0:16:05.08,eng,,0000,0000,0000,,{\blur3}What are you doing?{\r}
+Dialogue: 0,0:16:05.25,0:16:06.88,eng,,0000,0000,0000,,{\blur3}What are you doing?{\r}
+Dialogue: 0,0:16:08.59,0:16:10.09,eng,,0000,0000,0000,,{\blur3}Which do I like?{\r}
+Dialogue: 0,0:16:10.26,0:16:14.01,eng,,0000,0000,0000,,{\blur3}Yeah, for dating, general merriment, taking back to your windmill?{\r}
+Dialogue: 0,0:16:14.68,0:16:17.26,eng,,0000,0000,0000,,{\blur3}Well, if I had to choose right now...{\r}
+Dialogue: 0,0:16:17.43,0:16:20.14,eng,,0000,0000,0000,,{\blur3}...which, by the way, I find really weird...{\r}
+Dialogue: 0,0:16:21.56,0:16:23.64,eng,,0000,0000,0000,,{\blur3}...I would have to say Chandler.{\r}
+Dialogue: 0,0:16:24.06,0:16:25.40,eng,,0000,0000,0000,,{\blur3}Yes!{\r}
+Dialogue: 0,0:16:26.19,0:16:29.57,eng,,0000,0000,0000,,{\blur3}Wait a minute. She didn't understand the question.{\r}
+Dialogue: 0,0:16:29.73,0:16:32.94,eng,,0000,0000,0000,,{\blur3}Why don't you have Captain Hook explain it to her?{\r}
+Dialogue: 0,0:16:34.28,0:16:36.36,eng,,0000,0000,0000,,{\blur3}I'm sorry. That is my truth.{\r}
+Dialogue: 0,0:16:36.53,0:16:40.12,eng,,0000,0000,0000,,{\blur3}You hear that? That is her truth, Mr. "I'll Let You Have Her"!{\r}
+Dialogue: 0,0:16:40.29,0:16:43.08,eng,,0000,0000,0000,,{\blur3}I win! You suck! I rule all!{\r}
+Dialogue: 0,0:16:43.25,0:16:45.87,eng,,0000,0000,0000,,{\blur3}Mini-wave in celebration of me!{\r}
+Dialogue: 0,0:16:49.84,0:16:55.01,eng,,0000,0000,0000,,{\blur3}I am now thinking I would like to change my answer to "no one."{\r}
+Dialogue: 0,0:16:55.18,0:16:56.76,eng,,0000,0000,0000,,{\blur3}What?{\r}
+Dialogue: 0,0:16:57.34,0:16:59.85,eng,,0000,0000,0000,,{\blur3}I now find you shallow, and, um...{\r}
+Dialogue: 0,0:17:00.01,0:17:01.76,eng,,0000,0000,0000,,{\blur3}...a dork.{\r}
+Dialogue: 0,0:17:02.31,0:17:03.85,eng,,0000,0000,0000,,{\blur3}Bye-bye.{\r}
+Dialogue: 0,0:17:04.35,0:17:05.85,eng,,0000,0000,0000,,{\blur3}Heh. Nice going.{\r}
+Dialogue: 0,0:17:06.02,0:17:08.69,eng,,0000,0000,0000,,{\blur3}You just saved yourself a couple months of sex.{\r}
+Dialogue: 0,0:17:09.57,0:17:11.90,eng,,0000,0000,0000,,{\blur3}It doesn't matter, because she picked me.{\r}
+Dialogue: 0,0:17:12.07,0:17:14.15,eng,,0000,0000,0000,,{\blur3}From now on, I get the dates...{\r}
+Dialogue: 0,0:17:14.32,0:17:17.95,eng,,0000,0000,0000,,{\blur3}...and you stay home on Saturday nights watching Ready, Set, Cook!{\r}
+Dialogue: 0,0:17:18.49,0:17:21.37,eng,,0000,0000,0000,,{\blur3}Save the breakthroughs for therapy. The clock is ticking.{\r}
+Dialogue: 0,0:17:21.54,0:17:24.25,eng,,0000,0000,0000,,{\blur3}We have no time, and we are losing to girls.{\r}
+Dialogue: 0,0:17:24.41,0:17:26.04,eng,,0000,0000,0000,,{\blur3}We're not gonna lose to girls.{\r}
+Dialogue: 0,0:17:26.21,0:17:27.79,eng,,0000,0000,0000,,{\blur3}It's 42-21!{\r}
+Dialogue: 0,0:17:27.96,0:17:31.42,eng,,0000,0000,0000,,{\blur3}This sucks! I was just up by that much!{\r}
+Dialogue: 0,0:17:32.42,0:17:35.92,eng,,0000,0000,0000,,{\blur3}Are we playing football or what? Come on, you hairy-backed Marys!{\r}
+Dialogue: 0,0:17:37.51,0:17:40.85,eng,,0000,0000,0000,,{\blur3}We have to do this. We're playing for women everywhere.{\r}
+Dialogue: 0,0:17:41.01,0:17:43.56,eng,,0000,0000,0000,,{\blur3}Think about every lousy date you ever had.{\r}
+Dialogue: 0,0:17:43.72,0:17:46.77,eng,,0000,0000,0000,,{\blur3}Every guy who kept one eye on the TV while you were making out.{\r}
+Dialogue: 0,0:17:46.94,0:17:50.19,eng,,0000,0000,0000,,{\blur3}Oh, my God. You dated someone with a glass eye too?{\r}
+Dialogue: 0,0:17:52.02,0:17:55.99,eng,,0000,0000,0000,,{\blur3}Come on, okay? This is for all womankind. Let's kill them!{\r}
+Dialogue: 0,0:17:56.15,0:17:57.86,eng,,0000,0000,0000,,{\blur3}Yeah! Kill them!{\r}
+Dialogue: 0,0:17:59.11,0:18:01.41,eng,,0000,0000,0000,,{\blur3}All right, I want to kill them too.{\r}
+Dialogue: 0,0:18:01.58,0:18:03.24,eng,,0000,0000,0000,,{\blur3}But they're boys.{\r}
+Dialogue: 0,0:18:03.41,0:18:06.37,eng,,0000,0000,0000,,{\blur3}You know, how are we gonna beat three boys?{\r}
+Dialogue: 0,0:18:35.86,0:18:38.57,eng,,0000,0000,0000,,{\blur3}A minute and a half left, and we're down by two points.{\r}
+Dialogue: 0,0:18:38.74,0:18:39.95,eng,,0000,0000,0000,,{\blur3}Two points, ladies.{\r}
+Dialogue: 0,0:18:46.16,0:18:48.37,eng,,0000,0000,0000,,{\blur3}Phoebe, you do a buttonhook again.{\r}
+Dialogue: 0,0:18:48.54,0:18:49.91,eng,,0000,0000,0000,,{\blur3}Rachel, you go long.{\r}
+Dialogue: 0,0:18:50.08,0:18:53.84,eng,,0000,0000,0000,,{\blur3}No, don't make me go long. Use me. They never cover me.{\r}
+Dialogue: 0,0:18:54.00,0:18:55.75,eng,,0000,0000,0000,,{\blur3}Honey, there's a reason.{\r}
+Dialogue: 0,0:18:57.09,0:18:59.76,eng,,0000,0000,0000,,{\blur3}I'm not lame, okay? I can do something.{\r}
+Dialogue: 0,0:19:00.01,0:19:02.51,eng,,0000,0000,0000,,{\blur3}Would you let me throw? This is my game too.{\r}
+Dialogue: 0,0:19:02.72,0:19:04.39,eng,,0000,0000,0000,,{\blur3}Let her throw the ball.{\r}
+Dialogue: 0,0:19:04.56,0:19:08.27,eng,,0000,0000,0000,,{\blur3}Sweep behind, I'll pitch it. You throw it downfield to Phoebe.{\r}
+Dialogue: 0,0:19:08.43,0:19:09.52,eng,,0000,0000,0000,,{\blur3}Thank you.{\r}
+Dialogue: 0,0:19:09.69,0:19:11.06,eng,,0000,0000,0000,,{\blur3}- Break!     - Break!{\r}
+Dialogue: 0,0:19:11.23,0:19:12.90,eng,,0000,0000,0000,,{\blur3}All right, here we go.{\r}
+Dialogue: 0,0:19:13.06,0:19:15.36,eng,,0000,0000,0000,,{\blur3}Thirty-two, 71, hike!{\r}
+Dialogue: 0,0:19:15.52,0:19:17.94,eng,,0000,0000,0000,,{\blur3}One Mississippi, two Mississippi, three Mississippi!{\r}
+Dialogue: 0,0:19:23.41,0:19:24.99,eng,,0000,0000,0000,,{\blur3}Go, go, go!{\r}
+Dialogue: 0,0:19:25.74,0:19:27.12,eng,,0000,0000,0000,,{\blur3}Catch it!{\r}
+Dialogue: 0,0:19:29.41,0:19:32.42,eng,,0000,0000,0000,,{\blur3}- I'm so sorry. Are you okay?     - No, I'm not okay!{\r}
+Dialogue: 0,0:19:33.75,0:19:36.21,eng,,0000,0000,0000,,{\blur3}They were coming at me, and I didn't know what to do.{\r}
+Dialogue: 0,0:19:36.38,0:19:38.46,eng,,0000,0000,0000,,{\blur3}Thirty seconds left on the timer.{\r}
+Dialogue: 0,0:19:38.63,0:19:41.76,eng,,0000,0000,0000,,{\blur3}So we get to take that, uh, stupid troll thing home.{\r}
+Dialogue: 0,0:19:41.93,0:19:44.89,eng,,0000,0000,0000,,{\blur3}Come on! Hurry! We're running out of time.{\r}
+Dialogue: 0,0:19:45.05,0:19:46.76,eng,,0000,0000,0000,,{\blur3}- Huddle up!     - Okay.{\r}
+Dialogue: 0,0:19:48.22,0:19:51.10,eng,,0000,0000,0000,,{\blur3}Oh! This is our last huddle!{\r}
+Dialogue: 0,0:19:51.94,0:19:54.94,eng,,0000,0000,0000,,{\blur3}All right, Phoebe, get open. Rachel...{\r}
+Dialogue: 0,0:19:55.11,0:19:57.61,eng,,0000,0000,0000,,{\blur3}- ...go long.     - Okay.{\r}
+Dialogue: 0,0:19:57.77,0:19:59.48,eng,,0000,0000,0000,,{\blur3}Break!{\r}
+Dialogue: 0,0:20:46.66,0:20:49.41,eng,,0000,0000,0000,,{\blur3}Ahh! I did it! Touchdown! We did it!{\r}
+Dialogue: 0,0:20:53.12,0:20:57.46,eng,,0000,0000,0000,,{\blur3}You know? Funny thing, actually. The end zone starts at that pole.{\r}
+Dialogue: 0,0:20:57.67,0:20:59.67,eng,,0000,0000,0000,,{\blur3}So you're five feet short. So...{\r}
+Dialogue: 0,0:20:59.84,0:21:02.55,eng,,0000,0000,0000,,{\blur3}...ha-ha-ha, we win!{\r}
+Dialogue: 0,0:21:03.84,0:21:05.30,eng,,0000,0000,0000,,{\blur3}Yes, yes, yes!{\r}
+Dialogue: 0,0:21:05.47,0:21:07.51,eng,,0000,0000,0000,,{\blur3}Wait, explain something, though.{\r}
+Dialogue: 0,0:21:07.68,0:21:12.01,eng,,0000,0000,0000,,{\blur3}If nobody tagged Rachel, then isn't the play still going?{\r}
+Dialogue: 0,0:21:17.23,0:21:19.73,eng,,0000,0000,0000,,{\blur3}- Let me in! Let me in!     - No way! Let go!{\r}
+Dialogue: 0,0:21:19.90,0:21:22.86,eng,,0000,0000,0000,,{\blur3}Let go? I'm a tiny little woman!{\r}
+Dialogue: 0,0:21:23.32,0:21:25.32,eng,,0000,0000,0000,,{\blur3}Guys, come on, it's Thanksgiving!{\r}
+Dialogue: 0,0:21:25.49,0:21:27.86,eng,,0000,0000,0000,,{\blur3}It's not important who wins or loses.{\r}
+Dialogue: 0,0:21:28.03,0:21:30.99,eng,,0000,0000,0000,,{\blur3}The important thing is the Dutch girl picked me!{\r}
+Dialogue: 0,0:21:33.00,0:21:37.16,eng,,0000,0000,0000,,{\blur3}Me, not you! Holland loves Chandler! Thank you, Amsterdam! Good night!{\r}
+Dialogue: 0,0:21:41.38,0:21:42.71,eng,,0000,0000,0000,,{\blur3}Ow!{\r}
+Dialogue: 0,0:21:44.88,0:21:46.97,eng,,0000,0000,0000,,{\blur3}We should play football more often.{\r}
+Dialogue: 0,0:21:47.13,0:21:49.64,eng,,0000,0000,0000,,{\blur3}Maybe there's a league we could join.{\r}
+Dialogue: 0,0:21:49.89,0:21:52.93,eng,,0000,0000,0000,,{\blur3}Isn't there a "national football league"?{\r}
+Dialogue: 0,0:21:53.85,0:21:56.60,eng,,0000,0000,0000,,{\blur3}Yes, there is. They play on Sundays and Monday nights.{\r}
+Dialogue: 0,0:21:56.77,0:21:59.40,eng,,0000,0000,0000,,{\blur3}Oh, shoot! I work Monday nights.{\r}
+Dialogue: 0,0:22:02.07,0:22:05.94,eng,,0000,0000,0000,,{\blur3}This stuffing is amazing. Do you think we should bring them some?{\r}
+Dialogue: 0,0:22:06.11,0:22:08.20,eng,,0000,0000,0000,,{\blur3}When they're hungry, they'll come in.{\r}
+Dialogue: 0,0:22:08.36,0:22:11.24,eng,,0000,0000,0000,,{\blur3}- Let go!     - No, you let go!{\r}
+Dialogue: 0,0:22:13.20,0:22:16.25,eng,,0000,0000,0000,,{\blur3}How come it's always us left holding the ball?{\r}
+Dialogue: 0,0:22:16.41,0:22:20.25,eng,,0000,0000,0000,,{\blur3}I don't know. I guess the other people just don't care enough.{\r}
+Dialogue: 0,0:22:25.92,0:22:28.80,eng,,0000,0000,0000,,{\blur3}Hey, it's starting to snow.{\r}
+Dialogue: 0,0:22:33.06,0:22:36.22,eng,,0000,0000,0000,,{\blur3}- Give it to me! Let go!     - Let it go! Come on, let go!{\r}

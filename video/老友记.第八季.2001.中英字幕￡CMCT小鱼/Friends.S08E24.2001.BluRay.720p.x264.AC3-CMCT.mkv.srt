@@ -1,0 +1,334 @@
+﻿[Script Info]
+;SrtEdit 6.2.2012.322
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: eng&chs,Cronos Pro Subhead,18,&H003CF1F3,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,0,0,2,1
+Style: chs&eng,STKaiti,20,&H00F5F5F5,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,0,0,2,1
+Style: eng,Cronos Pro Subhead,18,&H003CF1F3,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,0,0,8,1
+Style: Pure Chinese,STKaiti,20,&H00F5F5F5,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,0,0,8,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:02.15,0:00:03.61,Pure Chinese,,0,0,0,,{\blur3}"六人行"前情介紹…
+Dialogue: 0,0:00:03.78,0:00:05.99,Pure Chinese,,0,0,0,,{\blur3}我已經等了17個小時
+Dialogue: 0,0:00:06.16,0:00:08.32,Pure Chinese,,0,0,0,,{\blur3}- 我張開了幾公分   - 三公分
+Dialogue: 0,0:00:08.53,0:00:12.00,Pure Chinese,,0,0,0,,{\blur3}只有三公分 我才是張開了三公分
+Dialogue: 0,0:00:13.04,0:00:16.37,Pure Chinese,,0,0,0,,{\blur3}- 我們總是說以後要生孩子   - 我們要試試看嗎
+Dialogue: 0,0:00:16.58,0:00:19.88,Pure Chinese,,0,0,0,,{\blur3}- 在這裏    - 不是這裏
+Dialogue: 0,0:00:20.04,0:00:22.34,Pure Chinese,,0,0,0,,{\blur3}或許吧
+Dialogue: 0,0:00:22.51,0:00:24.26,Pure Chinese,,0,0,0,,{\blur3}這是你外婆的訂婚戒指
+Dialogue: 0,0:00:24.42,0:00:26.22,Pure Chinese,,0,0,0,,{\blur3}我要你把它送給瑞秋
+Dialogue: 0,0:00:26.38,0:00:28.76,Pure Chinese,,0,0,0,,{\blur3}- 媽 不   - 羅斯 她不是你在酒吧…
+Dialogue: 0,0:00:28.93,0:00:33.02,Pure Chinese,,0,0,0,,{\blur3}泡到就上的女孩
+Dialogue: 0,0:00:34.10,0:00:36.64,Pure Chinese,,0,0,0,,{\blur3}- 我想你是來探病的   - 對
+Dialogue: 0,0:00:36.81,0:00:39.06,Pure Chinese,,0,0,0,,{\blur3}- 如果你有時問想拜訪其他人…   - 對 我很樂意
+Dialogue: 0,0:00:40.40,0:00:42.36,Pure Chinese,,0,0,0,,{\blur3}- 就是他   - 太棒了 去找他吧
+Dialogue: 0,0:00:42.53,0:00:44.28,Pure Chinese,,0,0,0,,{\blur3}或許你該先進去
+Dialogue: 0,0:00:44.44,0:00:48.24,Pure Chinese,,0,0,0,,{\blur3}嗨 我是德瑞克·拉莫瑞醫生 我得問你幾個例行的問題
+Dialogue: 0,0:00:48.41,0:00:50.87,Pure Chinese,,0,0,0,,{\blur3}你會跟女人上了床後 不再打電話給她們嗎
+Dialogue: 0,0:00:52.12,0:00:56.75,Pure Chinese,,0,0,0,,{\blur3}天啊
+Dialogue: 0,0:00:59.10,0:01:00.34,Pure Chinese,,0,0,0,,{\blur3}（急診救護車）
+Dialogue: 0,0:01:07.01,0:01:10.80,Pure Chinese,,0,0,0,,{\blur3}我們該告訴瑞秋 她隔壁就有一間單人待產室嗎
+Dialogue: 0,0:01:11.85,0:01:15.10,Pure Chinese,,0,0,0,,{\blur3}沒錯 或許我們可以在這裏做愛
+Dialogue: 0,0:01:16.43,0:01:19.48,Pure Chinese,,0,0,0,,{\blur3}讓我邊脫褲子邊想
+Dialogue: 0,0:01:22.02,0:01:25.36,Pure Chinese,,0,0,0,,{\blur3}好吧 先生 來造人吧
+Dialogue: 0,0:01:36.83,0:01:39.54,Pure Chinese,,0,0,0,,{\blur3}那是珍妮絲的聲音嗎
+Dialogue: 0,0:01:39.71,0:01:42.63,Pure Chinese,,0,0,0,,{\blur3}如果不是的話 就是有個人很像她
+Dialogue: 0,0:01:42.79,0:01:45.05,Pure Chinese,,0,0,0,,{\blur3}那表示世界末日到了
+Dialogue: 0,0:01:51.20,0:01:55.70,Pure Chinese,,0,0,0,,{\blur3}# 沒有人告訴你活著有多累 #
+Dialogue: 0,0:01:56.27,0:02:00.44,Pure Chinese,,0,0,0,,{\blur3}# 上班受罪 口袋空空 愛情變累贅 #
+Dialogue: 0,0:02:01.35,0:02:05.16,Pure Chinese,,0,0,0,,{\blur3}# 寂寞又潦倒 受氣又受累 #
+Dialogue: 0,0:02:05.62,0:02:07.72,Pure Chinese,,0,0,0,,{\blur3}# 日復一日 年復一年 #
+Dialogue: 0,0:02:07.72,0:02:10.72,Pure Chinese,,0,0,0,,{\blur3}# 時運不濟 活著受罪 #
+Dialogue: 0,0:02:10.72,0:02:14.68,Pure Chinese,,0,0,0,,{\blur3}# 你我永不離棄 #
+Dialogue: 0,0:02:14.68,0:02:19.63,Pure Chinese,,0,0,0,,{\blur3}# 你我相偎相依 #
+Dialogue: 0,0:02:26.63,0:02:27.67,Pure Chinese,,0,0,0,,{\blur3}嘿
+Dialogue: 0,0:02:27.84,0:02:29.05,Pure Chinese,,0,0,0,,{\blur3}- 嘿   - 嗨
+Dialogue: 0,0:02:29.22,0:02:32.09,Pure Chinese,,0,0,0,,{\blur3}我不敢相信要這麼久 你還好嗎
+Dialogue: 0,0:02:32.26,0:02:34.26,Pure Chinese,,0,0,0,,{\blur3}還不錯 你知道試著
+Dialogue: 0,0:02:34.43,0:02:37.47,Pure Chinese,,0,0,0,,{\blur3}將聖柏納犬從屁股誰出來的感覺嗎
+Dialogue: 0,0:02:40.56,0:02:42.31,Pure Chinese,,0,0,0,,{\blur3}真的太奇怪了 我聽到…
+Dialogue: 0,0:02:43.90,0:02:45.98,Pure Chinese,,0,0,0,,{\blur3}天啊 是真的
+Dialogue: 0,0:02:46.90,0:02:50.90,Pure Chinese,,0,0,0,,{\blur3}錢德賓
+Dialogue: 0,0:02:51.07,0:02:52.07,Pure Chinese,,0,0,0,,{\blur3}珍妮絲
+Dialogue: 0,0:02:52.24,0:02:56.78,Pure Chinese,,0,0,0,,{\blur3}不只那樣 珍妮絲要生了 她正在陣痛
+Dialogue: 0,0:02:58.24,0:03:01.58,Pure Chinese,,0,0,0,,{\blur3}這應該很容易 我的骨盆很寬
+Dialogue: 0,0:03:01.75,0:03:03.79,Pure Chinese,,0,0,0,,{\blur3}你應該記得 錢德
+Dialogue: 0,0:03:07.25,0:03:09.01,Pure Chinese,,0,0,0,,{\blur3}珍妮絲 我不知道你懷孕了
+Dialogue: 0,0:03:09.17,0:03:13.47,Pure Chinese,,0,0,0,,{\blur3}你偷走了哪個笨蛋的心
+Dialogue: 0,0:03:15.51,0:03:17.31,Pure Chinese,,0,0,0,,{\blur3}這是你的孩子
+Dialogue: 0,0:03:17.81,0:03:19.60,Pure Chinese,,0,0,0,,{\blur3}這是你的孩子
+Dialogue: 0,0:03:20.14,0:03:21.39,Pure Chinese,,0,0,0,,{\blur3}什麼
+Dialogue: 0,0:03:21.56,0:03:25.23,Pure Chinese,,0,0,0,,{\blur3}看他有多緊張 我們好幾年沒上過床了
+Dialogue: 0,0:03:28.90,0:03:31.69,Pure Chinese,,0,0,0,,{\blur3}那真的很有趣 會痛嗎 生產會痛嗎
+Dialogue: 0,0:03:34.91,0:03:38.74,Pure Chinese,,0,0,0,,{\blur3}好吧 我想到一個 如果非吃不可 你要吃哪一個
+Dialogue: 0,0:03:38.91,0:03:42.46,Pure Chinese,,0,0,0,,{\blur3}千里眼的小狗或會說話的猩猩
+Dialogue: 0,0:03:45.75,0:03:49.17,Pure Chinese,,0,0,0,,{\blur3}我猜是會說話的猩猩
+Dialogue: 0,0:03:49.34,0:03:53.76,Pure Chinese,,0,0,0,,{\blur3}因為至少我可以跟他解釋 是你逼我吃掉他
+Dialogue: 0,0:03:54.51,0:03:58.01,Pure Chinese,,0,0,0,,{\blur3}- 有人讀過大學   - 對
+Dialogue: 0,0:03:58.18,0:04:00.43,Pure Chinese,,0,0,0,,{\blur3}怎麼了 對不起
+Dialogue: 0,0:04:00.60,0:04:03.52,Pure Chinese,,0,0,0,,{\blur3}對不起 我的腳好癢
+Dialogue: 0,0:04:03.69,0:04:06.15,Pure Chinese,,0,0,0,,{\blur3}讓我來吧
+Dialogue: 0,0:04:07.73,0:04:11.57,Pure Chinese,,0,0,0,,{\blur3}通常我會跟女人混熟後才會讓她用湯匙幫我搔癢
+Dialogue: 0,0:04:12.90,0:04:15.49,Pure Chinese,,0,0,0,,{\blur3}別激動 它不是叉子
+Dialogue: 0,0:04:22.54,0:04:28.21,Pure Chinese,,0,0,0,,{\blur3}一共是五個 羅斯 五個女人生了五個孩子…
+Dialogue: 0,0:04:28.38,0:04:30.80,Pure Chinese,,0,0,0,,{\blur3}我還是沒生
+Dialogue: 0,0:04:30.96,0:04:32.96,Pure Chinese,,0,0,0,,{\blur3}她為什麼不肯出來
+Dialogue: 0,0:04:34.01,0:04:35.63,Pure Chinese,,0,0,0,,{\blur3}你知道我在想什麼嗎
+Dialogue: 0,0:04:35.80,0:04:38.09,Pure Chinese,,0,0,0,,{\blur3}我想九個月來…
+Dialogue: 0,0:04:38.26,0:04:41.39,Pure Chinese,,0,0,0,,{\blur3}她在你的身體裏很舒服 所以她不想離開
+Dialogue: 0,0:04:41.56,0:04:46.73,Pure Chinese,,0,0,0,,{\blur3}你甚至在瞎掰哄我
+Dialogue: 0,0:04:48.69,0:04:51.82,Pure Chinese,,0,0,0,,{\blur3}- 天啊   - 好吧
+Dialogue: 0,0:04:51.98,0:04:54.65,Pure Chinese,,0,0,0,,{\blur3}21小時 你是英雄
+Dialogue: 0,0:04:54.82,0:04:57.28,Pure Chinese,,0,0,0,,{\blur3}醫生 你得想想辦法 給我藥…
+Dialogue: 0,0:04:57.45,0:05:00.91,Pure Chinese,,0,0,0,,{\blur3}或是放火把她熏出來
+Dialogue: 0,0:05:02.95,0:05:05.96,Pure Chinese,,0,0,0,,{\blur3}事實上 我想你可以進產房了
+Dialogue: 0,0:05:07.04,0:05:08.83,Pure Chinese,,0,0,0,,{\blur3}- 什麼   - 開了10公分了
+Dialogue: 0,0:05:09.54,0:05:10.84,Pure Chinese,,0,0,0,,{\blur3}你快當媽媽了
+Dialogue: 0,0:05:12.34,0:05:15.21,Pure Chinese,,0,0,0,,{\blur3}天啊 好吧
+Dialogue: 0,0:05:15.38,0:05:20.22,Pure Chinese,,0,0,0,,{\blur3}打敗你了 混蛋 寶貝
+Dialogue: 0,0:05:26.43,0:05:31.15,Pure Chinese,,0,0,0,,{\blur3}天啊 他就是剛剛來看過我的醫生
+Dialogue: 0,0:05:32.32,0:05:35.78,Pure Chinese,,0,0,0,,{\blur3}好吧 幻想先生
+Dialogue: 0,0:05:37.82,0:05:41.03,Pure Chinese,,0,0,0,,{\blur3}我是說 電視裏的那個人剛剛來過…
+Dialogue: 0,0:05:41.20,0:05:44.83,Pure Chinese,,0,0,0,,{\blur3}還問了我一些怪問題
+Dialogue: 0,0:05:44.99,0:05:48.96,Pure Chinese,,0,0,0,,{\blur3}克利夫 你真的相信電視明星來過你的房間
+Dialogue: 0,0:05:49.42,0:05:51.04,Pure Chinese,,0,0,0,,{\blur3}瑞秋要生了
+Dialogue: 0,0:05:54.00,0:05:56.30,Pure Chinese,,0,0,0,,{\blur3}就是他 你認識他
+Dialogue: 0,0:05:57.01,0:06:00.76,Pure Chinese,,0,0,0,,{\blur3}好吧 我…好吧
+Dialogue: 0,0:06:00.93,0:06:04.85,Pure Chinese,,0,0,0,,{\blur3}我派我朋友喬伊來調查你
+Dialogue: 0,0:06:05.01,0:06:08.98,Pure Chinese,,0,0,0,,{\blur3}如果…如果你想知道的話 我們覺得你是個好人
+Dialogue: 0,0:06:09.14,0:06:11.73,Pure Chinese,,0,0,0,,{\blur3}比現在的我好多了
+Dialogue: 0,0:06:13.06,0:06:17.11,Pure Chinese,,0,0,0,,{\blur3}我不敢相信 你要他假扮醫生
+Dialogue: 0,0:06:17.28,0:06:20.82,Pure Chinese,,0,0,0,,{\blur3}假扮 對不起 哈羅
+Dialogue: 0,0:06:21.95,0:06:24.20,Pure Chinese,,0,0,0,,{\blur3}你要我以為自己瘋了
+Dialogue: 0,0:06:24.37,0:06:27.95,Pure Chinese,,0,0,0,,{\blur3}那是不對的 我非常抱歉
+Dialogue: 0,0:06:28.12,0:06:31.75,Pure Chinese,,0,0,0,,{\blur3}那只是因為我非常喜歡你 我們能重新開始嗎
+Dialogue: 0,0:06:32.58,0:06:33.75,Pure Chinese,,0,0,0,,{\blur3}我不那麼認為
+Dialogue: 0,0:06:34.09,0:06:35.80,Pure Chinese,,0,0,0,,{\blur3}我可以說話嗎
+Dialogue: 0,0:06:35.96,0:06:39.13,Pure Chinese,,0,0,0,,{\blur3}你跟我透露了很多你的私事
+Dialogue: 0,0:06:39.30,0:06:43.22,Pure Chinese,,0,0,0,,{\blur3}或許你應該知道一些關於她的私事
+Dialogue: 0,0:06:43.43,0:06:47.89,Pure Chinese,,0,0,0,,{\blur3}她曾跟男同志冰舞選手結婚
+Dialogue: 0,0:06:48.06,0:06:52.35,Pure Chinese,,0,0,0,,{\blur3}她幫她弟弟生下三胞胎
+Dialogue: 0,0:06:54.19,0:06:58.99,Pure Chinese,,0,0,0,,{\blur3}她的雙胞胎姊姊是A片女優
+Dialogue: 0,0:06:59.86,0:07:03.24,Pure Chinese,,0,0,0,,{\blur3}- 我們不想聽那些瘋狂的事   - 對
+Dialogue: 0,0:07:06.28,0:07:10.54,Pure Chinese,,0,0,0,,{\blur3}我們並不認識彼此 要忘了這些很容易…
+Dialogue: 0,0:07:10.87,0:07:14.21,Pure Chinese,,0,0,0,,{\blur3}但我們對彼此有感覺 我不知道你是怎麼樣…
+Dialogue: 0,0:07:14.38,0:07:16.63,Pure Chinese,,0,0,0,,{\blur3}但我不是常常遇到這種事
+Dialogue: 0,0:07:19.05,0:07:22.76,Pure Chinese,,0,0,0,,{\blur3}- 我也是   - 我也是
+Dialogue: 0,0:07:25.72,0:07:28.26,Pure Chinese,,0,0,0,,{\blur3}用力
+Dialogue: 0,0:07:28.43,0:07:30.31,Pure Chinese,,0,0,0,,{\blur3}你得再用力推五秒
+Dialogue: 0,0:07:30.47,0:07:32.18,Pure Chinese,,0,0,0,,{\blur3}五 四…
+Dialogue: 0,0:07:32.35,0:07:34.35,Pure Chinese,,0,0,0,,{\blur3}三  二 一
+Dialogue: 0,0:07:35.65,0:07:38.86,Pure Chinese,,0,0,0,,{\blur3}下一次陣痛是20秒後
+Dialogue: 0,0:07:39.03,0:07:41.82,Pure Chinese,,0,0,0,,{\blur3}- 我沒辦法再用力了   - 你表現的很好
+Dialogue: 0,0:07:41.99,0:07:45.20,Pure Chinese,,0,0,0,,{\blur3}天啊 還要20秒耶
+Dialogue: 0,0:07:45.36,0:07:47.78,Pure Chinese,,0,0,0,,{\blur3}來吧 繼續用力
+Dialogue: 0,0:07:47.95,0:07:49.83,Pure Chinese,,0,0,0,,{\blur3}- 來吧   - 推 等一下
+Dialogue: 0,0:07:49.99,0:07:53.66,Pure Chinese,,0,0,0,,{\blur3}- 我看到東西了   - 什麼 真的嗎 我的天啊
+Dialogue: 0,0:07:53.83,0:07:55.88,Pure Chinese,,0,0,0,,{\blur3}別說"我的天啊" 什麼
+Dialogue: 0,0:07:56.04,0:07:57.08,Pure Chinese,,0,0,0,,{\blur3}那是什麼
+Dialogue: 0,0:07:57.25,0:07:59.75,Pure Chinese,,0,0,0,,{\blur3}寶寶的屁股 她倒過來了
+Dialogue: 0,0:07:59.92,0:08:02.92,Pure Chinese,,0,0,0,,{\blur3}- 我以為她有兩個頭   - 天啊
+Dialogue: 0,0:08:04.30,0:08:05.55,Pure Chinese,,0,0,0,,{\blur3}她沒事吧
+Dialogue: 0,0:08:05.72,0:08:07.09,Pure Chinese,,0,0,0,,{\blur3}- 她沒事的   - 好吧
+Dialogue: 0,0:08:07.26,0:08:10.51,Pure Chinese,,0,0,0,,{\blur3}她的胎位不正 你得更用力推
+Dialogue: 0,0:08:10.68,0:08:13.02,Pure Chinese,,0,0,0,,{\blur3}- 好吧   - 就是那樣 推
+Dialogue: 0,0:08:13.18,0:08:15.10,Pure Chinese,,0,0,0,,{\blur3}你得更用力推
+Dialogue: 0,0:08:15.27,0:08:19.52,Pure Chinese,,0,0,0,,{\blur3}- 抱歉 我辦不到   - 不 我知道你辦得到
+Dialogue: 0,0:08:21.36,0:08:24.40,Pure Chinese,,0,0,0,,{\blur3}我不知道 拜託 幫我推吧
+Dialogue: 0,0:08:24.57,0:08:30.74,Pure Chinese,,0,0,0,,{\blur3}來吧 再一次 最後一次 準備好了嗎 一 二 三
+Dialogue: 0,0:08:31.79,0:08:33.66,Pure Chinese,,0,0,0,,{\blur3}很好
+Dialogue: 0,0:08:33.87,0:08:35.16,Pure Chinese,,0,0,0,,{\blur3}繼續用力
+Dialogue: 0,0:08:36.96,0:08:39.34,Pure Chinese,,0,0,0,,{\blur3}你沒事吧
+Dialogue: 0,0:08:41.13,0:08:44.97,Pure Chinese,,0,0,0,,{\blur3}你不知道那有多痛
+Dialogue: 0,0:08:46.80,0:08:49.30,Pure Chinese,,0,0,0,,{\blur3}繼續用力
+Dialogue: 0,0:08:50.47,0:08:52.14,Pure Chinese,,0,0,0,,{\blur3}好了
+Dialogue: 0,0:08:52.31,0:08:54.98,Pure Chinese,,0,0,0,,{\blur3}寶寶胎位不正 但她要出來了
+Dialogue: 0,0:08:55.14,0:08:57.73,Pure Chinese,,0,0,0,,{\blur3}- 天啊   - 我的天啊
+Dialogue: 0,0:08:57.90,0:09:00.31,Pure Chinese,,0,0,0,,{\blur3}天啊 她出來了
+Dialogue: 0,0:09:03.86,0:09:06.07,Pure Chinese,,0,0,0,,{\blur3}她太完美了
+Dialogue: 0,0:09:06.24,0:09:10.91,Pure Chinese,,0,0,0,,{\blur3}哇 她好小
+Dialogue: 0,0:09:15.45,0:09:19.58,Pure Chinese,,0,0,0,,{\blur3}- 她要去哪裏    - 他們得先把她包起來
+Dialogue: 0,0:09:19.75,0:09:23.30,Pure Chinese,,0,0,0,,{\blur3}好吧 小心一點 她真的很小
+Dialogue: 0,0:09:25.76,0:09:27.43,Pure Chinese,,0,0,0,,{\blur3}她來了
+Dialogue: 0,0:09:36.39,0:09:37.85,Pure Chinese,,0,0,0,,{\blur3}小傢伙
+Dialogue: 0,0:09:38.56,0:09:41.81,Pure Chinese,,0,0,0,,{\blur3}謝謝你終於出來了
+Dialogue: 0,0:09:44.15,0:09:47.24,Pure Chinese,,0,0,0,,{\blur3}我知道
+Dialogue: 0,0:09:47.57,0:09:49.36,Pure Chinese,,0,0,0,,{\blur3}對
+Dialogue: 0,0:09:51.49,0:09:57.12,Pure Chinese,,0,0,0,,{\blur3}她在看我 嗨 我認識你
+Dialogue: 0,0:09:57.91,0:10:00.71,Pure Chinese,,0,0,0,,{\blur3}- 你們取好名字了嗎    - 還沒有
+Dialogue: 0,0:10:00.88,0:10:04.63,Pure Chinese,,0,0,0,,{\blur3}沒關係 先叫她葛林之女
+Dialogue: 0,0:10:04.80,0:10:08.01,Pure Chinese,,0,0,0,,{\blur3}不 蓋勒·葛林之女
+Dialogue: 0,0:10:24.98,0:10:27.65,Pure Chinese,,0,0,0,,{\blur3}嗨 小女孩
+Dialogue: 0,0:10:34.08,0:10:36.62,Pure Chinese,,0,0,0,,{\blur3}- 我們能進去嗎    - 請進
+Dialogue: 0,0:10:36.79,0:10:40.33,Pure Chinese,,0,0,0,,{\blur3}- 她在那裏   - 她好漂亮
+Dialogue: 0,0:10:40.50,0:10:41.96,Pure Chinese,,0,0,0,,{\blur3}來吧
+Dialogue: 0,0:10:42.58,0:10:47.17,Pure Chinese,,0,0,0,,{\blur3}天啊 她好神奇
+Dialogue: 0,0:10:48.42,0:10:51.93,Pure Chinese,,0,0,0,,{\blur3}我很高興你們喝醉後上了床
+Dialogue: 0,0:10:53.47,0:10:56.47,Pure Chinese,,0,0,0,,{\blur3}太不可思議了 前一分鐘她還在你肚子裏…
+Dialogue: 0,0:10:56.64,0:10:59.35,Pure Chinese,,0,0,0,,{\blur3}47小時後她就出現了
+Dialogue: 0,0:11:05.77,0:11:07.53,Pure Chinese,,0,0,0,,{\blur3}她看起來好真實
+Dialogue: 0,0:11:09.82,0:11:11.36,Pure Chinese,,0,0,0,,{\blur3}你們瞭解我的意思
+Dialogue: 0,0:11:11.53,0:11:14.37,Pure Chinese,,0,0,0,,{\blur3}- 好了 輪到我了   - 菲比阿姨
+Dialogue: 0,0:11:14.53,0:11:19.29,Pure Chinese,,0,0,0,,{\blur3}寶貝 你好可愛
+Dialogue: 0,0:11:19.45,0:11:23.00,Pure Chinese,,0,0,0,,{\blur3}我可以捏碎你小小的頭
+Dialogue: 0,0:11:24.67,0:11:26.54,Pure Chinese,,0,0,0,,{\blur3}我不會那麼做的
+Dialogue: 0,0:11:27.21,0:11:32.22,Pure Chinese,,0,0,0,,{\blur3}- 甜心 怎麼了    - 沒事 我只是不由自主地哭了
+Dialogue: 0,0:11:32.38,0:11:34.72,Pure Chinese,,0,0,0,,{\blur3}醫生說這很正常 都是荷爾蒙害的
+Dialogue: 0,0:11:34.89,0:11:38.64,Pure Chinese,,0,0,0,,{\blur3}- 而且我還會睡不著   - 你們都會失眠
+Dialogue: 0,0:11:38.81,0:11:43.19,Pure Chinese,,0,0,0,,{\blur3}我沒看過你因為鞋子穿錯腳就哭個不停
+Dialogue: 0,0:11:44.23,0:11:46.02,Pure Chinese,,0,0,0,,{\blur3}天啊
+Dialogue: 0,0:11:46.19,0:11:49.32,Pure Chinese,,0,0,0,,{\blur3}- 怎麼了    - 我又想起來了
+Dialogue: 0,0:11:51.69,0:11:53.99,Pure Chinese,,0,0,0,,{\blur3}你們幫她取好名字了嗎
+Dialogue: 0,0:11:54.16,0:11:57.24,Pure Chinese,,0,0,0,,{\blur3}等一下 她不是叫女兒嗎
+Dialogue: 0,0:11:57.41,0:11:59.12,Pure Chinese,,0,0,0,,{\blur3}我覺得那個名字很有創意
+Dialogue: 0,0:12:01.08,0:12:03.91,Pure Chinese,,0,0,0,,{\blur3}事實上 我們正在考慮兩個名字
+Dialogue: 0,0:12:04.08,0:12:06.08,Pure Chinese,,0,0,0,,{\blur3}你知道嗎 兩個名字我都很喜歡
+Dialogue: 0,0:12:06.25,0:12:09.42,Pure Chinese,,0,0,0,,{\blur3}你們幫忙挑一個
+Dialogue: 0,0:12:10.17,0:12:15.93,Pure Chinese,,0,0,0,,{\blur3}好吧 大伙們…
+Dialogue: 0,0:12:16.09,0:12:18.97,Pure Chinese,,0,0,0,,{\blur3}她是伊莎貝兒
+Dialogue: 0,0:12:20.14,0:12:22.89,Pure Chinese,,0,0,0,,{\blur3}-嗨 伊莎貝兒   - 嗨
+Dialogue: 0,0:12:27.61,0:12:31.44,Pure Chinese,,0,0,0,,{\blur3}- 什麼   - 那不是她的名字
+Dialogue: 0,0:12:31.61,0:12:34.78,Pure Chinese,,0,0,0,,{\blur3}抱歉 她感覺上不像伊莎貝兒
+Dialogue: 0,0:12:34.95,0:12:37.41,Pure Chinese,,0,0,0,,{\blur3}- 另一個名字是什麼    - 笛莉拉
+Dialogue: 0,0:12:37.57,0:12:41.79,Pure Chinese,,0,0,0,,{\blur3}太棒了 突然間她成了聖經裏的妓女
+Dialogue: 0,0:12:44.91,0:12:49.21,Pure Chinese,,0,0,0,,{\blur3}我猜還是叫她女兒吧
+Dialogue: 0,0:12:50.67,0:12:51.96,Pure Chinese,,0,0,0,,{\blur3}我們該怎麼辦
+Dialogue: 0,0:12:52.13,0:12:55.17,Pure Chinese,,0,0,0,,{\blur3}- 沒關係 你們會想到好名字的   - 你說的倒容易
+Dialogue: 0,0:12:55.34,0:12:57.84,Pure Chinese,,0,0,0,,{\blur3}你已經知道你的孩子要叫什麼名字了
+Dialogue: 0,0:12:58.01,0:13:02.43,Pure Chinese,,0,0,0,,{\blur3}- 是嗎    - 我14歲時就幫他們取好了名字
+Dialogue: 0,0:13:02.60,0:13:07.02,Pure Chinese,,0,0,0,,{\blur3}不 你的寶寶會以點心或烘烤食物的名字來命名吧
+Dialogue: 0,0:13:10.56,0:13:12.35,Pure Chinese,,0,0,0,,{\blur3}告訴我們你想了什麼名字
+Dialogue: 0,0:13:12.56,0:13:15.95,Pure Chinese,,0,0,0,,{\blur3}好吧 如果是男孩的話就叫丹尼爾
+Dialogue: 0,0:13:16.11,0:13:19.45,Pure Chinese,,0,0,0,,{\blur3}- 如果是女孩呢    - 我不想說
+Dialogue: 0,0:13:19.62,0:13:22.79,Pure Chinese,,0,0,0,,{\blur3}少來了 告訴我們 我們不會搶走它的
+Dialogue: 0,0:13:23.91,0:13:26.46,Pure Chinese,,0,0,0,,{\blur3}好吧 她叫艾瑪
+Dialogue: 0,0:13:27.79,0:13:29.67,Pure Chinese,,0,0,0,,{\blur3}艾瑪
+Dialogue: 0,0:13:33.50,0:13:35.92,Pure Chinese,,0,0,0,,{\blur3}看吧 我不喜歡它
+Dialogue: 0,0:13:40.76,0:13:43.89,Pure Chinese,,0,0,0,,{\blur3}- 拿去吧   - 什麼
+Dialogue: 0,0:13:44.39,0:13:46.43,Pure Chinese,,0,0,0,,{\blur3}她真的很適合叫艾瑪
+Dialogue: 0,0:13:46.60,0:13:48.81,Pure Chinese,,0,0,0,,{\blur3}甜心 但你喜歡那個名字
+Dialogue: 0,0:13:49.81,0:13:51.98,Pure Chinese,,0,0,0,,{\blur3}對 但我更愛你
+Dialogue: 0,0:13:55.07,0:13:59.41,Pure Chinese,,0,0,0,,{\blur3}而且什麼名字都跟賓不配 所以我是死定了
+Dialogue: 0,0:14:05.20,0:14:11.13,Pure Chinese,,0,0,0,,{\blur3}亞朗·利普曼·古拉尼要跟他未來的新娘打個招呼
+Dialogue: 0,0:14:19.59,0:14:23.14,Pure Chinese,,0,0,0,,{\blur3}他真的會讓人說不出話來 對吧
+Dialogue: 0,0:14:23.30,0:14:25.22,Pure Chinese,,0,0,0,,{\blur3}他是個謙虛的人
+Dialogue: 0,0:14:26.60,0:14:30.60,Pure Chinese,,0,0,0,,{\blur3}- 你覺得如何    - 我很好
+Dialogue: 0,0:14:32.19,0:14:35.57,Pure Chinese,,0,0,0,,{\blur3}我真的很佩服你做的事
+Dialogue: 0,0:14:35.73,0:14:37.90,Pure Chinese,,0,0,0,,{\blur3}你要自己撫養她
+Dialogue: 0,0:14:38.82,0:14:41.03,Pure Chinese,,0,0,0,,{\blur3}我不是一個人 我有羅斯
+Dialogue: 0,0:14:41.24,0:14:43.91,Pure Chinese,,0,0,0,,{\blur3}現在是的
+Dialogue: 0,0:14:44.07,0:14:46.70,Pure Chinese,,0,0,0,,{\blur3}如果他認識別人結了婚 那時又會是怎麼樣的呢
+Dialogue: 0,0:14:47.45,0:14:50.62,Pure Chinese,,0,0,0,,{\blur3}他會離婚的 那就是羅斯
+Dialogue: 0,0:14:53.54,0:14:56.38,Pure Chinese,,0,0,0,,{\blur3}我得告訴你 瑞秋 聽珍妮絲的話
+Dialogue: 0,0:14:56.55,0:15:01.97,Pure Chinese,,0,0,0,,{\blur3}男人都說他們會在 但他們會成立自己的家庭
+Dialogue: 0,0:15:03.39,0:15:06.35,Pure Chinese,,0,0,0,,{\blur3}羅斯不會那麼做的
+Dialogue: 0,0:15:06.51,0:15:08.39,Pure Chinese,,0,0,0,,{\blur3}以前我也那麼相信
+Dialogue: 0,0:15:08.56,0:15:11.52,Pure Chinese,,0,0,0,,{\blur3}如果我的孩子能跟她爸及新的波霸小姐共度一個週末…
+Dialogue: 0,0:15:11.69,0:15:12.98,Pure Chinese,,0,0,0,,{\blur3}那算我運氣好
+Dialogue: 0,0:15:14.94,0:15:16.90,Pure Chinese,,0,0,0,,{\blur3}真的嗎
+Dialogue: 0,0:15:17.61,0:15:19.49,Pure Chinese,,0,0,0,,{\blur3}我討厭跟你這麼說…
+Dialogue: 0,0:15:19.65,0:15:23.70,Pure Chinese,,0,0,0,,{\blur3}但你們兩個得靠自己
+Dialogue: 0,0:15:26.24,0:15:29.37,Pure Chinese,,0,0,0,,{\blur3}那是…你知道的 那是…
+Dialogue: 0,0:15:29.54,0:15:32.87,Pure Chinese,,0,0,0,,{\blur3}我們已經單獨相處了20分鐘 我們表現的很好
+Dialogue: 0,0:15:34.83,0:15:36.84,Pure Chinese,,0,0,0,,{\blur3}或許我們不會孤單的
+Dialogue: 0,0:15:37.00,0:15:39.71,Pure Chinese,,0,0,0,,{\blur3}因為最近
+Dialogue: 0,0:15:39.88,0:15:41.38,Pure Chinese,,0,0,0,,{\blur3}我跟羅斯之間有些事發生
+Dialogue: 0,0:15:41.55,0:15:46.97,Pure Chinese,,0,0,0,,{\blur3}我來醫院前 我們還接了吻 你知道嗎
+Dialogue: 0,0:15:47.14,0:15:51.73,Pure Chinese,,0,0,0,,{\blur3}或許那會是個開始
+Dialogue: 0,0:15:53.48,0:15:55.27,Pure Chinese,,0,0,0,,{\blur3}- 嗨 珍妮絲   - 嗨
+Dialogue: 0,0:15:55.44,0:15:59.69,Pure Chinese,,0,0,0,,{\blur3}這個小傢伙是誰
+Dialogue: 0,0:16:00.86,0:16:05.32,Pure Chinese,,0,0,0,,{\blur3}- 亞朗 那是你未來的岳父   - 不
+Dialogue: 0,0:16:05.91,0:16:09.16,Pure Chinese,,0,0,0,,{\blur3}- 我讓你們一家人好好獨處   - 好吧
+Dialogue: 0,0:16:10.62,0:16:15.12,Pure Chinese,,0,0,0,,{\blur3}天啊 你看到那孩子的鼻子了嗎
+Dialogue: 0,0:16:17.21,0:16:20.00,Pure Chinese,,0,0,0,,{\blur3}你知道我剛剛想到什麼嗎
+Dialogue: 0,0:16:21.17,0:16:25.93,Pure Chinese,,0,0,0,,{\blur3}我們出門前的那個吻
+Dialogue: 0,0:16:26.09,0:16:28.26,Pure Chinese,,0,0,0,,{\blur3}那真的很特別吧
+Dialogue: 0,0:16:29.56,0:16:32.43,Pure Chinese,,0,0,0,,{\blur3}對 真的是
+Dialogue: 0,0:16:32.60,0:16:35.31,Pure Chinese,,0,0,0,,{\blur3}但我們…我們得小心點
+Dialogue: 0,0:16:35.48,0:16:38.77,Pure Chinese,,0,0,0,,{\blur3}我們…你知道的 我們不能讓歷史重演
+Dialogue: 0,0:16:41.57,0:16:42.94,Pure Chinese,,0,0,0,,{\blur3}對
+Dialogue: 0,0:16:43.61,0:16:45.36,Pure Chinese,,0,0,0,,{\blur3}我們不希望再發生那種事
+Dialogue: 0,0:16:45.53,0:16:49.70,Pure Chinese,,0,0,0,,{\blur3}對 所以我才會跟你提這件事
+Dialogue: 0,0:16:53.75,0:16:57.62,Pure Chinese,,0,0,0,,{\blur3}- 他們沒有汽水嗎    - 天啊 對不起
+Dialogue: 0,0:16:57.79,0:17:00.63,Pure Chinese,,0,0,0,,{\blur3}我忙著跟護士說話 完全忘了
+Dialogue: 0,0:17:03.30,0:17:05.59,Pure Chinese,,0,0,0,,{\blur3}現在就已經開始了
+Dialogue: 0,0:17:12.93,0:17:14.18,Pure Chinese,,0,0,0,,{\blur3}她在裏面嗎
+Dialogue: 0,0:17:14.56,0:17:16.89,Pure Chinese,,0,0,0,,{\blur3}對 護士正把她放在床上 那就是她
+Dialogue: 0,0:17:18.23,0:17:21.73,Pure Chinese,,0,0,0,,{\blur3}- 你看 快看艾瑪   - 我無法決定
+Dialogue: 0,0:17:21.90,0:17:23.15,Pure Chinese,,0,0,0,,{\blur3}她長得像你或瑞秋
+Dialogue: 0,0:17:23.32,0:17:27.07,Pure Chinese,,0,0,0,,{\blur3}什麼 你在開玩笑嗎 她美極了 完全是瑞秋的遺傳
+Dialogue: 0,0:17:31.49,0:17:36.08,Pure Chinese,,0,0,0,,{\blur3}對不起 這是我最後一次問你 你們兩個為什麼不結婚
+Dialogue: 0,0:17:37.54,0:17:40.71,Pure Chinese,,0,0,0,,{\blur3}不 我知道 因為你們沒有到那個程度
+Dialogue: 0,0:17:40.88,0:17:44.00,Pure Chinese,,0,0,0,,{\blur3}那真的很棒 但事實上你們真的到了
+Dialogue: 0,0:17:44.17,0:17:47.51,Pure Chinese,,0,0,0,,{\blur3}情況很複雜 好嗎
+Dialogue: 0,0:17:48.63,0:17:51.93,Pure Chinese,,0,0,0,,{\blur3}對 那是真的 你一直都愛著她
+Dialogue: 0,0:17:52.10,0:17:55.43,Pure Chinese,,0,0,0,,{\blur3}你們生了一個孩子 沒有答案是百分之百的正確
+Dialogue: 0,0:17:57.27,0:18:00.02,Pure Chinese,,0,0,0,,{\blur3}我們曾經交往過
+Dialogue: 0,0:18:00.19,0:18:02.31,Pure Chinese,,0,0,0,,{\blur3}後來分手 後合後又分手
+Dialogue: 0,0:18:02.48,0:18:04.73,Pure Chinese,,0,0,0,,{\blur3}現在我們生了一個孩子
+Dialogue: 0,0:18:07.65,0:18:11.99,Pure Chinese,,0,0,0,,{\blur3}如果我們又復合 結果還是不行…
+Dialogue: 0,0:18:12.99,0:18:15.62,Pure Chinese,,0,0,0,,{\blur3}我不會對艾瑪那麼做
+Dialogue: 0,0:18:18.04,0:18:23.50,Pure Chinese,,0,0,0,,{\blur3}她來到這個世界 想像每件事都…這是我的想法
+Dialogue: 0,0:18:23.67,0:18:27.30,Pure Chinese,,0,0,0,,{\blur3}什麼 他們在水裏放東西
+Dialogue: 0,0:18:28.22,0:18:31.80,Pure Chinese,,0,0,0,,{\blur3}瑞秋跟我現在過得很好
+Dialogue: 0,0:18:31.97,0:18:33.80,Pure Chinese,,0,0,0,,{\blur3}我知道
+Dialogue: 0,0:18:33.97,0:18:36.01,Pure Chinese,,0,0,0,,{\blur3}如果你想更進一步 就得突破現狀
+Dialogue: 0,0:18:36.18,0:18:38.39,Pure Chinese,,0,0,0,,{\blur3}- 沒錯   - 對
+Dialogue: 0,0:18:40.89,0:18:44.77,Pure Chinese,,0,0,0,,{\blur3}或許你可以得到你從15歲開始夢想的世界
+Dialogue: 0,0:18:53.37,0:18:54.91,Pure Chinese,,0,0,0,,{\blur3}嘿
+Dialogue: 0,0:18:55.58,0:18:59.12,Pure Chinese,,0,0,0,,{\blur3}我看到一個女人同時在喂雙胞胎母乳
+Dialogue: 0,0:18:59.29,0:19:01.62,Pure Chinese,,0,0,0,,{\blur3}那真的很像怪物秀
+Dialogue: 0,0:19:02.71,0:19:04.71,Pure Chinese,,0,0,0,,{\blur3}- 怎麼了    - 沒事
+Dialogue: 0,0:19:04.88,0:19:06.67,Pure Chinese,,0,0,0,,{\blur3}怎麼了 嘿
+Dialogue: 0,0:19:06.84,0:19:09.97,Pure Chinese,,0,0,0,,{\blur3}- 真的沒事 我…   - 瑞秋 別這樣 什麼
+Dialogue: 0,0:19:11.72,0:19:17.10,Pure Chinese,,0,0,0,,{\blur3}我一直在想 我跟寶寶要怎麼獨自活下去
+Dialogue: 0,0:19:17.26,0:19:20.14,Pure Chinese,,0,0,0,,{\blur3}你在說什麼 羅斯呢
+Dialogue: 0,0:19:20.31,0:19:25.48,Pure Chinese,,0,0,0,,{\blur3}拜託 他會有自己的家庭 雙胞胎跟新波霸小姐
+Dialogue: 0,0:19:26.69,0:19:29.28,Pure Chinese,,0,0,0,,{\blur3}好吧 我看那個女人多久了
+Dialogue: 0,0:19:30.49,0:19:33.11,Pure Chinese,,0,0,0,,{\blur3}我那麼說…
+Dialogue: 0,0:19:33.32,0:19:36.53,Pure Chinese,,0,0,0,,{\blur3}因為有一天 羅斯會認識別人…
+Dialogue: 0,0:19:36.70,0:19:39.08,Pure Chinese,,0,0,0,,{\blur3}他會去過自己的生活
+Dialogue: 0,0:19:39.66,0:19:41.00,Pure Chinese,,0,0,0,,{\blur3}對吧
+Dialogue: 0,0:19:41.87,0:19:43.75,Pure Chinese,,0,0,0,,{\blur3}我猜你說的對
+Dialogue: 0,0:19:46.46,0:19:50.21,Pure Chinese,,0,0,0,,{\blur3}我沒有想過 我要自己撫養這個寶寶
+Dialogue: 0,0:19:51.76,0:19:53.34,Pure Chinese,,0,0,0,,{\blur3}那真的很傻吧
+Dialogue: 0,0:19:53.51,0:19:56.26,Pure Chinese,,0,0,0,,{\blur3}你得聽我說 聽著
+Dialogue: 0,0:19:56.80,0:20:01.10,Pure Chinese,,0,0,0,,{\blur3}你永遠都不會是一個人
+Dialogue: 0,0:20:01.27,0:20:05.15,Pure Chinese,,0,0,0,,{\blur3}好吧 我發誓我不會讓那種事發生
+Dialogue: 0,0:20:07.02,0:20:11.40,Pure Chinese,,0,0,0,,{\blur3}喬伊 喔 甜心 沒有你我該怎麼辦
+Dialogue: 0,0:20:12.94,0:20:16.53,Pure Chinese,,0,0,0,,{\blur3}你不必擔心 好嗎
+Dialogue: 0,0:20:20.95,0:20:23.58,Pure Chinese,,0,0,0,,{\blur3}你能再幫我 拿盒面紙來嗎
+Dialogue: 0,0:20:23.75,0:20:25.50,Pure Chinese,,0,0,0,,{\blur3}就在羅斯的外套下面
+Dialogue: 0,0:20:25.67,0:20:26.96,Pure Chinese,,0,0,0,,{\blur3}沒問題
+Dialogue: 0,0:20:35.55,0:20:37.43,Pure Chinese,,0,0,0,,{\blur3}我的天啊
+Dialogue: 0,0:20:38.97,0:20:40.01,Pure Chinese,,0,0,0,,{\blur3}喬伊
+Dialogue: 0,0:20:43.10,0:20:44.98,Pure Chinese,,0,0,0,,{\blur3}我的天啊
+Dialogue: 0,0:20:50.86,0:20:52.07,Pure Chinese,,0,0,0,,{\blur3}好吧
+Dialogue: 0,0:21:15.44,0:21:17.39,Pure Chinese,,0,0,0,,{\blur3}（清潔間）
+Dialogue: 0,0:21:27.73,0:21:30.52,Pure Chinese,,0,0,0,,{\blur3}- 那真的是太神奇了   - 我知道
+Dialogue: 0,0:21:32.52,0:21:38.36,Pure Chinese,,0,0,0,,{\blur3}你知道我們很可能已經永遠地改變了我們的生活嗎
+Dialogue: 0,0:21:38.53,0:21:40.12,Pure Chinese,,0,0,0,,{\blur3}我們可能已經開始組成了我們的家庭
+Dialogue: 0,0:21:40.57,0:21:42.58,Pure Chinese,,0,0,0,,{\blur3}九個月後我們可能會來這裏…
+Dialogue: 0,0:21:42.74,0:21:44.91,Pure Chinese,,0,0,0,,{\blur3}生下我們的孩子
+Dialogue: 0,0:21:45.62,0:21:48.33,Pure Chinese,,0,0,0,,{\blur3}要是沒辦法的話 我們得把寶寶生在桶子裏

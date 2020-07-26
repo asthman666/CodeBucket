@@ -1,0 +1,388 @@
+﻿[Script Info]
+;AutoASS 1.2
+;Copyright(C) 2013-2014 cmct 阿忧
+
+Title: cmct
+Original Script: cmct
+Original Translation:
+Original Timing:
+Original Editing:
+Script Updated By:
+Update Details:
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 1
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: 英文,Cronos Pro Subhead,18,&H003CF1F3,&HF0000000,&H000D0500,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,0,0,1,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+
+
+Dialogue: 0,0:00:03.42,0:00:05.67,英文,,0000,0000,0000,,{\blur3}- Hey.         - Hey.
+Dialogue: 0,0:00:06.21,0:00:07.84,英文,,0000,0000,0000,,{\blur3}- Where's Mon?     - She's at home...
+Dialogue: 0,0:00:08.00,0:00:10.84,英文,,0000,0000,0000,,{\blur3}putting up decorations for Rachel's birthday party tonight.
+Dialogue: 0,0:00:11.05,0:00:13.22,英文,,0000,0000,0000,,{\blur3}- And you're not helping?     - I tried...
+Dialogue: 0,0:00:13.38,0:00:17.30,英文,,0000,0000,0000,,{\blur3}but apparently singing "I Will Survive" in a helium voice, not helping.
+Dialogue: 0,0:00:19.72,0:00:21.77,英文,,0000,0000,0000,,{\blur3}- Hey, you guys.     - Hey.
+Dialogue: 0,0:00:22.18,0:00:24.23,英文,,0000,0000,0000,,{\blur3}Happy birth...
+Dialogue: 0,0:00:24.39,0:00:27.06,英文,,0000,0000,0000,,{\blur3}Shh. Don't say that loud. Gunther's gonna want to hug me.
+Dialogue: 0,0:00:29.73,0:00:31.94,英文,,0000,0000,0000,,{\blur3}Uh, good news, everyone. We finally found a nanny.
+Dialogue: 0,0:00:32.11,0:00:37.11,英文,,0000,0000,0000,,{\blur3}- This is Molly. Molly, Chandler, Joey.     - Hi.
+Dialogue: 0,0:00:38.24,0:00:39.73,英文,,0000,0000,0000,,{\blur3}Ooh, somebody's getting a little fussy.
+Dialogue: 0,0:00:39.95,0:00:43.37,英文,,0000,0000,0000,,{\blur3}You're damn right I am. I've been waiting for a cookie for seven minutes.
+Dialogue: 0,0:00:44.58,0:00:46.92,英文,,0000,0000,0000,,{\blur3}Okay. You know what, I'm just gonna take her outside.
+Dialogue: 0,0:00:47.08,0:00:49.42,英文,,0000,0000,0000,,{\blur3}- No, you stay. I'll do it.     - Okay. Thank you.
+Dialogue: 0,0:00:49.59,0:00:53.01,英文,,0000,0000,0000,,{\blur3}- Nice to meet you guys.     - Yeah, you too.
+Dialogue: 0,0:00:53.17,0:00:55.84,英文,,0000,0000,0000,,{\blur3}- Wow, Molly's just great.     - Yeah.
+Dialogue: 0,0:00:56.05,0:00:59.05,英文,,0000,0000,0000,,{\blur3}Yes, bravo on the hot nanny.
+Dialogue: 0,0:00:59.51,0:01:02.56,英文,,0000,0000,0000,,{\blur3}- What? You really think she's hot?     - Are you kidding?
+Dialogue: 0,0:01:02.72,0:01:06.06,英文,,0000,0000,0000,,{\blur3}If I wasn't married, she'd be rejecting me right now.
+Dialogue: 0,0:01:08.31,0:01:09.44,英文,,0000,0000,0000,,{\blur3}Joey?
+Dialogue: 0,0:01:09.69,0:01:11.48,英文,,0000,0000,0000,,{\blur3}How do you think she's doing?
+Dialogue: 0,0:01:13.65,0:01:16.11,英文,,0000,0000,0000,,{\blur3}Am I the only one that doesn't think she's hot? Ross?
+Dialogue: 0,0:01:16.32,0:01:20.91,英文,,0000,0000,0000,,{\blur3}- Ah, I mean, she's not unattractive, but...     - Right.
+Dialogue: 0,0:01:21.08,0:01:23.49,英文,,0000,0000,0000,,{\blur3}but hot? Ah...
+Dialogue: 0,0:01:23.91,0:01:25.75,英文,,0000,0000,0000,,{\blur3}Thank you. Ha, ha.
+Dialogue: 0,0:01:28.00,0:01:29.29,英文,,0000,0000,0000,,{\blur3}Now that Rachel's gone?
+Dialogue: 0,0:01:29.50,0:01:32.04,英文,,0000,0000,0000,,{\blur3}So hot, I cried myself to sleep last night.
+Dialogue: 0,0:02:25.97,0:02:28.10,英文,,0000,0000,0000,,{\blur3}Hey, Mike, what's the capital of Peru?
+Dialogue: 0,0:02:28.27,0:02:30.89,英文,,0000,0000,0000,,{\blur3}- Lima.     - No.
+Dialogue: 0,0:02:32.90,0:02:35.86,英文,,0000,0000,0000,,{\blur3}It starts with a V and ends with an X.
+Dialogue: 0,0:02:36.03,0:02:39.90,英文,,0000,0000,0000,,{\blur3}And hopefully with a T-O in the middle.
+Dialogue: 0,0:02:40.45,0:02:43.78,英文,,0000,0000,0000,,{\blur3}You know, come to think of it, the capital of Peru is "Vtox."
+Dialogue: 0,0:02:46.16,0:02:47.49,英文,,0000,0000,0000,,{\blur3}- Oh, God!     - What?
+Dialogue: 0,0:02:47.66,0:02:49.96,英文,,0000,0000,0000,,{\blur3}Okay. I don't want to freak you out or anything...
+Dialogue: 0,0:02:50.12,0:02:52.00,英文,,0000,0000,0000,,{\blur3}but I just saw a rat in your cupboard.
+Dialogue: 0,0:02:52.21,0:02:54.67,英文,,0000,0000,0000,,{\blur3}Oh, yeah. No, that's Bob.
+Dialogue: 0,0:02:56.50,0:02:58.34,英文,,0000,0000,0000,,{\blur3}Well, he's your pet rat?
+Dialogue: 0,0:02:58.55,0:03:01.18,英文,,0000,0000,0000,,{\blur3}Well, not so much a pet as, you know, an occasional visitor...
+Dialogue: 0,0:03:01.34,0:03:06.81,英文,,0000,0000,0000,,{\blur3}who I put food out for. You know, kind of like Santa.
+Dialogue: 0,0:03:07.56,0:03:11.27,英文,,0000,0000,0000,,{\blur3}Except Santa doesn't poop on the plate of cookies.
+Dialogue: 0,0:03:12.90,0:03:14.60,英文,,0000,0000,0000,,{\blur3}You can't keep a rat in your apartment. They're extremely unsanitary.
+Dialogue: 0,0:03:15.98,0:03:17.69,英文,,0000,0000,0000,,{\blur3}I mean, they transmit leptospirosis and hantavirus.
+Dialogue: 0,0:03:17.90,0:03:19.44,英文,,0000,0000,0000,,{\blur3}- What are those?     - I don't know...
+Dialogue: 0,0:03:20.82,0:03:22.06,英文,,0000,0000,0000,,{\blur3}but they don't sound like spa treatments.
+Dialogue: 0,0:03:22.24,0:03:24.78,英文,,0000,0000,0000,,{\blur3}- You have to get rid of it.     - Okay, fine.
+Dialogue: 0,0:03:25.78,0:03:27.24,英文,,0000,0000,0000,,{\blur3}If it means that much to you, I'll get rid of Bob.
+Dialogue: 0,0:03:27.45,0:03:29.12,英文,,0000,0000,0000,,{\blur3}Thank you.
+Dialogue: 0,0:03:29.29,0:03:33.04,英文,,0000,0000,0000,,{\blur3}It's so weird you think he's so gross, yet you're willing to eat his crackers.
+Dialogue: 0,0:03:40.59,0:03:42.47,英文,,0000,0000,0000,,{\blur3}- Hello.     - Hello.
+Dialogue: 0,0:03:42.63,0:03:45.34,英文,,0000,0000,0000,,{\blur3}Gavin, I just want to say thank you again...
+Dialogue: 0,0:03:45.55,0:03:48.56,英文,,0000,0000,0000,,{\blur3}for watching Emma yesterday during the presentation.
+Dialogue: 0,0:03:48.72,0:03:50.60,英文,,0000,0000,0000,,{\blur3}I really owe you an apology.
+Dialogue: 0,0:03:50.89,0:03:53.64,英文,,0000,0000,0000,,{\blur3}- For what?     - When we first met, you know...
+Dialogue: 0,0:03:53.81,0:03:57.31,英文,,0000,0000,0000,,{\blur3}I thought you were pompous and arrogant and obnoxious.
+Dialogue: 0,0:03:57.57,0:04:00.19,英文,,0000,0000,0000,,{\blur3}Is this your first apology?
+Dialogue: 0,0:04:00.36,0:04:03.61,英文,,0000,0000,0000,,{\blur3}No, I just mean, you know, first impressions don't mean anything.
+Dialogue: 0,0:04:03.78,0:04:08.70,英文,,0000,0000,0000,,{\blur3}And I think you're a really good guy. And I'm sorry that I misjudged you.
+Dialogue: 0,0:04:08.87,0:04:11.25,英文,,0000,0000,0000,,{\blur3}- Morning.     - Hello.
+Dialogue: 0,0:04:11.41,0:04:14.58,英文,,0000,0000,0000,,{\blur3}But you know what? Hey, new day, new leaf.
+Dialogue: 0,0:04:14.75,0:04:18.42,英文,,0000,0000,0000,,{\blur3}I am just really, really happy...
+Dialogue: 0,0:04:19.67,0:04:22.71,英文,,0000,0000,0000,,{\blur3}I'm sorry. Obviously, Heather's ass has something more important to say...
+Dialogue: 0,0:04:22.88,0:04:25.68,英文,,0000,0000,0000,,{\blur3}so I'll just wait till it's finished.
+Dialogue: 0,0:04:26.14,0:04:28.10,英文,,0000,0000,0000,,{\blur3}- What?     - I was giving you an apology...
+Dialogue: 0,0:04:28.26,0:04:30.26,英文,,0000,0000,0000,,{\blur3}and you were totally checking her out.
+Dialogue: 0,0:04:30.47,0:04:34.43,英文,,0000,0000,0000,,{\blur3}I wasn't checking her out. I'm in fashion. I was looking at her skirt.
+Dialogue: 0,0:04:34.60,0:04:39.23,英文,,0000,0000,0000,,{\blur3}Or was it pants? I didn't really see what happened below the ass area.
+Dialogue: 0,0:04:40.15,0:04:42.69,英文,,0000,0000,0000,,{\blur3}Wow, you are really... You're really a creep.
+Dialogue: 0,0:04:42.86,0:04:44.99,英文,,0000,0000,0000,,{\blur3}What do you even care if I was looking at her?
+Dialogue: 0,0:04:45.15,0:04:46.49,英文,,0000,0000,0000,,{\blur3}Are you jealous?
+Dialogue: 0,0:04:46.70,0:04:48.37,英文,,0000,0000,0000,,{\blur3}Oh, yeah. I'm jealous.
+Dialogue: 0,0:04:48.53,0:04:51.87,英文,,0000,0000,0000,,{\blur3}"Oh, Gavin. Please, please look at my ass."
+Dialogue: 0,0:04:53.16,0:04:55.66,英文,,0000,0000,0000,,{\blur3}Stop looking at my ass.
+Dialogue: 0,0:04:55.83,0:04:58.58,英文,,0000,0000,0000,,{\blur3}I mean, I just think you are totally inappropriate. Okay?
+Dialogue: 0,0:04:58.75,0:05:02.13,英文,,0000,0000,0000,,{\blur3}This is a work environment. She's your subordinate.
+Dialogue: 0,0:05:02.34,0:05:05.84,英文,,0000,0000,0000,,{\blur3}But it was okay when you slept with your old assistant, Tag?
+Dialogue: 0,0:05:06.01,0:05:09.26,英文,,0000,0000,0000,,{\blur3}That is totally different for two reasons.
+Dialogue: 0,0:05:09.43,0:05:12.89,英文,,0000,0000,0000,,{\blur3}One, I didn't know that you knew that.
+Dialogue: 0,0:05:14.18,0:05:17.81,英文,,0000,0000,0000,,{\blur3}And two, I wasn't some creep staring at his ass.
+Dialogue: 0,0:05:17.98,0:05:22.44,英文,,0000,0000,0000,,{\blur3}We had a... We had a deep, meaningful relationship.
+Dialogue: 0,0:05:24.36,0:05:25.94,英文,,0000,0000,0000,,{\blur3}Huh. What was Tag's last name?
+Dialogue: 0,0:05:26.15,0:05:27.86,英文,,0000,0000,0000,,{\blur3}It was...
+Dialogue: 0,0:05:29.66,0:05:31.53,英文,,0000,0000,0000,,{\blur3}Oh, my God.
+Dialogue: 0,0:05:31.70,0:05:35.25,英文,,0000,0000,0000,,{\blur3}He didn't have a last name.
+Dialogue: 0,0:05:35.41,0:05:41.08,英文,,0000,0000,0000,,{\blur3}It was just Tag, you know, like Cher or...
+Dialogue: 0,0:05:41.46,0:05:43.92,英文,,0000,0000,0000,,{\blur3}you know, Moses.
+Dialogue: 0,0:05:45.38,0:05:47.80,英文,,0000,0000,0000,,{\blur3}But it was a deep, meaningful relationship.
+Dialogue: 0,0:05:48.01,0:05:51.01,英文,,0000,0000,0000,,{\blur3}You know what? My first impression of you was absolutely right.
+Dialogue: 0,0:05:51.18,0:05:53.97,英文,,0000,0000,0000,,{\blur3}You are arrogant. You are pompous. Morgan! Morgan!
+Dialogue: 0,0:05:54.14,0:05:56.93,英文,,0000,0000,0000,,{\blur3}- Tag's last name was Morgan! Ha!     - It was Jones.
+Dialogue: 0,0:05:57.14,0:05:59.77,英文,,0000,0000,0000,,{\blur3}What are you, his boyfriend?
+Dialogue: 0,0:06:03.86,0:06:06.35,英文,,0000,0000,0000,,{\blur3}Man, I wish I had a nanny like you.
+Dialogue: 0,0:06:06.35,0:06:07.78,英文,,0000,0000,0000,,{\blur3}You mean when you were a baby?
+Dialogue: 0,0:06:08.36,0:06:09.95,英文,,0000,0000,0000,,{\blur3}Sure.
+Dialogue: 0,0:06:12.78,0:06:14.41,英文,,0000,0000,0000,,{\blur3}Would you stop staring at her?
+Dialogue: 0,0:06:15.33,0:06:17.12,英文,,0000,0000,0000,,{\blur3}I wasn't staring.
+Dialogue: 0,0:06:17.29,0:06:19.71,英文,,0000,0000,0000,,{\blur3}I was leering.
+Dialogue: 0,0:06:20.25,0:06:22.13,英文,,0000,0000,0000,,{\blur3}What's the big deal with her?
+Dialogue: 0,0:06:22.29,0:06:25.38,英文,,0000,0000,0000,,{\blur3}Maybe she's attractive in an obvious kind of way.
+Dialogue: 0,0:06:25.59,0:06:28.88,英文,,0000,0000,0000,,{\blur3}Yeah, obvious beauty's the worst.
+Dialogue: 0,0:06:29.05,0:06:31.68,英文,,0000,0000,0000,,{\blur3}You know, when it's right there in your face.
+Dialogue: 0,0:06:31.84,0:06:34.64,英文,,0000,0000,0000,,{\blur3}Me, I like to have to work to find someone attractive.
+Dialogue: 0,0:06:34.81,0:06:36.64,英文,,0000,0000,0000,,{\blur3}Makes me feel like I earned it.
+Dialogue: 0,0:06:37.81,0:06:39.94,英文,,0000,0000,0000,,{\blur3}Looks like Joey's doing all right with her.
+Dialogue: 0,0:06:40.35,0:06:42.56,英文,,0000,0000,0000,,{\blur3}Yeah. Hey, that was nice of you guys to back off...
+Dialogue: 0,0:06:42.73,0:06:45.86,英文,,0000,0000,0000,,{\blur3}and let Joey get the girl for once.
+Dialogue: 0,0:06:47.15,0:06:50.82,英文,,0000,0000,0000,,{\blur3}- I'm gonna take her to the apartment.     - Okay, I'll be home right after work.
+Dialogue: 0,0:06:50.99,0:06:53.41,英文,,0000,0000,0000,,{\blur3}- Okay.     - Okay, bye, Emma-wemma-demma.
+Dialogue: 0,0:06:53.57,0:06:57.04,英文,,0000,0000,0000,,{\blur3}I lovey-wovey-dove you.
+Dialogue: 0,0:06:57.20,0:06:58.54,英文,,0000,0000,0000,,{\blur3}- Bye.     - Bye.
+Dialogue: 0,0:06:58.70,0:07:01.16,英文,,0000,0000,0000,,{\blur3}They've elected me to talk to you about the baby talk.
+Dialogue: 0,0:07:01.33,0:07:03.71,英文,,0000,0000,0000,,{\blur3}It's not so good.
+Dialogue: 0,0:07:03.96,0:07:06.13,英文,,0000,0000,0000,,{\blur3}I think it's sweet.
+Dialogue: 0,0:07:06.34,0:07:08.46,英文,,0000,0000,0000,,{\blur3}Bye, Emma-wemma!
+Dialogue: 0,0:07:10.30,0:07:15.30,英文,,0000,0000,0000,,{\blur3}Hey, listen, Joey. About Molly, I would really prefer if you didn't go after her.
+Dialogue: 0,0:07:15.51,0:07:16.56,英文,,0000,0000,0000,,{\blur3}Why not?
+Dialogue: 0,0:07:16.72,0:07:18.56,英文,,0000,0000,0000,,{\blur3}Because it took months to find a good nanny.
+Dialogue: 0,0:07:18.72,0:07:22.56,英文,,0000,0000,0000,,{\blur3}And I wouldn't want anything to, you know, drive her away.
+Dialogue: 0,0:07:22.77,0:07:24.81,英文,,0000,0000,0000,,{\blur3}So you think I'm just gonna sleep with her...
+Dialogue: 0,0:07:24.98,0:07:28.28,英文,,0000,0000,0000,,{\blur3}and never call her again, and things are gonna get uncomfortable?
+Dialogue: 0,0:07:28.44,0:07:30.57,英文,,0000,0000,0000,,{\blur3}Yeah, that sounds about right.
+Dialogue: 0,0:07:31.45,0:07:33.78,英文,,0000,0000,0000,,{\blur3}Come on, there are plenty of other women out there, okay?
+Dialogue: 0,0:07:33.95,0:07:38.91,英文,,0000,0000,0000,,{\blur3}Just forget about her, okay? She's off-limits.
+Dialogue: 0,0:07:39.12,0:07:42.25,英文,,0000,0000,0000,,{\blur3}Oh, man. What'd you have to go and say that for?
+Dialogue: 0,0:07:42.42,0:07:46.13,英文,,0000,0000,0000,,{\blur3}Now that you told me I can't have her, makes me want her even more!
+Dialogue: 0,0:07:46.92,0:07:49.55,英文,,0000,0000,0000,,{\blur3}- What are you, a child?     - Yes.
+Dialogue: 0,0:07:49.76,0:07:52.17,英文,,0000,0000,0000,,{\blur3}Look, Joey, come on now. For me, please.
+Dialogue: 0,0:07:52.34,0:07:57.26,英文,,0000,0000,0000,,{\blur3}Just try to focus your sexual energy on someone else.
+Dialogue: 0,0:07:57.72,0:07:59.39,英文,,0000,0000,0000,,{\blur3}Fine.
+Dialogue: 0,0:08:07.15,0:08:08.36,英文,,0000,0000,0000,,{\blur3}Take me home.
+Dialogue: 0,0:08:13.61,0:08:16.03,英文,,0000,0000,0000,,{\blur3}- Hey, Mikey.     - Hey, Pheeb.
+Dialogue: 0,0:08:16.24,0:08:18.66,英文,,0000,0000,0000,,{\blur3}- What are you doing?     - Setting rattraps.
+Dialogue: 0,0:08:18.87,0:08:23.46,英文,,0000,0000,0000,,{\blur3}- To kill Bob?     - No. No, to test his neck strength.
+Dialogue: 0,0:08:23.66,0:08:26.92,英文,,0000,0000,0000,,{\blur3}But no, I don't want to kill him. I thought we were gonna capture him...
+Dialogue: 0,0:08:27.08,0:08:29.71,英文,,0000,0000,0000,,{\blur3}and, you know, set him free in the countryside...
+Dialogue: 0,0:08:29.88,0:08:31.80,英文,,0000,0000,0000,,{\blur3}where he could meet a friendly possum...
+Dialogue: 0,0:08:31.96,0:08:34.88,英文,,0000,0000,0000,,{\blur3}and a wisecracking owl.
+Dialogue: 0,0:08:35.18,0:08:36.94,英文,,0000,0000,0000,,{\blur3}Okay, okay. I'll throw away the traps.
+Dialogue: 0,0:08:36.94,0:08:38.93,英文,,0000,0000,0000,,{\blur3}All right, I'll find Bob. I'll get him.
+Dialogue: 0,0:08:39.10,0:08:43.23,英文,,0000,0000,0000,,{\blur3}Bob? Bob?
+Dialogue: 0,0:08:43.39,0:08:45.81,英文,,0000,0000,0000,,{\blur3}Robert?
+Dialogue: 0,0:08:47.48,0:08:49.19,英文,,0000,0000,0000,,{\blur3}Wait, I think I hear him.
+Dialogue: 0,0:08:50.98,0:08:56.11,英文,,0000,0000,0000,,{\blur3}Oh, my God! Bob had babies! Bob's a mom!
+Dialogue: 0,0:08:56.28,0:08:57.86,英文,,0000,0000,0000,,{\blur3}We'll have to think of a new name.
+Dialogue: 0,0:08:58.03,0:09:00.49,英文,,0000,0000,0000,,{\blur3}Oh, I don't know, I kind of like "Bob" for a girl.
+Dialogue: 0,0:09:00.66,0:09:02.41,英文,,0000,0000,0000,,{\blur3}No, no. I mean, I'm not sure that we...
+Dialogue: 0,0:09:05.58,0:09:09.50,英文,,0000,0000,0000,,{\blur3}Oh, my God. We killed Bob?
+Dialogue: 0,0:09:09.67,0:09:12.34,英文,,0000,0000,0000,,{\blur3}Well, maybe it wasn't Bob. Maybe it was a mouse.
+Dialogue: 0,0:09:12.51,0:09:14.88,英文,,0000,0000,0000,,{\blur3}Susie?
+Dialogue: 0,0:09:19.14,0:09:21.14,英文,,0000,0000,0000,,{\blur3}What's up?
+Dialogue: 0,0:09:22.35,0:09:24.47,英文,,0000,0000,0000,,{\blur3}Seriously, dude. Three years ago.
+Dialogue: 0,0:09:26.31,0:09:29.27,英文,,0000,0000,0000,,{\blur3}Listen, can you do me a favor? I'm gonna be out today.
+Dialogue: 0,0:09:29.48,0:09:30.86,英文,,0000,0000,0000,,{\blur3}Can you keep an eye on Joey...
+Dialogue: 0,0:09:31.02,0:09:33.61,英文,,0000,0000,0000,,{\blur3}make sure nothing happens between him and Molly?
+Dialogue: 0,0:09:33.82,0:09:35.94,英文,,0000,0000,0000,,{\blur3}- You don't trust him?     - Well, no.
+Dialogue: 0,0:09:36.15,0:09:38.86,英文,,0000,0000,0000,,{\blur3}Some woman who sounded a lot like Joey called earlier...
+Dialogue: 0,0:09:39.03,0:09:42.91,英文,,0000,0000,0000,,{\blur3}and asked for her daughter, uh, the "hot nanny."
+Dialogue: 0,0:09:43.66,0:09:46.37,英文,,0000,0000,0000,,{\blur3}Is this really your long-term plan, for me to run interference?
+Dialogue: 0,0:09:46.54,0:09:50.21,英文,,0000,0000,0000,,{\blur3}Because I could get a job any day now.
+Dialogue: 0,0:09:50.38,0:09:53.96,英文,,0000,0000,0000,,{\blur3}You do appear right on the cusp of something.
+Dialogue: 0,0:09:54.13,0:09:57.34,英文,,0000,0000,0000,,{\blur3}Look, come on, man. I'm sure he'll lose interest in a week or two...
+Dialogue: 0,0:09:57.55,0:10:00.01,英文,,0000,0000,0000,,{\blur3}but for now, could you please just do this for me?
+Dialogue: 0,0:10:00.22,0:10:02.10,英文,,0000,0000,0000,,{\blur3}Fine, but don't blame me if it doesn't work.
+Dialogue: 0,0:10:02.26,0:10:04.89,英文,,0000,0000,0000,,{\blur3}Because you know once Joey sets his mind on something...
+Dialogue: 0,0:10:05.06,0:10:08.52,英文,,0000,0000,0000,,{\blur3}more often than not, he's going to have sex with it.
+Dialogue: 0,0:10:09.94,0:10:12.65,英文,,0000,0000,0000,,{\blur3}Well, I mean, we've gotta do something. Okay?
+Dialogue: 0,0:10:12.82,0:10:16.32,英文,,0000,0000,0000,,{\blur3}Nannies like her don't grow on trees.
+Dialogue: 0,0:10:18.99,0:10:21.20,英文,,0000,0000,0000,,{\blur3}- Picturing that tree?     - I am, yes.
+Dialogue: 0,0:10:28.79,0:10:31.04,英文,,0000,0000,0000,,{\blur3}Where you going, Joe?
+Dialogue: 0,0:10:35.42,0:10:37.13,英文,,0000,0000,0000,,{\blur3}For a walk.
+Dialogue: 0,0:10:37.30,0:10:39.30,英文,,0000,0000,0000,,{\blur3}Oh, you mind if I join you?
+Dialogue: 0,0:10:39.55,0:10:44.85,英文,,0000,0000,0000,,{\blur3}Actually, uh, I'd rather be alone. You know, I really need to organize my thoughts.
+Dialogue: 0,0:10:46.10,0:10:48.35,英文,,0000,0000,0000,,{\blur3}Your thoughts?
+Dialogue: 0,0:10:48.64,0:10:50.35,英文,,0000,0000,0000,,{\blur3}Plural?
+Dialogue: 0,0:10:51.56,0:10:55.07,英文,,0000,0000,0000,,{\blur3}All right, fine. I only have one thought.
+Dialogue: 0,0:10:55.78,0:10:57.90,英文,,0000,0000,0000,,{\blur3}It's about the hot nanny. I gotta see her.
+Dialogue: 0,0:10:58.90,0:11:02.45,英文,,0000,0000,0000,,{\blur3}- I'm afraid I can't let you do that, Joe.     - Now you're telling me I can't see her?
+Dialogue: 0,0:11:02.62,0:11:07.12,英文,,0000,0000,0000,,{\blur3}You guys are killing me. She's forbidden fruit. It's like, like...
+Dialogue: 0,0:11:07.29,0:11:11.08,英文,,0000,0000,0000,,{\blur3}Like she's the princess and I'm the stable boy.
+Dialogue: 0,0:11:12.79,0:11:14.67,英文,,0000,0000,0000,,{\blur3}Why are you doing this, huh?
+Dialogue: 0,0:11:14.84,0:11:17.09,英文,,0000,0000,0000,,{\blur3}Did Ross tell you not to let me go over there?
+Dialogue: 0,0:11:17.30,0:11:20.01,英文,,0000,0000,0000,,{\blur3}Yes, as a matter of fact, he did. So I can't let you go.
+Dialogue: 0,0:11:21.09,0:11:24.05,英文,,0000,0000,0000,,{\blur3}Huh. Interesting. Now there are obstacles.
+Dialogue: 0,0:11:25.68,0:11:28.72,英文,,0000,0000,0000,,{\blur3}Hot nanny and me against the world.
+Dialogue: 0,0:11:28.89,0:11:31.02,英文,,0000,0000,0000,,{\blur3}This is the stuff great novels are made of.
+Dialogue: 0,0:11:31.23,0:11:33.81,英文,,0000,0000,0000,,{\blur3}- Great novels?     - Fine. Mediocre porn.
+Dialogue: 0,0:11:38.69,0:11:40.82,英文,,0000,0000,0000,,{\blur3}- Gavin Mitchell's office.     - Rachel Green's office.
+Dialogue: 0,0:11:40.99,0:11:42.53,英文,,0000,0000,0000,,{\blur3}Give me that phone.
+Dialogue: 0,0:11:43.99,0:11:47.41,英文,,0000,0000,0000,,{\blur3}Hello, this is Rachel Green. How can I help you?
+Dialogue: 0,0:11:49.00,0:11:52.74,英文,,0000,0000,0000,,{\blur3}Uh-huh. Okay, then. I'll pass you back to your son.
+Dialogue: 0,0:11:53.92,0:11:56.75,英文,,0000,0000,0000,,{\blur3}Hey, Mom. No, that's just my secretary.
+Dialogue: 0,0:11:59.71,0:12:02.84,英文,,0000,0000,0000,,{\blur3}Um, excuse me, Gavin. I have a question I need to ask you.
+Dialogue: 0,0:12:03.01,0:12:06.05,英文,,0000,0000,0000,,{\blur3}Mom, I'll call you later. Yeah.
+Dialogue: 0,0:12:06.35,0:12:09.72,英文,,0000,0000,0000,,{\blur3}- Yes?     - If you like looking at butts so much...
+Dialogue: 0,0:12:09.89,0:12:13.35,英文,,0000,0000,0000,,{\blur3}why don't you just go look in a mirror?
+Dialogue: 0,0:12:14.23,0:12:15.65,英文,,0000,0000,0000,,{\blur3}Thank God you finally said that.
+Dialogue: 0,0:12:15.81,0:12:19.11,英文,,0000,0000,0000,,{\blur3}I saw you make a note on your pad three hours ago.
+Dialogue: 0,0:12:22.15,0:12:24.53,英文,,0000,0000,0000,,{\blur3}- Man, I really bug you. Don't I?     - Oh, no. Please...
+Dialogue: 0,0:12:24.70,0:12:26.53,英文,,0000,0000,0000,,{\blur3}I don't care about you enough to bug me.
+Dialogue: 0,0:12:26.70,0:12:30.20,英文,,0000,0000,0000,,{\blur3}In fact, from now on, I'm going to take the high road...
+Dialogue: 0,0:12:30.37,0:12:33.87,英文,,0000,0000,0000,,{\blur3}and I'm going to be very, very nice to you, you mama's boy...
+Dialogue: 0,0:12:34.04,0:12:35.37,英文,,0000,0000,0000,,{\blur3}starting right now.
+Dialogue: 0,0:12:37.67,0:12:39.09,英文,,0000,0000,0000,,{\blur3}- Hey, Rach.     - Hi.
+Dialogue: 0,0:12:39.25,0:12:41.09,英文,,0000,0000,0000,,{\blur3}- Ready for your birthday lunch?     - I am.
+Dialogue: 0,0:12:41.26,0:12:44.34,英文,,0000,0000,0000,,{\blur3}But first, Monica, I would like to introduce you...
+Dialogue: 0,0:12:44.51,0:12:47.68,英文,,0000,0000,0000,,{\blur3}to my very talented colleague and more importantly...
+Dialogue: 0,0:12:47.85,0:12:50.68,英文,,0000,0000,0000,,{\blur3}my wonderful friend, Gavin Mitchell.
+Dialogue: 0,0:12:50.89,0:12:52.68,英文,,0000,0000,0000,,{\blur3}- Pleased to meet you.     - Pleased to meet you.
+Dialogue: 0,0:12:52.85,0:12:54.39,英文,,0000,0000,0000,,{\blur3}Are you coming to Rachel's party?
+Dialogue: 0,0:12:54.60,0:12:57.98,英文,,0000,0000,0000,,{\blur3}Oh, no, no, no. Gavin can't. He already has plans...
+Dialogue: 0,0:12:58.15,0:13:00.61,英文,,0000,0000,0000,,{\blur3}most likely with his mother.
+Dialogue: 0,0:13:01.23,0:13:05.53,英文,,0000,0000,0000,,{\blur3}I don't mind. I'll cancel them. I would never miss my secretary's birthday.
+Dialogue: 0,0:13:07.62,0:13:11.79,英文,,0000,0000,0000,,{\blur3}Why did you invite him? I can't stand that guy.
+Dialogue: 0,0:13:11.99,0:13:14.45,英文,,0000,0000,0000,,{\blur3}- You were being so nice to him.     - I was faking it.
+Dialogue: 0,0:13:14.62,0:13:16.46,英文,,0000,0000,0000,,{\blur3}Can't you tell when I'm being fake?
+Dialogue: 0,0:13:17.71,0:13:20.08,英文,,0000,0000,0000,,{\blur3}Hey, Mr. Phillips. Nice suit.
+Dialogue: 0,0:13:20.25,0:13:23.21,英文,,0000,0000,0000,,{\blur3}- Right there. That was so fake!     - Shh!
+Dialogue: 0,0:13:32.52,0:13:34.56,英文,,0000,0000,0000,,{\blur3}Oh, hi.
+Dialogue: 0,0:13:34.73,0:13:36.77,英文,,0000,0000,0000,,{\blur3}I still can't believe you invited Gavin.
+Dialogue: 0,0:13:36.94,0:13:39.73,英文,,0000,0000,0000,,{\blur3}I mean, he is just the last person I want to see.
+Dialogue: 0,0:13:39.98,0:13:43.53,英文,,0000,0000,0000,,{\blur3}You're welcome for the party. I'm glad you're having a good time.
+Dialogue: 0,0:13:43.69,0:13:47.40,英文,,0000,0000,0000,,{\blur3}God, I hope he doesn't show up. Of course he's not gonna show up, the guy hates me.
+Dialogue: 0,0:13:47.57,0:13:49.61,英文,,0000,0000,0000,,{\blur3}- Does he?     - What?
+Dialogue: 0,0:13:50.07,0:13:53.12,英文,,0000,0000,0000,,{\blur3}Maybe he keeps bothering you so much because he likes you.
+Dialogue: 0,0:13:53.29,0:13:56.00,英文,,0000,0000,0000,,{\blur3}It's like in first grade when Skippy Lange would push me...
+Dialogue: 0,0:13:56.16,0:13:58.62,英文,,0000,0000,0000,,{\blur3}because he secretly had a crush on me.
+Dialogue: 0,0:13:58.79,0:14:02.04,英文,,0000,0000,0000,,{\blur3}Oh, Monica, you think Skippy liked you?
+Dialogue: 0,0:14:02.21,0:14:05.51,英文,,0000,0000,0000,,{\blur3}Honey, all those boys had a bet to see if he could knock you over.
+Dialogue: 0,0:14:07.55,0:14:10.64,英文,,0000,0000,0000,,{\blur3}- She's out. I'm gonna take her home.     - Oh, okay. Thank you.
+Dialogue: 0,0:14:10.80,0:14:12.85,英文,,0000,0000,0000,,{\blur3}Bye, sweetheart.
+Dialogue: 0,0:14:16.02,0:14:18.56,英文,,0000,0000,0000,,{\blur3}Do you see what all the guys see in her?
+Dialogue: 0,0:14:18.73,0:14:21.27,英文,,0000,0000,0000,,{\blur3}Wouldn't kick her out of bed.
+Dialogue: 0,0:14:21.81,0:14:23.23,英文,,0000,0000,0000,,{\blur3}No more vodka for me.
+Dialogue: 0,0:14:25.11,0:14:27.57,英文,,0000,0000,0000,,{\blur3}Hey, Rach. So can I sing "Happy Birthday" to you now?
+Dialogue: 0,0:14:27.74,0:14:30.15,英文,,0000,0000,0000,,{\blur3}- Yeah, sure.     - Oh. All right.
+Dialogue: 0,0:14:30.32,0:14:31.49,英文,,0000,0000,0000,,{\blur3}Happy birth...
+Dialogue: 0,0:14:32.95,0:14:35.03,英文,,0000,0000,0000,,{\blur3}See you later.
+Dialogue: 0,0:14:35.95,0:14:37.79,英文,,0000,0000,0000,,{\blur3}Hey, Rach. Somebody got you shoes.
+Dialogue: 0,0:14:37.96,0:14:39.16,英文,,0000,0000,0000,,{\blur3}Give me.
+Dialogue: 0,0:14:42.04,0:14:45.75,英文,,0000,0000,0000,,{\blur3}- Wow. Wow. Oh, my God!     - Careful! Careful!
+Dialogue: 0,0:14:45.96,0:14:48.30,英文,,0000,0000,0000,,{\blur3}These are my rat babies!
+Dialogue: 0,0:14:51.05,0:14:54.47,英文,,0000,0000,0000,,{\blur3}Yeah. We have rat babies now.
+Dialogue: 0,0:14:56.02,0:14:59.68,英文,,0000,0000,0000,,{\blur3}Oh, you brought rats to my birthday party?
+Dialogue: 0,0:14:59.89,0:15:02.81,英文,,0000,0000,0000,,{\blur3}So this is what a stroke feels like.
+Dialogue: 0,0:15:03.02,0:15:05.36,英文,,0000,0000,0000,,{\blur3}Well, I had to bring them. We killed their mother.
+Dialogue: 0,0:15:05.52,0:15:07.78,英文,,0000,0000,0000,,{\blur3}They're our responsibility now.
+Dialogue: 0,0:15:07.94,0:15:09.90,英文,,0000,0000,0000,,{\blur3}You know, they require constant care.
+Dialogue: 0,0:15:10.07,0:15:11.91,英文,,0000,0000,0000,,{\blur3}You should know that, Rachel, you're a mother.
+Dialogue: 0,0:15:13.74,0:15:16.62,英文,,0000,0000,0000,,{\blur3}Are you comparing my daughter to a rat?
+Dialogue: 0,0:15:16.83,0:15:18.79,英文,,0000,0000,0000,,{\blur3}No. Seven rats.
+Dialogue: 0,0:15:20.37,0:15:22.67,英文,,0000,0000,0000,,{\blur3}I think we should take them home. We need to feed them.
+Dialogue: 0,0:15:22.83,0:15:25.63,英文,,0000,0000,0000,,{\blur3}Wait, you're gonna leave my party to take care of a box of rats?
+Dialogue: 0,0:15:25.84,0:15:28.21,英文,,0000,0000,0000,,{\blur3}Well, I'm sorry, Rachel, but I'm not like you. Okay?
+Dialogue: 0,0:15:28.38,0:15:31.05,英文,,0000,0000,0000,,{\blur3}Not everyone can afford help.
+Dialogue: 0,0:15:38.47,0:15:40.39,英文,,0000,0000,0000,,{\blur3}Hey, where the hell are Joey and Molly?
+Dialogue: 0,0:15:40.56,0:15:42.06,英文,,0000,0000,0000,,{\blur3}I asked you to watch them.
+Dialogue: 0,0:15:42.27,0:15:44.77,英文,,0000,0000,0000,,{\blur3}I'm sorry. I got a little preoccupied.
+Dialogue: 0,0:15:45.90,0:15:48.94,英文,,0000,0000,0000,,{\blur3}Look, we have to stop them before something happens.
+Dialogue: 0,0:15:49.28,0:15:51.95,英文,,0000,0000,0000,,{\blur3}Right behind you, big guy.
+Dialogue: 0,0:15:53.74,0:15:56.03,英文,,0000,0000,0000,,{\blur3}So you see, Molly, what people don't understand...
+Dialogue: 0,0:15:56.24,0:15:59.91,英文,,0000,0000,0000,,{\blur3}is that acting is a discipline. It takes a lot of hard work.
+Dialogue: 0,0:16:00.12,0:16:03.00,英文,,0000,0000,0000,,{\blur3}- So where'd you study?     - Oh, I didn't go to college.
+Dialogue: 0,0:16:03.21,0:16:09.09,英文,,0000,0000,0000,,{\blur3}- No, where'd you study acting?     - Molly, people don't study acting.
+Dialogue: 0,0:16:11.97,0:16:15.76,英文,,0000,0000,0000,,{\blur3}Molly, uh, do you mind giving us just a minute?
+Dialogue: 0,0:16:15.97,0:16:18.22,英文,,0000,0000,0000,,{\blur3}- Sure. I'll go check on Emma.     - Thanks.
+Dialogue: 0,0:16:20.18,0:16:23.23,英文,,0000,0000,0000,,{\blur3}Will the stable boy never get the princess?
+Dialogue: 0,0:16:23.56,0:16:27.73,英文,,0000,0000,0000,,{\blur3}What do you think you were gonna do, have sex with her here on my couch?
+Dialogue: 0,0:16:27.94,0:16:31.15,英文,,0000,0000,0000,,{\blur3}No. The leather sticks to my ass.
+Dialogue: 0,0:16:32.49,0:16:35.53,英文,,0000,0000,0000,,{\blur3}This isn't fair. What makes you think I'm gonna sleep with her...
+Dialogue: 0,0:16:35.70,0:16:37.28,英文,,0000,0000,0000,,{\blur3}and then blow her off, huh?
+Dialogue: 0,0:16:37.45,0:16:41.70,英文,,0000,0000,0000,,{\blur3}Can't you guys open your minds to the possibility that I actually like her...
+Dialogue: 0,0:16:41.87,0:16:43.87,英文,,0000,0000,0000,,{\blur3}and might want something real?
+Dialogue: 0,0:16:45.46,0:16:50.46,英文,,0000,0000,0000,,{\blur3}Look, the truth is I haven't felt this way about anyone since Rachel.
+Dialogue: 0,0:16:50.63,0:16:53.97,英文,,0000,0000,0000,,{\blur3}Okay? I didn't think I could ever love again.
+Dialogue: 0,0:16:54.93,0:16:56.43,英文,,0000,0000,0000,,{\blur3}- Come on.     - Joe.
+Dialogue: 0,0:17:02.77,0:17:04.64,英文,,0000,0000,0000,,{\blur3}Hi. Is Molly here?
+Dialogue: 0,0:17:04.81,0:17:07.02,英文,,0000,0000,0000,,{\blur3}Uh, yeah, yeah. Come on in. Molly?
+Dialogue: 0,0:17:07.52,0:17:12.73,英文,,0000,0000,0000,,{\blur3}- Hey. Guys, this is Tabitha.     - Hey.
+Dialogue: 0,0:17:14.28,0:17:16.99,英文,,0000,0000,0000,,{\blur3}- I'll see you tomorrow.     - Okay.
+Dialogue: 0,0:17:27.33,0:17:31.33,英文,,0000,0000,0000,,{\blur3}Uh, well, Joey, I guess we have no problem.
+Dialogue: 0,0:17:32.42,0:17:36.30,英文,,0000,0000,0000,,{\blur3}It's like my favorite fairy tale come true.
+Dialogue: 0,0:17:37.63,0:17:41.01,英文,,0000,0000,0000,,{\blur3}The princess, the stable boy and the lesbian.
+Dialogue: 0,0:17:44.48,0:17:46.77,英文,,0000,0000,0000,,{\blur3}Okay. Okay, you start preparing the formula...
+Dialogue: 0,0:17:46.94,0:17:48.64,英文,,0000,0000,0000,,{\blur3}and I'll start changing the box.
+Dialogue: 0,0:17:48.81,0:17:51.94,英文,,0000,0000,0000,,{\blur3}And then we gotta put them straight to bed.
+Dialogue: 0,0:17:52.15,0:17:54.03,英文,,0000,0000,0000,,{\blur3}When did we become one of those couples...
+Dialogue: 0,0:17:54.19,0:17:56.69,英文,,0000,0000,0000,,{\blur3}whose lives revolve around their rats?
+Dialogue: 0,0:17:58.32,0:18:01.03,英文,,0000,0000,0000,,{\blur3}Well, you know what? They're our responsibility now.
+Dialogue: 0,0:18:01.24,0:18:04.74,英文,,0000,0000,0000,,{\blur3}Okay, fine. These rats are our responsibility.
+Dialogue: 0,0:18:04.95,0:18:07.33,英文,,0000,0000,0000,,{\blur3}What happens when they mate and there are hundreds?
+Dialogue: 0,0:18:07.54,0:18:10.50,英文,,0000,0000,0000,,{\blur3}Mate? They're all brothers and sisters.
+Dialogue: 0,0:18:10.83,0:18:13.29,英文,,0000,0000,0000,,{\blur3}Yeah, uh, not such a problem with rats.
+Dialogue: 0,0:18:13.46,0:18:16.88,英文,,0000,0000,0000,,{\blur3}No, they're more of a "love the one you're with" kind of animal.
+Dialogue: 0,0:18:17.67,0:18:19.76,英文,,0000,0000,0000,,{\blur3}No. Really?
+Dialogue: 0,0:18:19.93,0:18:23.39,英文,,0000,0000,0000,,{\blur3}Oh, my... Get off your sister! Ew.
+Dialogue: 0,0:18:25.06,0:18:27.60,英文,,0000,0000,0000,,{\blur3}Oh, my God. What are we gonna do?
+Dialogue: 0,0:18:27.77,0:18:30.90,英文,,0000,0000,0000,,{\blur3}- The... We have seven rats.     - Uh-huh.
+Dialogue: 0,0:18:31.06,0:18:33.69,英文,,0000,0000,0000,,{\blur3}So, what if each of them has seven rats...
+Dialogue: 0,0:18:33.86,0:18:37.82,英文,,0000,0000,0000,,{\blur3}and then each of those have seven rats? That's like...
+Dialogue: 0,0:18:40.91,0:18:44.03,英文,,0000,0000,0000,,{\blur3}That's math I can't even do.
+Dialogue: 0,0:18:45.04,0:18:46.99,英文,,0000,0000,0000,,{\blur3}What are we gonna do?
+Dialogue: 0,0:18:47.20,0:18:49.62,英文,,0000,0000,0000,,{\blur3}Well, I know this is gonna sound crazy...
+Dialogue: 0,0:18:49.79,0:18:56.38,英文,,0000,0000,0000,,{\blur3}but we could not let the box of rats ruin our lives.
+Dialogue: 0,0:18:58.42,0:19:02.01,英文,,0000,0000,0000,,{\blur3}Yeah, okay. I guess you're right.
+Dialogue: 0,0:19:02.18,0:19:05.51,英文,,0000,0000,0000,,{\blur3}All right, so we should just give them away.
+Dialogue: 0,0:19:06.14,0:19:11.64,英文,,0000,0000,0000,,{\blur3}But to nice families with children and reduced-fat Wheat Thins.
+Dialogue: 0,0:19:11.81,0:19:14.19,英文,,0000,0000,0000,,{\blur3}Those were Bob's favorites.
+Dialogue: 0,0:19:14.36,0:19:16.27,英文,,0000,0000,0000,,{\blur3}It's gonna be okay.
+Dialogue: 0,0:19:17.57,0:19:21.36,英文,,0000,0000,0000,,{\blur3}- You must think I'm crazy.     - No, I think you're sweet.
+Dialogue: 0,0:19:21.53,0:19:23.03,英文,,0000,0000,0000,,{\blur3}Good.
+Dialogue: 0,0:19:23.53,0:19:24.78,英文,,0000,0000,0000,,{\blur3}This is just so hard.
+Dialogue: 0,0:19:24.95,0:19:28.37,英文,,0000,0000,0000,,{\blur3}It's hard for me to let them go.
+Dialogue: 0,0:19:28.54,0:19:31.71,英文,,0000,0000,0000,,{\blur3}I guess it just brings back memories, you know...
+Dialogue: 0,0:19:32.67,0:19:37.55,英文,,0000,0000,0000,,{\blur3}from when I gave birth to my brother's triplets and I had to give them up.
+Dialogue: 0,0:19:43.55,0:19:45.97,英文,,0000,0000,0000,,{\blur3}I haven't told you about that yet, have I?
+Dialogue: 0,0:19:55.98,0:19:58.27,英文,,0000,0000,0000,,{\blur3}- Hey.     - Hi.
+Dialogue: 0,0:19:58.44,0:20:01.74,英文,,0000,0000,0000,,{\blur3}Thanks for the party, honey. Should I help you clean up?
+Dialogue: 0,0:20:01.90,0:20:06.07,英文,,0000,0000,0000,,{\blur3}No way. You had your party. Now I have mine.
+Dialogue: 0,0:20:09.29,0:20:11.45,英文,,0000,0000,0000,,{\blur3}- Is everything all right?     - I just get bummed...
+Dialogue: 0,0:20:11.62,0:20:13.12,英文,,0000,0000,0000,,{\blur3}when my birthday's over.
+Dialogue: 0,0:20:13.29,0:20:15.92,英文,,0000,0000,0000,,{\blur3}Well, at least you have one thing to be happy about.
+Dialogue: 0,0:20:16.79,0:20:18.41,英文,,0000,0000,0000,,{\blur3}- Mm?     - That jerk, Gavin, from your office...
+Dialogue: 0,0:20:18.59,0:20:19.96,英文,,0000,0000,0000,,{\blur3}- didn't show up.     - Ah.
+Dialogue: 0,0:20:20.13,0:20:22.22,英文,,0000,0000,0000,,{\blur3}Yeah, I hate him.
+Dialogue: 0,0:20:24.80,0:20:27.93,英文,,0000,0000,0000,,{\blur3}We weren't talking about you. We were...
+Dialogue: 0,0:20:28.10,0:20:31.72,英文,,0000,0000,0000,,{\blur3}No. No way to recover. No. Okay.
+Dialogue: 0,0:20:33.64,0:20:37.10,英文,,0000,0000,0000,,{\blur3}- Fun party.     - Well, it was.
+Dialogue: 0,0:20:37.27,0:20:40.07,英文,,0000,0000,0000,,{\blur3}And you would have seen it if you didn't show up at...
+Dialogue: 0,0:20:40.23,0:20:45.74,英文,,0000,0000,0000,,{\blur3}Nine-thirty? God. Ugh, this party was lame.
+Dialogue: 0,0:20:46.07,0:20:48.82,英文,,0000,0000,0000,,{\blur3}Again, you're welcome.
+Dialogue: 0,0:20:48.99,0:20:51.79,英文,,0000,0000,0000,,{\blur3}Look, I'll just give you this and go.
+Dialogue: 0,0:20:51.79,0:20:53.70,英文,,0000,0000,0000,,{\blur3}Oh, you bought me a present. Why?
+Dialogue: 0,0:20:54.87,0:20:58.58,英文,,0000,0000,0000,,{\blur3}Let me explain how birthday parties usually work. There are presents...
+Dialogue: 0,0:20:58.75,0:21:01.59,英文,,0000,0000,0000,,{\blur3}and a cake, perhaps a fourth or fifth person.
+Dialogue: 0,0:21:03.97,0:21:05.88,英文,,0000,0000,0000,,{\blur3}Okay, I, uh...
+Dialogue: 0,0:21:06.09,0:21:09.43,英文,,0000,0000,0000,,{\blur3}I got you the present to make up for being such a jerk to you.
+Dialogue: 0,0:21:10.68,0:21:15.18,英文,,0000,0000,0000,,{\blur3}Aw. Well, okay. Well, that's very nice. And you wrote a card.
+Dialogue: 0,0:21:16.10,0:21:18.56,英文,,0000,0000,0000,,{\blur3}- "From Gavin."     - I really mean it.
+Dialogue: 0,0:21:22.36,0:21:25.65,英文,,0000,0000,0000,,{\blur3}Oh. Oh.
+Dialogue: 0,0:21:25.82,0:21:27.36,英文,,0000,0000,0000,,{\blur3}Oh, it's beautiful.
+Dialogue: 0,0:21:27.57,0:21:29.78,英文,,0000,0000,0000,,{\blur3}- If you don't mind? Let me.     - No.
+Dialogue: 0,0:21:32.08,0:21:35.33,英文,,0000,0000,0000,,{\blur3}Well, what do you know, it fits.
+Dialogue: 0,0:21:37.33,0:21:41.75,英文,,0000,0000,0000,,{\blur3}See, Gavin. You're capable of being a nice guy.
+Dialogue: 0,0:21:41.92,0:21:44.01,英文,,0000,0000,0000,,{\blur3}Why do you give me such a hard time?
+Dialogue: 0,0:21:45.26,0:21:46.80,英文,,0000,0000,0000,,{\blur3}I'm not sure.
+Dialogue: 0,0:21:47.09,0:21:52.01,英文,,0000,0000,0000,,{\blur3}Well, Monica seems to think it's because you have feelings for me.
+Dialogue: 0,0:21:52.22,0:21:54.31,英文,,0000,0000,0000,,{\blur3}I do have feelings for you.
+Dialogue: 0,0:21:56.18,0:21:59.35,英文,,0000,0000,0000,,{\blur3}- You do?     - Yes. I feel that you're a little annoying.
+Dialogue: 0,0:22:00.81,0:22:02.15,英文,,0000,0000,0000,,{\blur3}See, why? Gavin, why?
+Dialogue: 0,0:22:02.40,0:22:06.44,英文,,0000,0000,0000,,{\blur3}Right when I'm about to change my opinion of you, you go and you...
+Dialogue: 0,0:22:10.20,0:22:12.53,英文,,0000,0000,0000,,{\blur3}And you do that.
+Dialogue: 0,0:22:30.55,0:22:35.68,英文,,0000,0000,0000,,{\blur3}First I was afraid, I was petrified
+Dialogue: 0,0:22:39.81,0:22:41.15,英文,,0000,0000,0000,,{\blur3}- Hey.     - Hi.
+Dialogue: 0,0:22:41.31,0:22:43.11,英文,,0000,0000,0000,,{\blur3}Listen, um, I think I left something here.
+Dialogue: 0,0:22:44.32,0:22:46.60,英文,,0000,0000,0000,,{\blur3}Oh. Uh, well, somebody left this. Is this yours?
+Dialogue: 0,0:22:47.53,0:22:48.98,英文,,0000,0000,0000,,{\blur3}Oh. No, but I like it.
+Dialogue: 0,0:22:50.70,0:22:53.16,英文,,0000,0000,0000,,{\blur3}No, I think I left one of my rat babies.
+Dialogue: 0,0:22:55.16,0:22:57.78,英文,,0000,0000,0000,,{\blur3}Oh. Uh, well, no. I haven't seen it, but if I do, I'll let you know.
+Dialogue: 0,0:22:57.95,0:23:01.25,英文,,0000,0000,0000,,{\blur3}Aah! Rat baby! Rat baby! Rat baby! Rat baby!
+Dialogue: 0,0:23:02.83,0:23:03.88,英文,,0000,0000,0000,,{\blur3}Maybe that's him.
