@@ -29,25 +29,19 @@ class AirQuality(object):
         descs = []
         nums = []
 
-        #print("AQI: {}".format(soup.select_one('div[class^="styles__aqiGraphNumber__"]').get_text()))
-        #print("DESC: {}".format(soup.select_one('div[class^="styles__aqiPanel__"] h3').get_text()))
-
-        names.append('AQI')
-        units.append('')
-        descs.append(soup.select_one('div[class^="styles__aqiPanel__"] h3').get_text())
-        nums.append(soup.select_one('div[class^="styles__aqiGraphNumber__"]').get_text())
-
-        for name in soup.select('div[class^="styles__rowPollutantName__"]'):
+        for name in soup.select_one('div[class^="AirQuality--allPollutantDials"]').select('span[class*="AirQuality--pollutantName"]'):
             names.append(name.get_text())
-            units.append(name.next_sibling.get_text())
             #print(name.get_text())
-            #print(name.next_sibling.get_text())
+
+        for name in soup.select('span[class*="AirQuality--pollutantMeasurement"]'):
+            units.append(name.get_text())            
+            #print(name.get_text())
         
-        for desc in soup.select('div[class^="styles__colPollutantLevel__"]'):
+        for desc in soup.select('p[class*="AirQuality--pollutantCategory"]'):
             descs.append(desc.get_text())
             #print(desc.get_text())
 
-        for num in soup.select('div[class^="styles__primaryPollutantGraphNumber__"]'):
+        for num in soup.select('text[class*="AirQuality--pollutantDialText"]'):
             nums.append(num.get_text())
             #print(num.get_text())
 
